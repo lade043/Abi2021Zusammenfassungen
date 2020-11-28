@@ -2,6 +2,19 @@
 title: Wirtschaft
 author: Lars Bogner
 date: 21 September, 2020
+
+
+lang: de-DE
+geometry:
+- top=2.5cm
+- bottom=2.5cm
+- left=2.5cm
+- right=2.5cm
+documentclass: report
+fontsize: 12pt
+papersize: a4
+toc: true
+
 ---
 
 # Wirtschaft
