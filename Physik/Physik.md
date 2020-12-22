@@ -13,10 +13,9 @@ documentclass: report
 fontsize: 12pt
 papersize: a4
 toc: true
+linestretch: 1.25
+copyright: Copyright © 2020 Lars Bogner
 ---
-
-# Physik
-
  
 
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
