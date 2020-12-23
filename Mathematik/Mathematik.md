@@ -38,7 +38,7 @@ $a$
 : > Der Graph der Sinusfunktion wurde um den Faktor $|a|$, bzw. $\frac{1}{|a|}$ in y-Richtung gestreckt/gestaucht. Die entstandene Amplitude entspricht $a$. Der Graph wurde an der x-Achse gespiegelt
 
 $b$  
-: Es kommt zu Streckung ($b<1$), bzw. Stauchung ($b>1$) in x-Richtung. Die Periode der Funktion beträgt dabei immer $p = \frac{2 \pi}{b}$. **-> desto kleiner b, desto größer die Periodenlänge**
+: Es kommt zu Streckung ($b<1$), bzw. Stauchung ($b>1$) in x-Richtung. Die Periode der Funktion beträgt dabei immer $p = \frac{2 \pi}{b}$. **$\rightarrow$ desto kleiner b, desto größer die Periodenlänge**
 : > Der Graph der Sinusfunktion wurde um den Faktor $1/b$, bzw. $b$ in y-Richtung gestreckt/gestaucht. Die entstandene Periodendauer entspricht $\frac{2 \pi}{b}$.
 
 $c$  
@@ -65,7 +65,8 @@ wichtige Werte der trigonometrischen Funktionen:
 ### Potenzfunktionen
 Potenzfunktionen sind Funktionen nach dem folgenden Schema: $$f(x) = a * x^n; \hspace{40pt} n \in \mathbb{N}, a \in \mathbb{R}$$. Sie sind die Basis ganzrationaler Funktionen.
 
-### einfache gebrochen-rationale Funktionen
+### gebrochen-rationale Funktionen
+Unter einer gebrochen-rationalen Funktion versteht man einen Quotienten zweier ganzrationaler Funktionen. Also verallgemeinert folgendes: $$f(x) = \frac{g(x)}{h(x)} = \frac{a_{n_1} * x^{n_1} + .... + a_1 * x^1 + a_0}{a_{n_2} * x^{n_2} + .... + a_1 * x^1 + a_0}; \hspace{40pt} n_1, n_2 \in \mathbb{N}$$. Beim rechnen mit diesen muss insofern aufgepasst werden, dass wenn der Nenner 0 wird, eine Definitionslücke entsteht (für genaueres siehe [Abschnitt zu Definitionslücken](#definitionslücken-und-senkrechte-asymptoten)).
 
 ## Wirkung von Parametern
 Bei einer veränderten Funktion $g(x)$ ausgehend von $f(x)$, nach dem folgenden Schema: $$g(x) = a * f(b * (x-c)) + d; \hspace{40pt} a, b, c, d \in \mathbb{R}$$.
@@ -86,10 +87,10 @@ $d$
 ### Summen/Differenzen von Funktionen
 Unter einer Summe, bzw. einer Differenz von Funktionen versteht man eine Verkettung von einzelnen Funktionen durch Addition, bzw. Subtraktion. Also wie folgt: $$f(x) = g(x) \pm h(x) \pm ....$$. Es gilt des weiteren, dass $$g(x) + h(x) + ... = (g+h+...)(x)$$. Dies gilt ebenfalls bei der Subtraktion von Funktionen.  
 Kombination aus beidem sind auch möglich, mit den gleichen Regeln.  
-Bei dieser Art der Verkettung gelten die üblichen Regeln zur Addidtion und Subtraktion (Assoziativgesetz, Kommutativgesetz, ....).
+Bei dieser Art der Verkettung gelten die üblichen Regeln zur Addition und Subtraktion (Assoziativgesetz, Kommutativgesetz, ....).
 
 ### Produkte/Quotienten von Funktionen
-Unter einem Produkt, bzw. einem Quotienten von Funktionen versteht man eine Verkettung durch Multiplikation, bzw. Division. Dies geschieht nach dem Schema: $$f(x) = g(x) * h(x) * ....$$, bzw. $$f(x) = \frac{g(x)}{h(x) * ...}$$. Dabei gilt, dass $$g(x) * h(x) * ... = (g * h *...)(x)$$, bzw. mit Division bei einem Quoatienten.  
+Unter einem Produkt, bzw. einem Quotienten von Funktionen versteht man eine Verkettung durch Multiplikation, bzw. Division. Dies geschieht nach dem Schema: $$f(x) = g(x) * h(x) * ....$$, bzw. $$f(x) = \frac{g(x)}{h(x) * ...}$$. Dabei gilt, dass $$g(x) * h(x) * ... = (g * h *...)(x)$$, bzw. mit Division bei einem Quotienten.  
 Es sind auch Kombinationen aus Produkt und Quotient möglich, dabei gelten die selben Regeln.  
 Bei dieser Art der Verkettung gelten die üblichen Regeln zur Multiplikation und Division (Assoziativgesetz, Kommutativgesetz, ....).
 
@@ -108,7 +109,7 @@ Nun müssen die allgemeinen Eigenschaften verallgemeinert werden. Beispiele hier
 Alle somit erhaltenen Eigenschaften müssen nun verarbeitet werden. Dabei gilt als Faustformel, dass Eigenschaften des Funktionsterms (bsp.: "nur ungeradzahlige Exponenten") direkt auf diesen angewendet werden, Gleichungen die man erhält in ein lineares Gleichungssystem (LGS) übernommen werden und Ungleichungen zur Probe des finalen Terms genutzt werden. **Wenn eine Probe möglich ist, darf diese nicht vergessen werden.**
 
 ## Funktionenscharen
-Eine Funktionenschar ist eine Menge an Funktionen, wobei diese Funktionen durch einen Paramter variiert werden. Eine Funktionenschar wird wie folgt dargestellt: $$f_t(x) = ...$$. Dabei ist $t$ der Parameter. Ein mögliches Beispiel wäre hier $f_t(x) = x^2 - tx$. Beim Rechnen mit einer solchen Schar von Funktionen wird $t$ als konstante Zahl betrachtet und entsprechend mit diesem vorgegangen. So lassen sich dann beispielsweise auch Integrale oder Extrempunkte bestimmen in Abhängigkeit von $t$, wobei das $t$ in das Ergebnis übernommen wird.
+Eine Funktionenschar ist eine Menge an Funktionen, wobei diese Funktionen durch einen Parameter variiert werden. Eine Funktionenschar wird wie folgt dargestellt: $$f_t(x) = ...$$. Dabei ist $t$ der Parameter. Ein mögliches Beispiel wäre hier $f_t(x) = x^2 - tx$. Beim Rechnen mit einer solchen Schar von Funktionen wird $t$ als konstante Zahl betrachtet und entsprechend mit diesem vorgegangen. So lassen sich dann beispielsweise auch Integrale oder Extrempunkte bestimmen in Abhängigkeit von $t$, wobei das $t$ in das Ergebnis übernommen wird.
 
 ### Bestimmung gemeinsamer Punkte
 Um herauszufinden, welche Punkte alle Funktionen der Schar gemein haben, wird die folgende Gleichung gelöst: $$f_a(x) = f_b(x); \hspace{40pt} a \neq b$$. Somit erhält man alle Stellen, an welchen die Funktionen den gleichen y-Wert unabhängig von ihrem Parameter besitzen und somit alle Funktionen einen gemeinsamen Punkt haben. Um diesen Punkt zu berechnen muss lediglich der x-Wert in $f_t(x)$ eingesetzt werden, wobei der Parameter vernachlässigt werden kann.
@@ -132,7 +133,38 @@ Der Differenzenquotient gibt die Steigung der Sekante zwischen den beiden Grenzw
 Zur Berechnung der Ableitung, also des Grenzwertes des Differenzenquotienten wird die Größe des Intervalls mithilfe des Limes gegen 0 bewegt. Hierfür wird die mittlere Änderungsrate im Intervall $[a; a+h]$ bei kleiner werdendem $h$ betrachtet. Somit ergibt sich die Ableitung an der Stelle $a$ als folgender Zusammenhang: $$f'(a) = \lim_{h \to 0} m([a; a+h]) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$$. Dies entspricht der Steigung der Tangente an der Stelle $a$, bzw. der momentanen Änderungsrate an der Stelle $a$.
 
 ## Ableitungsfunktion
-...
+Wenn alle Ableitungen einer Funktion $f$ zu einer neuen Funktion zusammengefasst werden, so nennt man die entstandene Funktion eine Ableitungsfunktion, oder kurz $f'$. Diese kann entweder wie im [vorigen Abschnitt](#berechnung-des-grenzwertes) gebildet werden, oder durch Verwendung der Ableitungsregeln. Wenn von einer Ableitungsfunktion eine Ableitung gebildet wird, so nennt man das die zweite Ableitung, bzw. eine höhere Ableitung --- also alle Ableitungen über der ersten Ableitung. Diese werden $f''(x), f'''(x), .... f'^{n} (x)$ genannt.
+
+### Ableitungsregeln
+
+Summenregel  
+: Wenn eine Summe abgeleitet werden soll, so kann jede Teilfunktion individuell abgeleitet werden. Es gilt also: $$f(x) = g(x) + h(x); \hspace{40pt} f'(x) = g'(x) + h'(x)$$  
+
+Faktorregel
+: Ein Vorfaktor bleibt bei der Ableitung bestehen und unbeeinflusst. Somit gilt: $$f(x) = k * g(x); \hspace{40pt} f'(x) = k * g'(x)$$  
+
+Potenzregel
+: Eine Potenz wird abgeleitet, indem der Exponent um 1 reduziert wird und der Ursprungsexponent als Vorfaktor hinzugefügt wird. Dies bedeutet folgendes: $$f(x) = x^b; \hspace{40pt} f'(x) = b * x^{b-1}$$
+
+Produktregel
+: Ein Produkt aus zwei Teilfunktionen wird wie folgt abgeleitet: $$f(x) = g(x) * h(x) \hspace{40pt} f'(x) = g'(x) * h(x) + g(x) * h'(x)$$
+: Dieser Fall unterscheidet sich von der Faktorregel darin, dass in beiden Faktoren die Variable $x$ einen Einfluss nimmt.
+
+Quotientenregel
+: Hieraus folgt sogleich auch ein Zusammenhang für die Ableitung einer Division hervor. Dieser ist wie folgt: $$f(x) = \frac{g(x)}{h(x)}; \hspace{40pt} f'(x) = \frac{g'(x) * h(x) - g(x) * h'(x)}{(h(x))^2}$$
+
+Kettenregel
+: Eine Verkettung von Funktionen (vgl. [Abschnitt verkettete Funktionen](#verkettete-funktionen)) wird wie folgt abgeleitet: $$f(x) = g(h(x)); \hspace{40pt} f'(x) = h'(x) * g'(h(x))$$
+
+### besondere Ableitungsfunktionen
+$$f(x) = c; \hspace{40pt} f(x) =  0$$
+$$f(x) = x^n; \hspace{40pt} f(x) = n * x^{n-1}$$
+$$f(x) = \sqrt{x} = x^{\frac{1}{2}}; \hspace{40pt} f(x) = \frac{1}{2} x^{- \frac{1}{2}} = \frac{1}{2 \sqrt{x}}$$
+$$f(x) = \frac{1}{x} = x^{-1}; \hspace{40pt} f(x) = -x^{-2} = - \frac{1}{x^2}$$
+$$f(x) = \sin{(x)}; \hspace{40pt} f(x) = \cos{(x)}$$
+$$f(x) = \cos{(x)}; \hspace{40pt} f(x) = - \sin{(x)}$$
+$$f(x) = e^x; \hspace{40pt} f(x) = e^x$$
+$$f(x) = \ln{(x)}; \hspace{40pt} f(x) = \frac{1}{x} = x^{-1}$$
 
 ## Tangente, Sekante und Normale
 In der folgenden Abbildung (vgl. Abbildung Tangente, Sekante und Normale) ist die Sekante zwischen den Punkten $A(0|f(0))$ und $B(2,5|f(2,5))$, als auch die Tangente und Sekante durch den C(1|f(1)) eingezeichnet. Die Gleichung der Funktion $f$ lautet $f(x) = -x^3 + 3x^2$.  
@@ -143,12 +175,78 @@ In der folgenden Abbildung (vgl. Abbildung Tangente, Sekante und Normale) ist di
 Unter einer Sekante versteht man eine Gerade durch zwei Punkte auf einem Graphen. Die allgemeine Sekantengleichung durch die Punkte $A(a_1|a_2)$ und $B(b_1|b_2)$ lautet: $$y = \frac{b_2 - a_2}{b_1 - a_1} * (x - a_1) + a_2$$.
 
 ### Tangente
-*Tangentenbeschreibung, Steigung, allg. Gleichung, Tangente von außen mit Berührpunkt*
+Eine Tangente ist eine gerade, welche einen Berührpunkt mit einer Funktion $f$ besitzt und die Steigung dieser am Berührpunkt hat. Somit ist die Steigung einer Tangente gleich der momentanen Änderungsrate von $f$ im Berührpunkt. Allgemein kann die Gleichung einer Tangente wie folgt angegeben werden: $$t: y = f'(u) * (x-u) + f(u)$$, wobei $u$ dem x-Wert des Berührpunkts entspricht.  
+
+Es kann in drei Fälle unterschieden werden, bei der Suche einer Tangentengleichung:
+
+1. Es ist die Tangente in einem Punkt $B(u|f(u))$ des Graphen gesucht. Es ist die Funktion $f$ und der Berührpunkt gegeben. Hierfür muss lediglich $u$ in die allgemeine Tangentengleichung eingesetzt werden, um die Lösung zu erhalten.  
+
+2. Es ist die Tangente parallel zu einer Geraden gesucht. Hierfür muss die Funktion $f$ und die Gerade $g$ gegeben sein. Hierfür wird nun zunächst der Berührpunkt gesucht, indem man die Gleichung $m_g = f'(u)$ nach $u$ auflöst. Durch den Erhalt von $u$ kann nun ähnlich wie gerade vorgegangen werden und $u$ in die allgemeine Tangentengleichung eingesetzt werden.  
+
+3. Es wird die Tangente gesucht, welche durch einen Punkt $P(p_1|p_2)$ verläuft, welcher nicht auf der Funktion liegt. Hierfür muss erneut die Funktion $f$ und der Punkt $P$ gegeben sein. Hierfür wird die allgemeine Tangentengleichung genutzt und man ersetzt $x$ durch die x-Koordinate von $P$ und setzt dies dem y-Wert von $P$ gleich. Somit erhält man dann die Gleichung $p_2 = f'(u) * (p_1 - u) + f(u)$ und muss diese lediglich nach $u$ umstellen. $u$ kann nun verwendet werden um die Tangentengleichung durch einsetzen in die allgemeine Tangentengleichung zu erhalten.
 
 ### Normale
-*Beschreibung, Steigung, vgl. Tangente, allg. Gleichung, Normale mit Berührpunkt(Verweis zu #Tangente)*
+Unter einer Normalen versteht man eine Gerade, welche eine Funktion in einem Punkt orthogonal schneidet. Somit ist sie zudem orthogonal zur Tangenten an der gleichen Stelle.  
+Die Steigung einer Tangente verhält sich hierdurch wie folgt zur Steigung der Tangenten, bzw. der Ableitung der Funktion an der Stelle $u$: $$m_n = - \frac{1}{m_t} = - \frac{1}{f'(u)}$$.
+Die allgemeine Normalengleichung an der Stelle $u$ ist des Weiteren wie folgt: $$n: y = - \frac{1}{f'(u)} * (x-u) + f(u)$$. Hierdurch können sehr ähnliche Aufgaben wie bei der Suche der Tangenten gelöst werden. Dabei wird genauso wie bei der Tangentensuche vorgegangen, nur dass die allgemeine Normalengleichung, statt der allgemeinen Tangentengleichung genutzt wird.
 
+## Kurvendiskussion
+### Definitions- und Wertemenge
+Die Definitionsmenge gibt an, für welche Werte eine Funktion definiert ist. Das heißt, welche x-Werte einsetzbar sind. Die Wertemenge gibt an, welche Werte die Funktion annehmen kann.  
+So wird beispielsweise die Definitions- und Wertemenge von $e^x, \ln{(x)}$ und $\frac{1}{x}$ im Folgenden genauer betrachtet:
 
+- Es gilt $f(x) = e^x$. Da $e^x$ für alle reellen Zahlen definiert ist gilt: $D_f = \mathbb{R}$. Und da die Funktion nur oberhalb der x-Achse verläuft und diese nie berührt gilt: $W_f = (0; \infty) = \mathbb{R^+}$.  
+
+- Es gilt $g(x) = \ln{(x)}$. Da der natürliche Logarithmus nur für alle reellen Zahlen, welche größer als 0 sind, definiert ist gilt: $D_g = (0; \infty) = \mathbb{R^+}$. Da der natüriche Logarithmus alle reellen Zahlen annehmen kann gilt: $W_g = \mathbb{R}$.  
+
+- Es gilt $h(x) = \frac{1}{x}$. Da $h(x) für alle reellen Zahlen außer 0 definiert ist gilt: $D_h = \mathbb{R} \backslash \{0\}$. Da die Funktion alle reellen Zahlen annehmen kann gilt: $W_h = \mathbb{R}$.
+
+### Nullstellen
+Zur Bestimmung der Nullstellen einer Funktion $f$ muss folgende Gleichung nach $x$ aufgelöst werden: $$f(x) = 0$$. Man erhält alle Nullstellen, bzw. alle x-Koordinaten der Nullpunkte, welche zu einem Punkt, bzw. Punkte $NP(x|0)$ umgeformt werden können.  
+Wenn man in der Lösungsmenge eine Nullstelle doppelt vorkommt, so handelt es sich um eine doppelte Nullstelle, bei 3 Vorkommen eine dreifache, usw.. Bei einer zwei-, vier-, sechs-, .... -fachen Nullstelle nähert sich die Kurve dabei nur der x-Achse an und berührt diese, durchstößt diese jedoch nicht. Ein-, drei-, fünf- .... -fache Nullstellen durchstoßen diese. Allgemein lässt sich sagen, dass sich der Graph in der Nähe einer $n$-fachen Nullstelle genauso verhält, wie eine Potenzfunktion vom Grad $n$. 
+
+### Symmetrie
+Eine Funktion $f$ ist punktsymmetrisch zum Ursprung, wenn gilt, dass $$f(-x) = -f(x)$$. Die Funktion ist achsensymmetrisch zur y-Achse, wenn gilt, dass $$f(-x) = f(x)$$. Andere Formen der Symmetrie sind für das Abitur nicht relevant.
+
+### Grenzverhalten und Asymptoten
+#### allgemeine Hinweise für das Rechnen mit dem Limes
+Der Limes wird genutzt, um das Verhalten einer Funktion für einen Wert zu bestimmen, welcher nicht eingesetzt werden darf, da es sich beispielsweise um eine Definitionslücke, bzw. -grenze handelt oder der zu überprüfende Wert $\infty$ ist.  
+Wenn der Limes einer Summe bestimmt werden soll, so kann lediglich das Verhalten des Bestandteils mit dem höchsten Exponenten betrachtet werden, wobei eine Exponentialfunktion immer den höchsten Exponenten besitzt. Wenn es sich um ein Produkt oder einen Quotienten handelt, muss jedes Bestandteil hinsichtlich der Vorzeichen betrachtet werden, wobei auch hier gilt, dass der Bestandteil mit dem höchsten Exponenten entscheidet, ob es sich beispielsweise 0 oder $\infty$ annähert.  
+Eine weitere schnelle Methode um solch ein Verhalten zu überprüfen ist, dass man in den Taschenrechner die Funktion eingibt und das Verhalten für einen x-Wert nahe an der Grenze betrachtet und so auf das Grenzverhalten schließt.
+
+#### Verhalten für extremale $x$-Werte und waagerechte Asymptoten
+Von einer gegebenen Funktion $f$ kann das Verhalten für $x$ gegen $\pm \infty$ untersucht werden. Dafür wird folgende Gleichung gelöst für das Verhalten gegen $\infty$: $$\lim_{x \to \infty} f(x)$$, und $$\lim_{x \to - \infty} f(x)$$ für das Verhalten gegen negativ $\infty$. Mögliche Lösungen sind dabei: $\{ 0; k; \infty ; - \infty \} ; k \in \mathbb{R}$. Wenn dabei $\lim \limits_{x \to \infty} f(x) = \lim \limits_{x \to - \infty} f(x) \neq \pm \infty$ gilt, dann gibt es eine waagrechte Asymptote bei $\lim \limits_{x \to \infty} f(x)$, bzw. $\lim \limits_{x \to - \infty} f(x)$. Dies kann dann als Gleichung der waagerechten Asymptoten wie folgt angegeben werden: $y = \lim \limits_{x \to \infty} f(x) = \lim \limits_{x \to - \infty} f(x)$. 
+
+Vereinfacht werden kann diese Untersuchung mit den folgenden Verallgemeinerungen bei gebrochen-rationalen Funktionen (Grad des Zählers wird mit $z$ abgekürzt, der des Nenners mit $n$):
+
+- Wenn $z < n$ gilt, dann gibt es eine waagrechte Asymptote bei $y = 0$.  
+
+- Wenn $z = n$ gilt, dann gibt es eine waagerechte Asymptote bei $y = c; c \in \mathbb{R} \backslash \{ 0 \}$, wobei $c$ dem Quotienten der Leitkoeffizienten entspricht.  
+
+- Wenn $z > n$ gilt, dann gibt es keine waagrechte Asymptote. 
+
+#### Definitionslücken und senkrechte Asymptoten
+Wenn eine Funktion $f$ an einer Stelle nicht definiert ist, so spricht man von einer Definitionslücke. Dies geschieht vor allem, wenn man für das Ergebnis durch 0 teilen müsste.  
+In diesem Fall überprüft man welchen Wert der Zähler annimmt, wenn der Nenner eine Nullstelle besitzt. Ist das Ergebnis "= 0" handelt es sich um eine hebbare Definitionslücke und es gibt keine senkrechte Asymptote. Anderenfalls handelt es sich um eine Definitionslücke mit Polstelle, das heißt es gibt auch eine senkrechte Asymptote an der Stelle. Nun kann noch überprüft werden, ob es sich um eine Polstelle mit Vorzeichenwechsel handelt, indem von beiden Seiten der Definitionslücke mithilfe des Limes das Grenzverhalten überprüft wird.
+
+[//]: # (Beispielrechnung wäre angebracht zur Veranschaulichung)
+
+### Monotonie und Krümmungsverhalten
+#### Monotonie
+Eine Funktion $f$ ist immer dann streng monoton wachsend in einem Intervall $I$, wenn gilt, dass $$f(a) < f(b); hspace{40pt} a, b \in I; a < b$$. Sie ist streng monoton fallend, wenn gilt, dass $$f(a) > f(b); \hspace{40pt} a, b \in I; a < b$$. Dies bedeutet in einer anderen Formulierung, dass eine Funktion streng monoton wachsend ist, wenn für alle $x \in I$ gilt, dass $f'(x) > 0$ und umgekehrt für streng monoton fallend. Diese zweite Formulierung nennt man auch den Monotoniesatz.  
+Des Weiteren gibt es den Fall, dass eine Funktion $f$ im Intervall $I$ lediglich monoton wachsend oder fallend ist, wenn nur gilt, dass $f'(x) \leq 0$, bzw. $f'(x) \geq 0$.  
+So wäre die Funktion $f(x) = x^3$ zwar nicht streng monoton wachsend, da die Ableitung an der Stelle 0, 0 entspricht, jedoch monoton wachsend.
+
+#### Krümmungsverhalten
+Wenn die Ableitung einer Funktion $f$, also $f'$ auf einem Intervall $I$ streng monoton fallend ist, so ist $f$ in diesem Intervall rechtsgekrümmt. Wenn $f'$ in diesem Intervall streng monoton wachsend ist, so ist $f$ in diesem Intervall linksgekrümmt.  
+Dies bedeutet, wenn $f''(x) < 0$ für alle $x \in I$, so ist $f$ rechtsgekrümmt und linksgekrümmt im umgekehrten Fall.
+
+### Extrem- und Wendepunkte
+#### Extrem- und Sattelpunkte
+Zur Bestimmung der Extrempunkte einer Funktion $f$, müssen zuerst die Extremstellen bestimmt werden durch die Lösung der Gleichung $$f'(x) = 0$$, wobei gelten muss, dass $$f''(x) \neq 0$$. Wenn diese Stelle(n) bestimmt sind, so können die entsprechenden Punkte nach dem Schema $EP(x|f(x))$ bestimmt werden. Wenn $f''(x) = 0$ gilt, so handelt es sich bei der Stelle um eine Sattelstelle und nach dem gleichen Vorgehen kann auch der Sattelpunkt berechnet werden.
+
+#### Wendepunkte
+Wenn die Wendepunkte einer Funktion $f$ berechnet werden sollen, müssen zunächst die Wendestellen mittels lösen der folgenden Gleichung bestimmt werden: $$f''(x) = 0$$, wobei wiederum gelten muss, dass $$f'''(x) \neq 0$$ ist. Nun kann der Wendepunkt $WP$ nach dem folgenden Schema bestimmt werden: $WP(x|f(x))$.
 
 # Geometrie
 
@@ -158,7 +256,8 @@ Unter einer Sekante versteht man eine Gerade durch zwei Punkte auf einem Graphen
 
 # Anhang
 ## Grundwissen
-+
+### Lösen von Gleichungen
+*(vgl. Aufschrieb Hr. Frey, rosa Markierung)*
 
 ## Abiturrichtlinien
 Für genaue Informationen siehe [Dokument](https://rp.baden-wuerttemberg.de/rps/Abt7/Ref75/Fachberater/Documents/Mathe/2021-LF-Konvolut.pdf)^[Regierungspräsidium Baden-Württemberg. Leistungsfach Mathematik Schriftliche Abiturprüfung  2021 Und 2022. Regierungspräsidium Baden-Württemberg, 2019, https://rp.baden-wuerttemberg.de/rps/Abt7/Ref75/Fachberater/Documents/Mathe/2021-LF-Konvolut.pdf.] des Regierungspräsidiums.
