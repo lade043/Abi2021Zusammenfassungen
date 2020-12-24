@@ -199,7 +199,7 @@ So wird beispielsweise die Definitions- und Wertemenge von $e^x, \ln{(x)}$ und $
 
 - Es gilt $g(x) = \ln{(x)}$. Da der natürliche Logarithmus nur für alle reellen Zahlen, welche größer als 0 sind, definiert ist gilt: $D_g = (0; \infty) = \mathbb{R^+}$. Da der natüriche Logarithmus alle reellen Zahlen annehmen kann gilt: $W_g = \mathbb{R}$.  
 
-- Es gilt $h(x) = \frac{1}{x}$. Da $h(x) für alle reellen Zahlen außer 0 definiert ist gilt: $D_h = \mathbb{R} \backslash \{0\}$. Da die Funktion alle reellen Zahlen annehmen kann gilt: $W_h = \mathbb{R}$.
+- Es gilt $h(x) = \frac{1}{x}$. Da $h(x)$ für alle reellen Zahlen außer 0 definiert ist gilt: $D_h = \mathbb{R} \backslash \{0\}$. Da die Funktion alle reellen Zahlen annehmen kann gilt: $W_h = \mathbb{R}$.
 
 ### Nullstellen
 Zur Bestimmung der Nullstellen einer Funktion $f$ muss folgende Gleichung nach $x$ aufgelöst werden: $$f(x) = 0$$. Man erhält alle Nullstellen, bzw. alle x-Koordinaten der Nullpunkte, welche zu einem Punkt, bzw. Punkte $NP(x|0)$ umgeformt werden können.  
@@ -233,7 +233,7 @@ In diesem Fall überprüft man welchen Wert der Zähler annimmt, wenn der Nenner
 
 ### Monotonie und Krümmungsverhalten
 #### Monotonie
-Eine Funktion $f$ ist immer dann streng monoton wachsend in einem Intervall $I$, wenn gilt, dass $$f(a) < f(b); hspace{40pt} a, b \in I; a < b$$. Sie ist streng monoton fallend, wenn gilt, dass $$f(a) > f(b); \hspace{40pt} a, b \in I; a < b$$. Dies bedeutet in einer anderen Formulierung, dass eine Funktion streng monoton wachsend ist, wenn für alle $x \in I$ gilt, dass $f'(x) > 0$ und umgekehrt für streng monoton fallend. Diese zweite Formulierung nennt man auch den Monotoniesatz.  
+Eine Funktion $f$ ist immer dann streng monoton wachsend in einem Intervall $I$, wenn gilt, dass $$f(a) < f(b); \hspace{40pt} a, b \in I; a < b$$. Sie ist streng monoton fallend, wenn gilt, dass $$f(a) > f(b); \hspace{40pt} a, b \in I; a < b$$. Dies bedeutet in einer anderen Formulierung, dass eine Funktion streng monoton wachsend ist, wenn für alle $x \in I$ gilt, dass $f'(x) > 0$ und umgekehrt für streng monoton fallend. Diese zweite Formulierung nennt man auch den Monotoniesatz.  
 Des Weiteren gibt es den Fall, dass eine Funktion $f$ im Intervall $I$ lediglich monoton wachsend oder fallend ist, wenn nur gilt, dass $f'(x) \leq 0$, bzw. $f'(x) \geq 0$.  
 So wäre die Funktion $f(x) = x^3$ zwar nicht streng monoton wachsend, da die Ableitung an der Stelle 0, 0 entspricht, jedoch monoton wachsend.
 
@@ -247,6 +247,62 @@ Zur Bestimmung der Extrempunkte einer Funktion $f$, müssen zuerst die Extremste
 
 #### Wendepunkte
 Wenn die Wendepunkte einer Funktion $f$ berechnet werden sollen, müssen zunächst die Wendestellen mittels lösen der folgenden Gleichung bestimmt werden: $$f''(x) = 0$$, wobei wiederum gelten muss, dass $$f'''(x) \neq 0$$ ist. Nun kann der Wendepunkt $WP$ nach dem folgenden Schema bestimmt werden: $WP(x|f(x))$.
+
+## Stammfunktionen
+Wenn man die kumulierten Werte einer Funktion bis zu einem Punkt erhalten möchte, so kann man eine Funktion $f(x)$ aufleiten und ihre Stammfunktion $F(x)$ erhalten. Die Aufleitung, bzw. Stammfunktion ist das umgekehrte zur Ableitung einer Funktion. Deshalb gilt auch, dass $F'(x) = f(x)$.  
+Des Weiteren ist zu beachten, dass es immer eine unendliche Anzahl an Aufleitungen gibt, da ein konstanter Summand hinzugefügt werden kann, welcher die Stammfunktion nach oben verschiebt. Somit gilt, dass die Stammfunktion von $f$, $$F(x) + c; \hspace{40pt} c \in \mathbb{R}$$ entspricht.
+
+Ähnlich zur Ableitung gibt es auch sogenannte Aufleitungsregeln, und zwar folgende:  
+
+Potenzregel
+: Wenn eine Potenzfunktion aufgeleitet werden soll, so muss der Exponent um 1 erhöht werden, und ein Vorfaktor vom Kehrwert des neuen Exponenten hinzugefügt werden. Dies kann wie folgt dargestellt werden: $$f(x) = x^b; \hspace{40pt} F(x) = \frac{1}{b+1} * x^{b+1}; \hspace{40pt} b \in \mathbb{R} \backslash \{ -1 \}$$
+
+Summenregel
+: Wenn eine Summe von Funktionen aufgeleitet werden soll, kann auch jede Teilfunktion einzeln aufgeleitet werden. Somit gilt: $$f(x) = g(x) + h(x); \hspace{40pt} F(x) = G(x) + H(x)$$  
+
+Faktorregel
+: Wenn eine Funktion mit Vorfaktor aufgeleitet werden soll, so bleibt dieser bestehen und wird nicht verändert. Oder allgemein ausgedrückt: $$f(x) = k * g(x); \hspace{40pt} F(x) = k * G(x)$$
+
+lineare Substitution
+: Wenn eine verkettete Funktion nach dem Schema $f(x) = g(a * x + b)$ aufgeleitet werden soll, so gilt: $$f(x) = g(a * x + b); \hspace{40pt} F(x) = \frac{1}{a} * G(a * x + b)$$
+
+Des Weiteren gibt es folgende Sonderfälle bei der Aufleitung:
+$$f(x) = \frac{1}{x} = x^{-1}; \hspace{40pt} F(x) = \ln{(|x|)}$$
+$$f(x) = \sin{(x)}; \hspace{40pt} F(x) = - \cos{(x)}$$
+$$f(x) = \cos{(x)}; \hspace{40pt} F(x) = sin{(x)}$$
+$$f(x) = e^x; \hspace{40pt} F(x) = e^x$$
+
+[//]: # (Hinzufügen, wie eine Stammfunktion durch einen Punkt bestimmt werden kann)
+
+## Integral
+Das Integral wird genutzt, um die Fläche zwischen einer Funktion und der x-Achse zu bestimmen. Diese nennt man auch den orientierten Flächeninhalt. Es muss beachtet werden, dass wenn der Graph unterhalb der x-Achse verläuft, dass die Fläche negativ betrachtet wird. Das Integral wird immer in einem Intervall $[a; b]$ bestimmt. Notiert wird das Integral der Funktion $f(x)$ im Bereich von $a$ bis $b$ wie folgt: $$\int_a^b f(x) dx$$. 
+Beim Rechnen mit Integralen kann ein Integral in mehrere Teilintegrale wie folgt zerlegt werden: $$\int_a^c f(x) dx = \int_a^b f(x) dx + \int_b^c f(x) dx; \hspace{40pt} a < b < c$$. Des Weiteren kann ein Faktor auch aus dem Integral isoliert werden, wie folgt: $$\int_a^b k * f(x) dx = k * \int_a^b f(x) dx$$.
+Zur Berechnung eines Integrals kann die Stammfunktion wie folgt verwendet werden: $$\int_a^b f(x) dx = [F(x)]_a^b = F(b) - F(a)$$. Dies ist durch den ersten Hauptsatz der Differenzial- und Integralrechnung (vgl. [Abschnitt dazu](#hauptsätze-der-differenzial--und-integralrechnung)) definiert.
+
+### Hauptätze der Differenzial- und Integralrechnung
+
+
+### Integralfunktionen
+Man kann auch eine Funktion mithilfe eines Integrals erstellen, indem man eine der Grenzen variabel auslegt.  Meist wird die festgesetzte Grenze als Index angegeben. Somit wäre die Integralfunktion von $f$ zur unteren Grenze $u$ wie folgt: $$J_u(x) = \int_u^xf(t) dt$$. Dabei gelten die folgenden Grundsätze: 
+
+- jede Integralfunktion ist eine Stammfunktion der Ursprungsfunktion, aber nicht zwangsläufig umgekehrt
+
+- die untere Grenze ist immer eine Nullstelle der Funktion
+
+### Berechnung von Flächeninhalten
+
+
+### unbegrenzter Flächeninhalt
+
+
+### rekonstruierter Bestand
+
+
+### Mittelwert von Funktionen
+
+
+### Volumen von Rotationskörpern
+
 
 # Geometrie
 
