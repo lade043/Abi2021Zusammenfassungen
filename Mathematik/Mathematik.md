@@ -66,7 +66,7 @@ wichtige Werte der trigonometrischen Funktionen:
 Potenzfunktionen sind Funktionen nach dem folgenden Schema: $$f(x) = a * x^n; \hspace{40pt} n \in \mathbb{N}, a \in \mathbb{R}$$. Sie sind die Basis ganzrationaler Funktionen.
 
 ### gebrochen-rationale Funktionen
-Unter einer gebrochen-rationalen Funktion versteht man einen Quotienten zweier ganzrationaler Funktionen. Also verallgemeinert folgendes: $$f(x) = \frac{g(x)}{h(x)} = \frac{a_{n_1} * x^{n_1} + .... + a_1 * x^1 + a_0}{a_{n_2} * x^{n_2} + .... + a_1 * x^1 + a_0}; \hspace{40pt} n_1, n_2 \in \mathbb{N}$$. Beim rechnen mit diesen muss insofern aufgepasst werden, dass wenn der Nenner 0 wird, eine Definitionslücke entsteht (für genaueres siehe [Abschnitt zu Definitionslücken](#definitionslücken-und-senkrechte-asymptoten)).
+Unter einer gebrochen-rationalen Funktion versteht man einen Quotienten zweier ganzrationaler Funktionen. Also verallgemeinert folgendes: $$f(x) = \frac{g(x)}{h(x)} = \frac{a_{n_1} * x^{n_1} + .... + a_1 * x^1 + a_0}{a_{n_2} * x^{n_2} + .... + a_1 * x^1 + a_0}; \hspace{40pt} n_1, n_2 \in \mathbb{N}$$. Beim Rechnen mit diesen muss insofern aufgepasst werden, dass wenn der Nenner 0 wird, eine Definitionslücke entsteht (für genaueres siehe [Abschnitt zu Definitionslücken](#definitionslücken-und-senkrechte-asymptoten)).
 
 ## Wirkung von Parametern
 Bei einer veränderten Funktion $g(x)$ ausgehend von $f(x)$, nach dem folgenden Schema: $$g(x) = a * f(b * (x-c)) + d; \hspace{40pt} a, b, c, d \in \mathbb{R}$$.
@@ -106,7 +106,7 @@ Nun müssen die allgemeinen Eigenschaften verallgemeinert werden. Beispiele hier
 - Funktion 3. Grades bedeutet, dass $n=3$ gilt  
 - Achsensymmetrie bedeutet, dass nur geradzahlige Exponenten vorkommen dürfen, Punktsymmetrie, dass nur ungeradzahlige Exponenten
 
-Alle somit erhaltenen Eigenschaften müssen nun verarbeitet werden. Dabei gilt als Faustformel, dass Eigenschaften des Funktionsterms (bsp.: "nur ungeradzahlige Exponenten") direkt auf diesen angewendet werden, Gleichungen die man erhält in ein lineares Gleichungssystem (LGS) übernommen werden und Ungleichungen zur Probe des finalen Terms genutzt werden. **Wenn eine Probe möglich ist, darf diese nicht vergessen werden.**
+Alle somit erhaltenen Eigenschaften müssen nun verarbeitet werden. Dabei gilt als Faustformel, dass Eigenschaften des Funktionsterms (Bsp.: "nur ungeradzahlige Exponenten") direkt auf diesen angewendet werden, Gleichungen die man erhält in ein lineares Gleichungssystem (LGS) übernommen werden und Ungleichungen zur Probe des finalen Terms genutzt werden. **Wenn eine Probe möglich ist, darf diese nicht vergessen werden.**
 
 ## Funktionenscharen
 Eine Funktionenschar ist eine Menge an Funktionen, wobei diese Funktionen durch einen Parameter variiert werden. Eine Funktionenschar wird wie folgt dargestellt: $$f_t(x) = ...$$. Dabei ist $t$ der Parameter. Ein mögliches Beispiel wäre hier $f_t(x) = x^2 - tx$. Beim Rechnen mit einer solchen Schar von Funktionen wird $t$ als konstante Zahl betrachtet und entsprechend mit diesem vorgegangen. So lassen sich dann beispielsweise auch Integrale oder Extrempunkte bestimmen in Abhängigkeit von $t$, wobei das $t$ in das Ergebnis übernommen wird.
@@ -157,14 +157,14 @@ Kettenregel
 : Eine Verkettung von Funktionen (vgl. [Abschnitt verkettete Funktionen](#verkettete-funktionen)) wird wie folgt abgeleitet: $$f(x) = g(h(x)); \hspace{40pt} f'(x) = h'(x) * g'(h(x))$$
 
 ### besondere Ableitungsfunktionen
-$$f(x) = c; \hspace{40pt} f(x) =  0$$
-$$f(x) = x^n; \hspace{40pt} f(x) = n * x^{n-1}$$
-$$f(x) = \sqrt{x} = x^{\frac{1}{2}}; \hspace{40pt} f(x) = \frac{1}{2} x^{- \frac{1}{2}} = \frac{1}{2 \sqrt{x}}$$
-$$f(x) = \frac{1}{x} = x^{-1}; \hspace{40pt} f(x) = -x^{-2} = - \frac{1}{x^2}$$
-$$f(x) = \sin{(x)}; \hspace{40pt} f(x) = \cos{(x)}$$
-$$f(x) = \cos{(x)}; \hspace{40pt} f(x) = - \sin{(x)}$$
-$$f(x) = e^x; \hspace{40pt} f(x) = e^x$$
-$$f(x) = \ln{(x)}; \hspace{40pt} f(x) = \frac{1}{x} = x^{-1}$$
+$$f(x) = c; \hspace{40pt} f'(x) =  0$$
+$$f(x) = x^n; \hspace{40pt} f'(x) = n * x^{n-1}$$
+$$f(x) = \sqrt{x} = x^{\frac{1}{2}}; \hspace{40pt} f'(x) = \frac{1}{2} x^{- \frac{1}{2}} = \frac{1}{2 \sqrt{x}}$$
+$$f(x) = \frac{1}{x} = x^{-1}; \hspace{40pt} f'(x) = -x^{-2} = - \frac{1}{x^2}$$
+$$f(x) = \sin{(x)}; \hspace{40pt} f'(x) = \cos{(x)}$$
+$$f(x) = \cos{(x)}; \hspace{40pt} f'(x) = - \sin{(x)}$$
+$$f(x) = e^x; \hspace{40pt} f'(x) = e^x$$
+$$f(x) = \ln{(x)}; \hspace{40pt} f'(x) = \frac{1}{x} = x^{-1}$$
 
 ## Tangente, Sekante und Normale
 In der folgenden Abbildung (vgl. Abbildung Tangente, Sekante und Normale) ist die Sekante zwischen den Punkten $A(0|f(0))$ und $B(2,5|f(2,5))$, als auch die Tangente und Sekante durch den C(1|f(1)) eingezeichnet. Die Gleichung der Funktion $f$ lautet $f(x) = -x^3 + 3x^2$.  
@@ -238,7 +238,7 @@ Des Weiteren gibt es den Fall, dass eine Funktion $f$ im Intervall $I$ lediglich
 So wäre die Funktion $f(x) = x^3$ zwar nicht streng monoton wachsend, da die Ableitung an der Stelle 0, 0 entspricht, jedoch monoton wachsend.
 
 #### Krümmungsverhalten
-Wenn die Ableitung einer Funktion $f$, also $f'$ auf einem Intervall $I$ streng monoton fallend ist, so ist $f$ in diesem Intervall rechtsgekrümmt. Wenn $f'$ in diesem Intervall streng monoton wachsend ist, so ist $f$ in diesem Intervall linksgekrümmt.  
+Wenn die Ableitung einer Funktion $f$, also $f'$ auf einem Intervall $I$ streng monoton fallend ist, so ist $f$ in diesem Intervall rechtsgekrümmt. Wedienn $f'$ in diesem Intervall streng monoton wachsend ist, so ist $f$ in diesem Intervall linksgekrümmt.  
 Dies bedeutet, wenn $f''(x) < 0$ für alle $x \in I$, so ist $f$ rechtsgekrümmt und linksgekrümmt im umgekehrten Fall.
 
 ### Extrem- und Wendepunkte
@@ -247,6 +247,9 @@ Zur Bestimmung der Extrempunkte einer Funktion $f$, müssen zuerst die Extremste
 
 #### Wendepunkte
 Wenn die Wendepunkte einer Funktion $f$ berechnet werden sollen, müssen zunächst die Wendestellen mittels lösen der folgenden Gleichung bestimmt werden: $$f''(x) = 0$$, wobei wiederum gelten muss, dass $$f'''(x) \neq 0$$ ist. Nun kann der Wendepunkt $WP$ nach dem folgenden Schema bestimmt werden: $WP(x|f(x))$.
+
+## Extremwertbestimmung mit Nebenbedingungen
+Zunächst muss der Term bestimmt werden, welcher extremal werden soll. Wenn dieser mehrere Variablen enthält muss mittels der Zusammenhänge zwischen den Variablen einer gefunden werden, mit einer Variable. Diese Funktion nennt man Zeilfunktion. Außerdem muss das Intervall bekannt sein, in welchem die Zielfunktion auf Extrembedingungen untersucht werden soll.  Nun kann die Zielfunktion auf Extremwerte untersucht werden, welche im Intervall liegen. Auch muss durch überprüfen der Ränder des Intervalls gesichert werden, dass diese keine höheren (oder sonstigen extremen) Werte besitzen. Nun kann zum Schluss das Ergebnis formuliert werden, wobei angegeben wird, ob der extremste Wert an den Rändern oder in dem Intervall liegt.
 
 ## Stammfunktionen
 Wenn man die kumulierten Werte einer Funktion bis zu einem Punkt erhalten möchte, so kann man eine Funktion $f(x)$ aufleiten und ihre Stammfunktion $F(x)$ erhalten. Die Aufleitung, bzw. Stammfunktion ist das umgekehrte zur Ableitung einer Funktion. Deshalb gilt auch, dass $F'(x) = f(x)$.  
@@ -272,6 +275,10 @@ $$f(x) = \sin{(x)}; \hspace{40pt} F(x) = - \cos{(x)}$$
 $$f(x) = \cos{(x)}; \hspace{40pt} F(x) = sin{(x)}$$
 $$f(x) = e^x; \hspace{40pt} F(x) = e^x$$
 
+
+### rekonstruierter Bestand
+Die Stammfunktion kann beispielsweise verwendet werden, um einen absoultuen Wert für einen x-Wert zu bestimmen, wenn lediglich eine Funktion vorhanden ist, welche die Änderungsrate beschreibt. Hierfür wird einerseits die Funktion $f$ benötigt, welche die Änderungsrate beschreibt, als auch der Anfangsbestand $c$. Dann gilt, dass der absoulte Bestand $B$ zu einem Punkt $x$ wie folgt berechnet werden kann: $$B(x) = F(x) + c$$
+
 [//]: # (Hinzufügen, wie eine Stammfunktion durch einen Punkt bestimmt werden kann)
 
 ## Integral
@@ -280,28 +287,32 @@ Beim Rechnen mit Integralen kann ein Integral in mehrere Teilintegrale wie folgt
 Zur Berechnung eines Integrals kann die Stammfunktion wie folgt verwendet werden: $$\int_a^b f(x) dx = [F(x)]_a^b = F(b) - F(a)$$. Dies ist durch den ersten Hauptsatz der Differenzial- und Integralrechnung (vgl. [Abschnitt dazu](#hauptsätze-der-differenzial--und-integralrechnung)) definiert.
 
 ### Hauptätze der Differenzial- und Integralrechnung
+1. Ist die Funktion $f$ im Intervall $[a;b]$ integrierbar und ist $F$ eine Stammfunktion im Intervall $[a;b]$, so gilt $$\int_a^b f(x) dx = F(b) - F(a)$$  
 
+2. Sind $F$ und $G$ verschiedene Stammfunktionen von $f$ im Intervall $I$ so unterscheiden sich $F(x)$ und $G(x)$ nur um eine Konstante $c$, das heißt es gilt $$F(x) = G(x) + c; \hspace{40pt} x \in I; c \in \mathbb{R}$$
 
 ### Integralfunktionen
-Man kann auch eine Funktion mithilfe eines Integrals erstellen, indem man eine der Grenzen variabel auslegt.  Meist wird die festgesetzte Grenze als Index angegeben. Somit wäre die Integralfunktion von $f$ zur unteren Grenze $u$ wie folgt: $$J_u(x) = \int_u^xf(t) dt$$. Dabei gelten die folgenden Grundsätze: 
+Man kann auch eine Funktion mithilfe eines Integrals erstellen, indem man eine der Grenzen variabel auslegt.  Meist wird die festgesetzte Grenze als Index angegeben. Somit wäre die Integralfunktion von $f$ zur unteren Grenze $u$ wie folgt: $$J_u(x) = \int_u^xf(t) dt = F(x) - F(u)$$. Dabei gelten die folgenden Grundsätze: 
 
 - jede Integralfunktion ist eine Stammfunktion der Ursprungsfunktion, aber nicht zwangsläufig umgekehrt
 
 - die untere Grenze ist immer eine Nullstelle der Funktion
 
 ### Berechnung von Flächeninhalten
+#### gesamter Flächeninhalt
+Wenn statt dem orientierten Flächeninhalt der gesamte Flächeninhalt berechnet werden soll, so muss das Integral $I = [a;b]$ an allen Nullstellen der Funktion $f$ geteilt werden. Dann kann der Flächeninhalt wie folgt berechnet werden: $$A = | \int_a^{x_0} f(x) dx | + | \int_{x_0}^{x_1} f(x) dx | + ... +  | \int_{x_n}^{b} dx |$$
 
+#### Fläche zwischen Graphen
+Wenn die Funktionen keinen Schnittpunkt besitzen kann mit der folgenden Formel der Flächeninhalt der von den Funktionen $f$ und $g$ im Intervall $[a; b]$ berechnet werden: $$A = | \int_a^b (f(x) - g(x)) dx |$$. Ansonsten muss das Integral analog zum vorigen Abschnitt in Teilintervalle zerlegt werden und dann die Summe berechnet werden.
 
 ### unbegrenzter Flächeninhalt
-
-
-### rekonstruierter Bestand
-
+Wenn man die Fläche einer Funktion $f$ in einem Intervall mit offener Grenze berechnen will, so nennt man dies eine unbegrenzte Fläche. Hierzu wird zunächst das Integral mit einer variablen Grenze $z$ in die Richtung, in welche das Intervall geöffnet ist, bestimmt. Nun wird das Grenzverhalten dieses Integrals mithilfe des Limes (vgl. [Abschnitt Grenzverhalten](#grenzverhalten-und-asymptoten)) berechnet. Wenn das Integral dabei einen endlichen Grenzwert hat, so nennt man das Integral uneigentlich. Der Flächeninhalt eines uneigentlichen Integrals im Intervall $I = [u; w]$, welches nach $w$ unbegrenzt ist, ist somit: $$A = \lim_{z \to w} \int_u^z f(x) dx$$
 
 ### Mittelwert von Funktionen
-
+Um den Mittelwert einer Funktion $f$ auf einem Intervall $I = [a;b]$ zu bestimmen kann die folgende Formel verwendet werden: $$\bar{m} = \frac{1}{b-a} \int_a^b f(x) dx$$
 
 ### Volumen von Rotationskörpern
+Wenn man eine Funktion $f$ um die x-Achse rotieren lässt, so entsteht ein sogenannter Rotationskörper. Dessen Volumen läst sich ähnlich zu dem eines Zylinders, im Integral $[a;b]$ mit $$V = \pi \int_a^b (f(x))^2 dx$$ berechnen. Im Falle, dass ein Körper mit freiem Kern entstehen soll, muss beachtet werden, dass der Kern nicht vor der Berechnung des Integrals von der Funktion subtrahiert werden darf, da sonst eine Verschiebung der Funktion nach unten geschieht und das Volumen nicht mehr stimmt.
 
 
 # Geometrie
