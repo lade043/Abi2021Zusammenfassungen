@@ -238,7 +238,7 @@ Des Weiteren gibt es den Fall, dass eine Funktion $f$ im Intervall $I$ lediglich
 So wäre die Funktion $f(x) = x^3$ zwar nicht streng monoton wachsend, da die Ableitung an der Stelle 0, 0 entspricht, jedoch monoton wachsend.
 
 #### Krümmungsverhalten
-Wenn die Ableitung einer Funktion $f$, also $f'$ auf einem Intervall $I$ streng monoton fallend ist, so ist $f$ in diesem Intervall rechtsgekrümmt. Wedienn $f'$ in diesem Intervall streng monoton wachsend ist, so ist $f$ in diesem Intervall linksgekrümmt.  
+Wenn die Ableitung einer Funktion $f$, also $f'$ auf einem Intervall $I$ streng monoton fallend ist, so ist $f$ in diesem Intervall rechtsgekrümmt. Wenn $f'$ in diesem Intervall streng monoton wachsend ist, so ist $f$ in diesem Intervall linksgekrümmt.  
 Dies bedeutet, wenn $f''(x) < 0$ für alle $x \in I$, so ist $f$ rechtsgekrümmt und linksgekrümmt im umgekehrten Fall.
 
 ### Extrem- und Wendepunkte
@@ -277,7 +277,7 @@ $$f(x) = e^x; \hspace{40pt} F(x) = e^x$$
 
 
 ### rekonstruierter Bestand
-Die Stammfunktion kann beispielsweise verwendet werden, um einen absoultuen Wert für einen x-Wert zu bestimmen, wenn lediglich eine Funktion vorhanden ist, welche die Änderungsrate beschreibt. Hierfür wird einerseits die Funktion $f$ benötigt, welche die Änderungsrate beschreibt, als auch der Anfangsbestand $c$. Dann gilt, dass der absoulte Bestand $B$ zu einem Punkt $x$ wie folgt berechnet werden kann: $$B(x) = F(x) + c$$
+Die Stammfunktion kann beispielsweise verwendet werden, um einen absoluten Wert für einen x-Wert zu bestimmen, wenn lediglich eine Funktion vorhanden ist, welche die Änderungsrate beschreibt. Hierfür wird einerseits die Funktion $f$ benötigt, welche die Änderungsrate beschreibt, als auch der Anfangsbestand $c$. Dann gilt, dass der absolute Bestand $B$ zu einem Punkt $x$ wie folgt berechnet werden kann: $$B(x) = F(x) + c$$
 
 [//]: # (Hinzufügen, wie eine Stammfunktion durch einen Punkt bestimmt werden kann)
 
@@ -324,7 +324,32 @@ Wenn man eine Funktion $f$ um die x-Achse rotieren lässt, so entsteht ein sogen
 # Anhang
 ## Grundwissen
 ### Lösen von Gleichungen
-*(vgl. Aufschrieb Hr. Frey, rosa Markierung)*
+*(vgl. Aufschrieb von Herrn Frey)*
+
+#### Lineare Gleichungen
+Für diese Art von Gleichungen nutzt man Äquivalenzumformungen. Dabei muss lediglich beachtet werden, dass nie "durch $x$ geteilt" werden darf, da ansonsten mögliche Lösungen verschwinden, da die Gleichungen nur noch für $x \neq 0$ gelten. Eine Beispielrechnung geht wie folgt: $$7x +25 = -3x-5 \mid +3x$$ $$10x +25 = -5 \mid -25$$ $$10x = -30 \mid : 10$$ $$x = -3$$
+
+##### Satz vom Nullprodukt
+Mithilfe des Satzes vom Nullprodukt kann eine Multiplikation von zwei Teilfunktionen mit einer Variable 0 gleichgesetzt werden. Wird diese Regel verwendet, so muss die Verwendung des Satz vom Nullprodukt angegeben werden. Ein Beispiel hierfür wäre. $$(x+5) * (x-3) = 0$$ *Verwendung des Satz vom Nullprodukt* $$x+5 = 0 \rightarrow x_1 = -5; \hspace{40pt} x-3 = 0 \rightarrow x_2 = 3$$
+
+#### Ausklammern
+Wenn eine Summe von Produkten besteht, bei welchen alle Summanden einen gleichen Faktor im Produkt haben, so darf dieser mithilfe des Distributivgesetz "ausgeklammert" werden. Eine Beispielrechnung hier für wäre wie folgt aufgebaut: $$x^3 - 2x^2 = 0$$ $$x^2 * (x-2) = 0$$ Nun kann mithilfe des Satzes vom Nullprodukt weiter verfahren werden.
+
+#### quadratische Gleichungen
+Gleichungen nach dem Muster $ax^2 + bx + c = 0; a, b, c \in \mathbb{R}$ können relativ elegant mithilfe der Mitternachtsformel gelöst werden. So können immer alle Lösungen einer solchen Gleichung mit der folgenden Formel bestimt werden: $$x_{1/2} = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a}$$
+
+#### Substitution
+Allgemein verkette Funktionen, welche Teil einer Gleichung sind, aber vor allem biquadratische Gleichungen lassen sich mithilfe der Technik der Substitution lösen. Dies wird an einem Beispiel einer biquadratischen Gleichung gezeigt: $$x^4 -7x^2 + 12 = 0$$ *Substituieren mit $z=x^2$* $$z^2 -7z + 12 = 0$$ *$z_{1/2}$ mithilfe der Mitternachtsformel bestimmen* $$z_1 = 3; z_2 = 4$$ *Rücksubstitution:* $$z_1 = 3 = x^2 \rightarrow x_{1/2} = \pm \sqrt{3}; \hspace{40pt} z_2 = 4 = x^2 \rightarrow x_{3/4} = \pm 2$$
+
+#### Potenzgleichungen
+Gleichungen mit einer einmalig vorkommenden Potenz zur Basis der Variable können mithilfe einfacher Äquivalenzumformungen und der Verwendung der $n$ten-Wurzel gelöst werden. Eine Beispielrechnung hierfür geht wie folgt: $$x^3 + 7 = -20 \mid -7$$ $$x^3 = -27 \mid \sqrt[3]{}$$ $$x = -3$$. Dabei muss darauf geachtet werden, dass geradzahlige Wurzeln immer zwei Lösungen besitzen.
+
+#### Exponentialgleichungen
+Gleichungen mit einer Variable im Exponenten lassen sich mithilfe des Logarithmus lösen. Dies wird hier an einem Beispiel gezeigt: $$5^x = 125 \mid \log_{5}$$ $$x = \log_{5}{(125)} = 3$$
+
+#### Satz von Vieta
+Wenn eine quadratische Gleichung nach dem Schema $ax^2 + bx + c = 0; a, b, c \in \mathbb{R}$ mit $a=1$ gelöst werden soll, so kann der Weg etwas verkürzt werden, wenn man folgende Gleichung im Kopf an die zu lösende Gleichung mittels Veränderung von $p$ und $q$ angleicht: $$x_1 = p; x_2 = q$$ $$x^2 - (q+p) * x + (p*q)$$. **Hierbei muss immer angegeben werden, dass der Satz von Vieta verwendet wurde.**
+
 
 ## Abiturrichtlinien
 Für genaue Informationen siehe [Dokument](https://rp.baden-wuerttemberg.de/rps/Abt7/Ref75/Fachberater/Documents/Mathe/2021-LF-Konvolut.pdf)^[Regierungspräsidium Baden-Württemberg. Leistungsfach Mathematik Schriftliche Abiturprüfung  2021 Und 2022. Regierungspräsidium Baden-Württemberg, 2019, https://rp.baden-wuerttemberg.de/rps/Abt7/Ref75/Fachberater/Documents/Mathe/2021-LF-Konvolut.pdf.] des Regierungspräsidiums.
