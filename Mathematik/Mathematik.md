@@ -169,7 +169,7 @@ $$f(x) = \ln{(x)}; \hspace{40pt} f'(x) = \frac{1}{x} = x^{-1}$$
 ## Tangente, Sekante und Normale
 In der folgenden Abbildung (vgl. Abbildung Tangente, Sekante und Normale) ist die Sekante zwischen den Punkten $A(0|f(0))$ und $B(2,5|f(2,5))$, als auch die Tangente und Sekante durch den C(1|f(1)) eingezeichnet. Die Gleichung der Funktion $f$ lautet $f(x) = -x^3 + 3x^2$.  
 
-![Tangente, Sekante und Normale](assets/Tangente-Sekante-Normale.png)
+![Tangente, Sekante und Normale](assets/Tangente-Sekante-Normale-rescale.png)
 
 ### Sekante
 Unter einer Sekante versteht man eine Gerade durch zwei Punkte auf einem Graphen. Die allgemeine Sekantengleichung durch die Punkte $A(a_1|a_2)$ und $B(b_1|b_2)$ lautet: $$y = \frac{b_2 - a_2}{b_1 - a_1} * (x - a_1) + a_2$$.
@@ -316,6 +316,179 @@ Wenn man eine Funktion $f$ um die x-Achse rotieren lässt, so entsteht ein sogen
 
 
 # Geometrie
+## Vektoren
+Ein Vektor ist ein Zahlentupel, also eine Sammlung aus einer bestimmten Anzahl an Zahlen. Dieser kann eine Verschiebung oder Richtung angeben.  
+Im Falle eines Ortsvektors gibt ein Vektor die Verschiebung eines Punktes vom Nullpunkt an.  
+
+### Rechnen mit Vektoren
+#### Vektoraddition
+Um zwei Vektoren zu addieren kann einfach jedes Element des Vektors mit dem jeweiligen Element des anderen Vektors addiert werden. So gilt: $$\vec{u} + \vec{v} = \begin{pmatrix} u_1 \\ u_2 \\ u_3 \end{pmatrix} + \begin{pmatrix} v_1 \\ v_2 \\ v_3 \end{pmatrix} = \begin{pmatrix} u_1 + v_1 \\ u_2 + v_2 \\ u_3 + v_3 \end{pmatrix}$$. Diese Addition von Vektoren nennt man Linearkombination.
+
+#### Multiplikation mit einer Zahl
+Wenn ein Vektor mit einer Zahl $k$ multipliziert wird, so wird dieser in alle Dimensionen um $k$ gestreckt. Dabei wird jedes Element des Vektors mit $k$ multipliziert. Dadurch gilt: $$ k * \vec{u} = k* \begin{pmatrix} u_1 \\ u_2 \\ u_3 \end{pmatrix} = \begin{pmatrix} k * u_1 \\ k * u_2 \\ k * u_3 \end{pmatrix}$$
+
+#### Betrag eines Vektors
+Um die Länge, bzw. den Betrag eines Vektors zu bestimmen muss die Wurzel aus der Summe der Quadrate aller Einzelelemente gebildet werden. Somit gilt: $$ | \vec{u} | = \sqrt{u_1^2 + u_2^2 + .... u_n^2}$$. Ein Sonderfall ist der sogenannte Einheitsvektor, wobei die Länge dieses genau 1 ist. Um aus einem beliebigen Vektor, bei welchem mindestens ein Element ungleich 0 ist einen Einheitsvekotr zu erzeugen, muss lediglich der Vektor mit dem Kehrwert seines Betrages multipliziert werden. Somit gilt $$\vec{u_0} = \frac{1}{| \vec{u} |} * \vec{u}$$
+
+#### Skalarprodukt
+Um zu überprüfen ob zwei Vektoren orthogonal zueinander sind, kann das Skalarprodukt verwendet werden. Zwei Vektoren sind orthogonal wenn gilt $$\vec{u} \cdot \vec{v} = 0; \hspace{40pt} \vec{u}, \vec{v} \neq \vec{0}$$. Des Weiteren gilt, dass zwei Vektoren parallel sind, wenn gilt, dass $$\vec{a} \cdot \vec{b} = |\vec{a}| * |\vec{b}|$$. Allgemein kann der Winkel zwischen zwei Vektoren über den folgenden Zusammenhang berechnet werden: $$\cos{(\alpha)} = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| * |\vec{b}|}$$
+Das Skalarprodukt berechnet sich dabei aus der Summe aller Produkte der jeweiligen Elemente des Vektors, also wie folgt: $$\vec{u} \cdot \vec{v} = u_1 * v_1 + u_2 * v_2 + ... u_n * v_n$$. Folgende Rechenregeln gelten dabei: 
+
+Kommutativgesetz
+: *vgl. Grundlagen*
+: $$\vec{u} \cdot \vec{v} = \vec{v} \cdot \vec{u}$$
+: $$\vec{u} \cdot \vec{u} = | \vec{u} |^2$$
+
+Distributivgesetz
+: *vgl. Grundlagen*
+: $$\vec{u} \cdot (\vec{v} + \vec{w}) = \vec{u} \cdot \vec{v} + \vec{u} \cdot \vec{w}$$
+: $$(r * \vec{u}) \cdot (s * \vec{v}) = (r*s) * (\vec{u} \cdot \vec{v})$$
+
+
+#### Vektorprodukt
+Das Vektor- oder Kreuzprodukt wird dazu genutzt einen Vektor zu finden, der zu beiden Vektoren orthogonal ist. Somit gilt: $$\vec{n} = \vec{a} \times \vec{b}; \hspace{40pt} \vec{a} \cdot \vec{n} = \vec{b} \cdot \vec{a} = 0$$. Die Berechung des Kreuzprodukts geht dabei wie folgt: $$\vec{a} \times \vec{b} = \begin{pmatrix} a_2 b_3 - a_3 b_2 \\ a_3 b_1 - a_1 b_3 \\ a_1 b_2 - a_2 b_1 \end{pmatrix}$$. Dies kann mithilfe des folgenden Schemas vereinfacht hergeleitet werden (vgl. Abbildung Kreuzprodukt).  
+
+![Kreuzprodukt](assets/vektorprodukt.jpeg)
+
+## Geraden
+Eine Gerade kann mithilfe eines Punktes($P$) und eines Richtungsvektors($\vec{v}$) beschrieben werden. Der Richtungsvektor kann dabei auch durch einen zweiten Punkt ersetzt werden, wobei lediglich der Vektor zwischen den beiden Punkten als Richtungsvektor verwendet wird. Dieser Typ von Geraden ist nach dem folgenden Schema aufgebaut: $$g: X = P + s* \vec{v}; \hspace{40pt} s \in \mathbb{R}$$
+
+## Ebenen
+Im dreidimensionalen Raum können des Weiteren auch Ebenen dargestellt werden. Hierfür ist ein Punkt($P$) und zwei Spannvektoren($\vec{u}, \vec{v}$) besipielsweise nötig. In diesem Fall wird eine Ebene dann wie folgt dargestellt: $$E: X = P + r * \vec{u} + s * \vec{v}; \hspace{40pt} r, s \in \mathbb{R}; \vec{u} \nparallel \vec{v}$$
+
+### verschiedene Darstellungsformen
+#### Parameterform
+Unter der Parameterform versteht man Ebenengleichungen nach dem folgenden Schema: $$E: X = P + r * \vec{u} + s * \vec{v}; \hspace{40pt} r, s \in \mathbb{R}; \vec{u} \nparallel \vec{v}$$.
+Die Umrechnung in eine Normalengleichung geht wie folgt: 
+
+- Bestimmung des Normalenvektors mithilfe des Vektorprodukts aus den beiden Spannvektoren, also $\vec{n} = \vec{u} \times \vec{v}$
+
+- Den Punkt $P$ übernehmen
+
+Umgerechnet können diese in die Koordinatenform werden, wie folgt:  
+
+- *vgl. Umrechnung in Normalenform und danach Umrechnung in Koordinatenform*
+
+#### Normalenform
+Die dritte mögliche Darstellungsform ist die sogenannte Normalengleichung oder -form, welche die Ebene durch einen Punkt ($P$), welcher in der Ebene liegt und einen sogenannten Normalenvektor ($n$) beschreibt. Dieser Normalenvektor steht orthogonal zur Ebene. Die Darstellung in dieser Form ist nach dem folgenden Schema aufgebaut: $$E: (X - P) \cdot \vec{n} = 0; \hspace{40pt} \vec{n} \perp E$$.
+Die Umrechnung in die Parameterform gelingt dabei wie folgt:
+
+- *vgl. Umrechnung in Koordinatenform und danach Umrechnung in Parameterform*
+
+Wenn eine Normalenform in eine Koordinatenform umgerechnet werden soll, so gelingt dies wie folgt:
+
+- Ausmultiplizierung der Gleichung zu $E: X \cdot \vec{n} = P \cdot \vec{n}$
+
+- Auflösung des Skalarprodukts
+
+#### Koordinatenform
+Die Koordinatenform oder -gleichung ist eine weitere Darstellungsmöglichkeit von Ebenen. Diese Form kann auch als Umstellung der Normalenform gesehen werden. Häufig ist diese zu finden, in Linearen Gleichungssystemen. Ein großer Vorteil dieser Form ist, dass sich schnell viele Punkte die in der Ebene liegen abgelesen werden können. Gleichungen dieser Form sind wie folgt aufgebaut: $$E: a x_1 + b x_2 + c x_3 = d$$, wobei der Normalenvektor $\vec{n} = \begin{pmatrix} a \\ b \\ c \end{pmatrix}$ enthalten ist, und $d$ das Skalarprodukt aus einem Punkt und dem Normalenvektor ist.  
+Die Umrechnung in die Parameterform gelingt wie folgt:
+
+- Bestimmung von 3 Punkten welche in der Ebene liegen, durch ausprobieren, bzw. einsetzen
+
+- Bestimmung der Spannvektoren mittels der bestimmten Punkte
+
+Zur Umrechnung in die Normalenform kann wie folgt vorgengangen werden:
+
+- Ablesen des Normalenvektors $\vec{n} = \begin{pmatrix} a \\ b \\ c \end{pmatrix}$
+
+- Bestimmen eines Punktes, welcher in der Ebene liegt, durch ausprobieren, bzw. einsetzen
+
+### Veranschaulichung von Ebenen
+*(vgl. Aufschrieb "4.7 Ebenen veranschaulichen")*
+
+## Lagebeziehungen
+### Lagebeziehungen von Ebenen und Geraden
+Hierfür wird zunächst eine Ebene ($E$) in Koordinatenform und eine Gerade ($g$) benötigt. Nun kann $g$ in $E$ eingesetzt werden, indem jedes $x$ in der Ebene durch die jeweilige $x$-Koordinate der Gerade ersetzt wird. Danach erhält man eine Gleichung nach dem folgenden Schema: $$E: a x_1 + b x_2 + c x_3 = d, g: X = P + s* \vec{v}$$ $$a * (P_1 + s * v_1) + b * (P_2 + s * v_2) + c * (P_3 + s * v_3) = d$$. Wenn diese Gleichung gelöst wird, gibt es drei Möglichkeiten: 
+
+1. Es handelt sich um eine Ungleichung, das heißt $a * (P_1 + s * v_1) + b * (P_2 + s * v_2) + c * (P_3 + s * v_3) \neq d$. In diesem Fall ist $g$ parallel zu $E$, also $g \parallel E$.
+
+2. Die Gleichung stimmt unabhängig davon, was der Parameter annimmt. In diesem Fall gilt $g \in E$, bzw. $g$ liegt in $E$.
+
+3. Die Gleichung stimmt, wenn der Parameter einen bestimmten Wert annimmt, also wenn die Gleichung wie folgt vereinfacht werden kann $s = k; k \in \mathbb{R}$. In diesem Fall schneidet die Gerade die Ebene. Um den Schnittpunkt zu bestimmen kann $k$ in die Geradengleichung eingesetzt werden.
+
+
+### Lagebeziehungen von Ebenen
+Wenn die Lage zwischen zwei Ebenen bestimmt werden soll, so müssen zunächst die Normalenvektoren ($\vec{n_1}, \vec{n_2}$) der beiden Ebenen bekannt sein. Wenn gilt, dass $\vec{n_1} \parallel \vec{n_2}$, bzw. $\vec{n_1} = r * \vec{n_2}; r \in \mathbb{R}$, dann ind die beiden Ebenen parallel. Wenn dies nicht gilt, so schneiden sie sich. Ein Spezialfall des Schneidens ist, wenn $\vec{n_1} \cdot \vec{n_2} = 0$, da dann die Ebenen sich orthogonal schneiden und $E_1 \perp E_2$ ist.
+
+### Lagebeziehung von Punkt und Ebene
+Hierfür wird lediglich der Punkt $P$ für $X$ in der Ebenegleichung eingesetzt, und wenn die Gleichung stimmt liegt $P$ in der Ebene.
+
+### Lagebeziehung von Punkt und Gerade
+Hierfür wird gleich vorgegangen und $X$ in der Geradengleichung durch den Punkt $P$ ersetzt und überprüft, ob die Gleichung stimmt. Erneut gilt, dass wenn die Gleichung stimmt, dass $P$ in der Geraden liegt.
+
+### Lagebeziehung von Geraden
+Geraden können entweder echt parallel, identisch, windschief oder schneidend sein.  
+Zur Überprüfung um was es sich handelt müssen zuächst die Richtungsvektoren($\vec{u}, \vec{v}$) verglichen werden. Wenn gilt, dass $\vec{u} = r* \vec{v}$, bzw. dass die beiden parallel sind, so muss noch unterschieden werden, ob die Geraden echt parallel sind, oder ob sie identisch sind. Hierfür wird überprüft, ob der Punkt der einen Gerade in der anderen liegt.  
+
+Im anderen Fall muss überprüft werden, ob es einen Schnittpunkt gibt. Hierfür werden die beiden Geraden gleichgesetzt und das so entstehende lineare Gleichungssystem gelöst. Wenn das Gleichungsystem eine Lösung besitzt, so können die sich aus der Lösung ergebenden Parameter noch in die Geradengleichung eingesetzt werden, um den Schnittpunkt zu berechnen. Wenn das LGS keine Lösung besitzt, so sind die Geraden windschief.
+
+### Abstand zwischen Punkt und Gerade
+Zur Bestimmung des Abstandes zwischen einem Punkt ($P$) und einer Geraden ($g$), nutzt man eine sogenannte Hilfsebene. Diese Ebene ist orthogonal zur Geraden und enthält $P$. Zur Bestimmung des Abstandes wird nun wie folgt vorgegangen:
+
+1. Bestimmung der Hilfsebene, durch Verwendung des Richtungsvektors von $g$ als Normalenvektor und Verwendung von $P$ als Punkt in der Ebene.
+
+2. Bestimmung des Schnittpunkts $F$ zwischen $g$ und der Hilfsebene.
+
+3. Der Betrag des Vektors $\vec{FP}$ ist gleich dem Abstand zwischen $P$ und $g$.
+
+### Abstand zwischen Punkt und Ebene
+Um den Abstand zwischen einem Punkt ($R$) und einer Ebene ($E$) zu bestimmen gibt es zwei Ansätze. So kann einerseits die Hesse'sche Normalenform verwendet werden. Dies ist eine Normalengleichung, bei der es sich bei dem Normalenvektor um einen Einheitsvektor handelt (vgl. ![Abschnitt Betrag eines Vektors](#betrag-eines-vektors)). Nun kann $R$ für $X$ eingesetzt werden. Der Betrag dieser Gleichung entspricht dem Abstand zwischen Punkt und Ebene. Somit gilt: $$d(E, R)  = |(R-P) \cdot \vec{n_0}|$$.
+Wenn lediglich eine Koordinatengleichung nach dem Schema $a_1 x_1 + a_2 x_2 + a_3 x_3 = b$ bekannt ist, so kann des Weiteren mit der folgenden Gleichung der Abstand bestimmt werden: $$d(E, R) = |\frac{a_1 r_1 + a_2 r_2 + a_3 r_3 - b}{\sqrt{a_1^2 + a_2^2 + a_3^2}}|$$
+
+### Abstand windschiefer Geraden
+Zur Bestimmung des Abstandes zwischen zwei windschiefen Geraden ($g: X = P + r * \vec{u}, h: X = Q + s * \vec{v}$) gibt es erneut zwei Methoden. So kann einerseits ein lineares Gleichungssystem mit den folgenden Gleichungen gelöst werden: $$\text{I} \hspace{20pt} \vec{GH} \cdot \vec{u} = 0$$ $$\text{II} \hspace{20pt} \vec{GH} \cdot \vec{v} = 0$$. Dann gilt für den Abstand. $d(g, h) = |\vec{GH}|$.
+
+Die zweite Methode ist, dass man eine Hilfsebene mit den Richtungsvektoren der Geraden als Spannvektoren erzeugt. Danach kann der Abstand zwischen der Hilfsebene und dem nicht in der Ebene liegenden Punkt berechnet werden. Somit entsthet zunächst die folgende Hilfsebene: $$E: X = P + r * \vec{u} + s * \vec{v}$$, nach Umrechnung in die Normalen, oder Koordinatenform lässt sich auch der Abstand zwischen $E$ und $Q$ leicht berechnen (vgl. ![Abschnitt Abstand Punkt Ebene](#abstand-zwischen-punkt-und-ebene)).
+
+### Schnittwinkel
+Um den Schnittwinkel zwischen Geraden und Ebenen untereinander zu bestimmen wird das Skalarprodukt verwendet, da durch dieses der Schnittwinkel zweier Vektoren bestimmt werden kann (vgl. [Abschnitt Skalarprodukt](#Skalarprodukt)).  
+
+Um den Winkel zwischen zwei Geraden zu bestimmen muss lediglich der Winkel zwischen den beiden Richtungsvektoren bestimmt werden. Somit ist der Winkel ($\alpha$) zwischen zwei Geraden ($g: X = P + s * \vec{u}, h: X = Q + r * \vec{v}$): $$\alpha = \cos^{-1}(\frac{\vec{u} \cdot \vec{v}}{|\vec{u}| * |\vec{v}|})$$.
+Um den Winkel zwischen zwei Ebenen zu bestimmen wird ähnlich vorgegangen, nur dass der Winkel zwischen den Normalenvektoren statt dem zwischen den Richtungsvektoren. Somit ist der Winkel zwischen zwei Ebenen wie folgt: $$\alpha = \cos^{-1}(\frac{\vec{n_1} \cdot \vec{n_2}}{|\vec{n_1}| * |\vec{n_2}|})$$.
+Eine Besonderheit gibt es bei der Winkelbestimmung zwischen Gerade und Ebene, weil hierbei die einzigen verfügbaren Vektoren der Richtungsvektor und der Normalenvektor ist. Da der Winkel zwischen diesen beiden nicht gleich dem Winkel zwischen Gerade und Ebene ist. Hierfür muss statt dem Sinus der Kosinus verwendet werden. Somit gilt für den Winkel ($a$): $$\alpha = \sin^{-1}(\frac{\vec{u} \cdot \vec{n}}{|\vec{u}| * |\vec{n}|})$$
+
+## Spiegelung und Symmetrie
+FÜr das Abitur ist lediglich die Speigelung eines Punktes an einem anderen Punkt, einer Geraden und einer Ebene relevant. Hierfür wird wie folgt Vorgegangen:
+
+Punktspiegelung
+: Der gespiegelte Punkt $P'$ entsteht wie folgt, wenn an dem Punkt $Z$ gespiegelt wird: $P' = Z + \vec{PZ}$.
+
+Spiegelung an einer Geraden
+: Hierfür wird eine Hilfsebene $E_h$, aus dem Richtungsvektor der Geraden ($g$) als Normalenvektor und dem Punkt $P$ als Punkt der Ebene, erzeugt. Für diese gilt: $P \in E_h \perp g$. Wenn nun der Schnittpunkt zwischen $E_h$ und $g4 berechnet und wie bei der Punktspiegelung am Schnittpunkt verfahren. Somit gilt dann, wenn $E_h \cap g = \{F\}$ gilt, dass der gespiegelte Punkt $P'$ wie folgt berechnet wird: $P' = F + \vec{PF}$.
+
+Spiegelung an einer Ebene
+: Wenn diese Art der Spiegelung vollzogen werden soll, so muss eine Hilfsgerade durch den Punkt $P$, welche rechtwinklig zu der Ebene $E$ ist erzeugt werden (Normalenvektor gleich dem Richtungsvektor und $P$ als Punkt der Geraden). Nun kann wieder der Schnittpunkt $F$ zwischen Gerade und Ebene bestimmt werden und mit der folgenden Gleichung de gespiegelte Punkt $P'$ berechnet werden: $P' = F + \vec{PF}$. 
+
+## Berechnung von Volumina und Flächeninhalten
+Für die Berechnung des Flächeninhalts oder dem Volumen von Körpern, die durch Vektoren, welche die Kanten darstellen definiert sind, ist der Betrag des Kreuzproduktes häufig hilfreich. So werden die folgenden Sachen unter Verwendung dieses berechnet.
+
+Flächeninhalt Parallelogramm
+: $A = |\vec{a} \times \vec{b}|$
+
+Flächeninhalt Dreieck
+: $A = \frac{1}{2} |\vec{a} \times \vec{b}|$
+
+Volumen Spat
+: $V = |\vec{c} \cdot (\vec{a} \times \vec{b})|$
+
+Volumen Pyramide mit viereckiger Grundfläche
+: $V = \frac{1}{3} |\vec{c} \cdot (\vec{a} \times \vec{b})|$
+
+Volumen Pyramide mit dreieckiger Grundfläche
+: $V = \frac{1}{6} |\vec{c} \cdot (\vec{a} \times \vec{b})|$
+
+## Beschreibung von geradlinigen Bewegungen
+Für die Modellierung einer geradlinigen Bewegung im Raum wird eine Zeit-Ort-Gleichung verwendet. Diese ist nach dem Schema $s: X = P + t * \vec{v}$ aufgebaut, wobei $P$ den Punkt zu $t_0$ angibt und $\vec{v}$ die Verschiebung pro Zeiteinheit $t$ angibt. Wenn nun beispielsweise überprüft werden soll, ob es zu einer Kollision zwischen zwei Zeit-Ort-Gleichungen kommt, werden diese gleichgesetzt, wobei beide den Gleichen Parameter $t$ besiten, sodass überprüft wird, ob es einen Schnittpunkt gibt, bei welchem beide Objekte zum gleichen Zeitpunkt sind.
+
+## Beweise mit Vektoren
+\-
+
+[//]: # (Einfügen von vektoriellen Beweisen)
+
+## Scharen
+Scharen sind immer eine Menge an Geraden oder Ebenen, welche in einem der Vektoren einen Parameter besitzen. Hierdurch wird bei Variation des Parameters die Ebene, bzw. Gerade verändert.
 
 
 # Stochastik
