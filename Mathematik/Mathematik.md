@@ -434,13 +434,13 @@ Zur Bestimmung des Abstandes zwischen einem Punkt ($P$) und einer Geraden ($g$),
 3. Der Betrag des Vektors $\vec{FP}$ ist gleich dem Abstand zwischen $P$ und $g$.
 
 ### Abstand zwischen Punkt und Ebene
-Um den Abstand zwischen einem Punkt ($R$) und einer Ebene ($E$) zu bestimmen gibt es zwei Ansätze. So kann einerseits die Hesse'sche Normalenform verwendet werden. Dies ist eine Normalengleichung, bei der es sich bei dem Normalenvektor um einen Einheitsvektor handelt (vgl. ![Abschnitt Betrag eines Vektors](#betrag-eines-vektors)). Nun kann $R$ für $X$ eingesetzt werden. Der Betrag dieser Gleichung entspricht dem Abstand zwischen Punkt und Ebene. Somit gilt: $$d(E, R)  = |(R-P) \cdot \vec{n_0}|$$.
+Um den Abstand zwischen einem Punkt ($R$) und einer Ebene ($E$) zu bestimmen gibt es zwei Ansätze. So kann einerseits die Hesse'sche Normalenform verwendet werden. Dies ist eine Normalengleichung, bei der es sich bei dem Normalenvektor um einen Einheitsvektor handelt (vgl. [Abschnitt Betrag eines Vektors](#betrag-eines-vektors)). Nun kann $R$ für $X$ eingesetzt werden. Der Betrag dieser Gleichung entspricht dem Abstand zwischen Punkt und Ebene. Somit gilt: $$d(E, R)  = |(R-P) \cdot \vec{n_0}|$$.
 Wenn lediglich eine Koordinatengleichung nach dem Schema $a_1 x_1 + a_2 x_2 + a_3 x_3 = b$ bekannt ist, so kann des Weiteren mit der folgenden Gleichung der Abstand bestimmt werden: $$d(E, R) = |\frac{a_1 r_1 + a_2 r_2 + a_3 r_3 - b}{\sqrt{a_1^2 + a_2^2 + a_3^2}}|$$
 
 ### Abstand windschiefer Geraden
 Zur Bestimmung des Abstandes zwischen zwei windschiefen Geraden ($g: X = P + r * \vec{u}, h: X = Q + s * \vec{v}$) gibt es erneut zwei Methoden. So kann einerseits ein lineares Gleichungssystem mit den folgenden Gleichungen gelöst werden: $$\text{I} \hspace{20pt} \vec{GH} \cdot \vec{u} = 0$$ $$\text{II} \hspace{20pt} \vec{GH} \cdot \vec{v} = 0$$. Dann gilt für den Abstand. $d(g, h) = |\vec{GH}|$.
 
-Die zweite Methode ist, dass man eine Hilfsebene mit den Richtungsvektoren der Geraden als Spannvektoren erzeugt. Danach kann der Abstand zwischen der Hilfsebene und dem nicht in der Ebene liegenden Punkt berechnet werden. Somit entsthet zunächst die folgende Hilfsebene: $$E: X = P + r * \vec{u} + s * \vec{v}$$, nach Umrechnung in die Normalen, oder Koordinatenform lässt sich auch der Abstand zwischen $E$ und $Q$ leicht berechnen (vgl. ![Abschnitt Abstand Punkt Ebene](#abstand-zwischen-punkt-und-ebene)).
+Die zweite Methode ist, dass man eine Hilfsebene mit den Richtungsvektoren der Geraden als Spannvektoren erzeugt. Danach kann der Abstand zwischen der Hilfsebene und dem nicht in der Ebene liegenden Punkt berechnet werden. Somit entsthet zunächst die folgende Hilfsebene: $$E: X = P + r * \vec{u} + s * \vec{v}$$, nach Umrechnung in die Normalen, oder Koordinatenform lässt sich auch der Abstand zwischen $E$ und $Q$ leicht berechnen (vgl. [Abschnitt Abstand Punkt Ebene](#abstand-zwischen-punkt-und-ebene)).
 
 ### Schnittwinkel
 Um den Schnittwinkel zwischen Geraden und Ebenen untereinander zu bestimmen wird das Skalarprodukt verwendet, da durch dieses der Schnittwinkel zweier Vektoren bestimmt werden kann (vgl. [Abschnitt Skalarprodukt](#Skalarprodukt)).  
@@ -450,7 +450,7 @@ Um den Winkel zwischen zwei Ebenen zu bestimmen wird ähnlich vorgegangen, nur d
 Eine Besonderheit gibt es bei der Winkelbestimmung zwischen Gerade und Ebene, weil hierbei die einzigen verfügbaren Vektoren der Richtungsvektor und der Normalenvektor ist. Da der Winkel zwischen diesen beiden nicht gleich dem Winkel zwischen Gerade und Ebene ist. Hierfür muss statt dem Sinus der Kosinus verwendet werden. Somit gilt für den Winkel ($a$): $$\alpha = \sin^{-1}(\frac{\vec{u} \cdot \vec{n}}{|\vec{u}| * |\vec{n}|})$$
 
 ## Spiegelung und Symmetrie
-FÜr das Abitur ist lediglich die Speigelung eines Punktes an einem anderen Punkt, einer Geraden und einer Ebene relevant. Hierfür wird wie folgt Vorgegangen:
+Für das Abitur ist lediglich die Speigelung eines Punktes an einem anderen Punkt, einer Geraden und einer Ebene relevant. Hierfür wird wie folgt Vorgegangen:
 
 Punktspiegelung
 : Der gespiegelte Punkt $P'$ entsteht wie folgt, wenn an dem Punkt $Z$ gespiegelt wird: $P' = Z + \vec{PZ}$.
@@ -496,6 +496,14 @@ Scharen sind immer eine Menge an Geraden oder Ebenen, welche in einem der Vektor
 
 # Anhang
 ## Grundwissen
+### lineare Gleichungssysteme
+Für die Lösung eines linearen Gleichungssystems (LGS) nutzt man das sogenannte Gauß-Verfahren. Hierbei wird das LGS zunächst in die Stufenform gebracht, wobei es immer eine Zeile mit einem Element mit Faktor ungleich null weniger gibt. Dies geschieht durch Äquivalenzumformungen zwischen den Zeilen. Wenn diese Stufenform erreicht ist, so kann durch einsetzen der Lösungen aus den vorigen Zeilen jede Zeile bestimmt werden. Gestartet wird hierfür bei der Zeile mit nur einer Variable.
+
+#### Lösungsmengen von LGS
+Bei der Lösung eines LGS können drei verschiedene Fälle auftreten, so kann ein LGS keine, eine oder unendlich viele Lösungen haben. Keine Lösung ergibt sich, falls in dem LGS nach Umformung in die Stufenform eine Ungleichung entsteht.  
+Eine Lösung entsteht, falls die Zeile mit nur einem Element eine einfache Gleichung mit einer Lösung nach dem Schema $k * x = y; k \in \mathbb{R} \backslash \{0\}$ ist.  
+Im dritten Fall entsteht eine Gleichung mit einer unendlichen Anzahl an Lösungen, da diese Gleichung stimmt unabhängig davon, welchen Wert die Variable annimmt. Dies geschieht bei einer Gleichung nach dem Schema $0 * x = 0$. In diesem Fall muss ein Parameter für $x$ eingeführt werden. Dann gilt $x = t; t \in \mathbb{R}$. Dieser Fall tritt des Weiteren bei einem unterbestimmten LGS auf, wobei es $n-a; a > 0$ Gleichungen für die Bestimmung von $n$ Gleichungen gibt, denn in diesem Fall können sich die fehlenden Zeilen als $0 x = 0$ hinzugedacht werden.
+
 ### Lösen von Gleichungen
 *(vgl. Aufschrieb von Herrn Frey)*
 
