@@ -328,7 +328,7 @@ Um zwei Vektoren zu addieren kann einfach jedes Element des Vektors mit dem jewe
 Wenn ein Vektor mit einer Zahl $k$ multipliziert wird, so wird dieser in alle Dimensionen um $k$ gestreckt. Dabei wird jedes Element des Vektors mit $k$ multipliziert. Dadurch gilt: $$ k * \vec{u} = k* \begin{pmatrix} u_1 \\ u_2 \\ u_3 \end{pmatrix} = \begin{pmatrix} k * u_1 \\ k * u_2 \\ k * u_3 \end{pmatrix}$$
 
 #### Betrag eines Vektors
-Um die Länge, bzw. den Betrag eines Vektors zu bestimmen muss die Wurzel aus der Summe der Quadrate aller Einzelelemente gebildet werden. Somit gilt: $$ | \vec{u} | = \sqrt{u_1^2 + u_2^2 + .... u_n^2}$$. Ein Sonderfall ist der sogenannte Einheitsvektor, wobei die Länge dieses genau 1 ist. Um aus einem beliebigen Vektor, bei welchem mindestens ein Element ungleich 0 ist einen Einheitsvekotr zu erzeugen, muss lediglich der Vektor mit dem Kehrwert seines Betrages multipliziert werden. Somit gilt $$\vec{u_0} = \frac{1}{| \vec{u} |} * \vec{u}$$
+Um die Länge, bzw. den Betrag eines Vektors zu bestimmen muss die Wurzel aus der Summe der Quadrate aller Einzelelemente gebildet werden. Somit gilt: $$ | \vec{u} | = \sqrt{u_1^2 + u_2^2 + .... u_n^2}$$. Ein Sonderfall ist der sogenannte Einheitsvektor, wobei die Länge dieses genau 1 ist. Um aus einem beliebigen Vektor, bei welchem mindestens ein Element ungleich 0 ist einen Einheitsvektor zu erzeugen, muss lediglich der Vektor mit dem Kehrwert seines Betrages multipliziert werden. Somit gilt $$\vec{u_0} = \frac{1}{| \vec{u} |} * \vec{u}$$
 
 #### Skalarprodukt
 Um zu überprüfen ob zwei Vektoren orthogonal zueinander sind, kann das Skalarprodukt verwendet werden. Zwei Vektoren sind orthogonal wenn gilt $$\vec{u} \cdot \vec{v} = 0; \hspace{40pt} \vec{u}, \vec{v} \neq \vec{0}$$. Des Weiteren gilt, dass zwei Vektoren parallel sind, wenn gilt, dass $$\vec{a} \cdot \vec{b} = |\vec{a}| * |\vec{b}|$$. Allgemein kann der Winkel zwischen zwei Vektoren über den folgenden Zusammenhang berechnet werden: $$\cos{(\alpha)} = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| * |\vec{b}|}$$
@@ -346,7 +346,7 @@ Distributivgesetz
 
 
 #### Vektorprodukt
-Das Vektor- oder Kreuzprodukt wird dazu genutzt einen Vektor zu finden, der zu beiden Vektoren orthogonal ist. Somit gilt: $$\vec{n} = \vec{a} \times \vec{b}; \hspace{40pt} \vec{a} \cdot \vec{n} = \vec{b} \cdot \vec{a} = 0$$. Die Berechung des Kreuzprodukts geht dabei wie folgt: $$\vec{a} \times \vec{b} = \begin{pmatrix} a_2 b_3 - a_3 b_2 \\ a_3 b_1 - a_1 b_3 \\ a_1 b_2 - a_2 b_1 \end{pmatrix}$$. Dies kann mithilfe des folgenden Schemas vereinfacht hergeleitet werden (vgl. Abbildung Kreuzprodukt).  
+Das Vektor- oder Kreuzprodukt wird dazu genutzt einen Vektor zu finden, der zu beiden Vektoren orthogonal ist. Somit gilt: $$\vec{n} = \vec{a} \times \vec{b}; \hspace{40pt} \vec{a} \cdot \vec{n} = \vec{b} \cdot \vec{a} = 0$$. Die Berechnung des Kreuzprodukts geht dabei wie folgt: $$\vec{a} \times \vec{b} = \begin{pmatrix} a_2 b_3 - a_3 b_2 \\ a_3 b_1 - a_1 b_3 \\ a_1 b_2 - a_2 b_1 \end{pmatrix}$$. Dies kann mithilfe des folgenden Schemas vereinfacht hergeleitet werden (vgl. Abbildung Kreuzprodukt).  
 
 ![Kreuzprodukt](assets/vektorprodukt.jpeg)
 
@@ -354,7 +354,7 @@ Das Vektor- oder Kreuzprodukt wird dazu genutzt einen Vektor zu finden, der zu b
 Eine Gerade kann mithilfe eines Punktes($P$) und eines Richtungsvektors($\vec{v}$) beschrieben werden. Der Richtungsvektor kann dabei auch durch einen zweiten Punkt ersetzt werden, wobei lediglich der Vektor zwischen den beiden Punkten als Richtungsvektor verwendet wird. Dieser Typ von Geraden ist nach dem folgenden Schema aufgebaut: $$g: X = P + s* \vec{v}; \hspace{40pt} s \in \mathbb{R}$$
 
 ## Ebenen
-Im dreidimensionalen Raum können des Weiteren auch Ebenen dargestellt werden. Hierfür ist ein Punkt($P$) und zwei Spannvektoren($\vec{u}, \vec{v}$) besipielsweise nötig. In diesem Fall wird eine Ebene dann wie folgt dargestellt: $$E: X = P + r * \vec{u} + s * \vec{v}; \hspace{40pt} r, s \in \mathbb{R}; \vec{u} \nparallel \vec{v}$$
+Im dreidimensionalen Raum können des Weiteren auch Ebenen dargestellt werden. Hierfür ist ein Punkt($P$) und zwei Spannvektoren($\vec{u}, \vec{v}$) beispielsweise nötig. In diesem Fall wird eine Ebene dann wie folgt dargestellt: $$E: X = P + r * \vec{u} + s * \vec{v}; \hspace{40pt} r, s \in \mathbb{R}; \vec{u} \nparallel \vec{v}$$
 
 ### verschiedene Darstellungsformen
 #### Parameterform
@@ -389,7 +389,7 @@ Die Umrechnung in die Parameterform gelingt wie folgt:
 
 - Bestimmung der Spannvektoren mittels der bestimmten Punkte
 
-Zur Umrechnung in die Normalenform kann wie folgt vorgengangen werden:
+Zur Umrechnung in die Normalenform kann wie folgt vorgegangen werden:
 
 - Ablesen des Normalenvektors $\vec{n} = \begin{pmatrix} a \\ b \\ c \end{pmatrix}$
 
@@ -420,7 +420,7 @@ Hierfür wird gleich vorgegangen und $X$ in der Geradengleichung durch den Punkt
 
 ### Lagebeziehung von Geraden
 Geraden können entweder echt parallel, identisch, windschief oder schneidend sein.  
-Zur Überprüfung um was es sich handelt müssen zuächst die Richtungsvektoren($\vec{u}, \vec{v}$) verglichen werden. Wenn gilt, dass $\vec{u} = r* \vec{v}$, bzw. dass die beiden parallel sind, so muss noch unterschieden werden, ob die Geraden echt parallel sind, oder ob sie identisch sind. Hierfür wird überprüft, ob der Punkt der einen Gerade in der anderen liegt.  
+Zur Überprüfung um was es sich handelt müssen zunächst die Richtungsvektoren($\vec{u}, \vec{v}$) verglichen werden. Wenn gilt, dass $\vec{u} = r* \vec{v}$, bzw. dass die beiden parallel sind, so muss noch unterschieden werden, ob die Geraden echt parallel sind, oder ob sie identisch sind. Hierfür wird überprüft, ob der Punkt der einen Gerade in der anderen liegt.  
 
 Im anderen Fall muss überprüft werden, ob es einen Schnittpunkt gibt. Hierfür werden die beiden Geraden gleichgesetzt und das so entstehende lineare Gleichungssystem gelöst. Wenn das Gleichungsystem eine Lösung besitzt, so können die sich aus der Lösung ergebenden Parameter noch in die Geradengleichung eingesetzt werden, um den Schnittpunkt zu berechnen. Wenn das LGS keine Lösung besitzt, so sind die Geraden windschief.
 
@@ -440,7 +440,7 @@ Wenn lediglich eine Koordinatengleichung nach dem Schema $a_1 x_1 + a_2 x_2 + a_
 ### Abstand windschiefer Geraden
 Zur Bestimmung des Abstandes zwischen zwei windschiefen Geraden ($g: X = P + r * \vec{u}, h: X = Q + s * \vec{v}$) gibt es erneut zwei Methoden. So kann einerseits ein lineares Gleichungssystem mit den folgenden Gleichungen gelöst werden: $$\text{I} \hspace{20pt} \vec{GH} \cdot \vec{u} = 0$$ $$\text{II} \hspace{20pt} \vec{GH} \cdot \vec{v} = 0$$. Dann gilt für den Abstand. $d(g, h) = |\vec{GH}|$.
 
-Die zweite Methode ist, dass man eine Hilfsebene mit den Richtungsvektoren der Geraden als Spannvektoren erzeugt. Danach kann der Abstand zwischen der Hilfsebene und dem nicht in der Ebene liegenden Punkt berechnet werden. Somit entsthet zunächst die folgende Hilfsebene: $$E: X = P + r * \vec{u} + s * \vec{v}$$, nach Umrechnung in die Normalen, oder Koordinatenform lässt sich auch der Abstand zwischen $E$ und $Q$ leicht berechnen (vgl. [Abschnitt Abstand Punkt Ebene](#abstand-zwischen-punkt-und-ebene)).
+Die zweite Methode ist, dass man eine Hilfsebene mit den Richtungsvektoren der Geraden als Spannvektoren erzeugt. Danach kann der Abstand zwischen der Hilfsebene und dem nicht in der Ebene liegenden Punkt berechnet werden. Somit entsteht zunächst die folgende Hilfsebene: $$E: X = P + r * \vec{u} + s * \vec{v}$$, nach Umrechnung in die Normalen, oder Koordinatenform lässt sich auch der Abstand zwischen $E$ und $Q$ leicht berechnen (vgl. [Abschnitt Abstand Punkt Ebene](#abstand-zwischen-punkt-und-ebene)).
 
 ### Schnittwinkel
 Um den Schnittwinkel zwischen Geraden und Ebenen untereinander zu bestimmen wird das Skalarprodukt verwendet, da durch dieses der Schnittwinkel zweier Vektoren bestimmt werden kann (vgl. [Abschnitt Skalarprodukt](#Skalarprodukt)).  
@@ -450,7 +450,7 @@ Um den Winkel zwischen zwei Ebenen zu bestimmen wird ähnlich vorgegangen, nur d
 Eine Besonderheit gibt es bei der Winkelbestimmung zwischen Gerade und Ebene, weil hierbei die einzigen verfügbaren Vektoren der Richtungsvektor und der Normalenvektor ist. Da der Winkel zwischen diesen beiden nicht gleich dem Winkel zwischen Gerade und Ebene ist. Hierfür muss statt dem Sinus der Kosinus verwendet werden. Somit gilt für den Winkel ($a$): $$\alpha = \sin^{-1}(\frac{\vec{u} \cdot \vec{n}}{|\vec{u}| * |\vec{n}|})$$
 
 ## Spiegelung und Symmetrie
-Für das Abitur ist lediglich die Speigelung eines Punktes an einem anderen Punkt, einer Geraden und einer Ebene relevant. Hierfür wird wie folgt Vorgegangen:
+Für das Abitur ist lediglich die Spiegelung eines Punktes an einem anderen Punkt, einer Geraden und einer Ebene relevant. Hierfür wird wie folgt Vorgegangen:
 
 Punktspiegelung
 : Der gespiegelte Punkt $P'$ entsteht wie folgt, wenn an dem Punkt $Z$ gespiegelt wird: $P' = Z + \vec{PZ}$.
@@ -480,7 +480,7 @@ Volumen Pyramide mit dreieckiger Grundfläche
 : $V = \frac{1}{6} |\vec{c} \cdot (\vec{a} \times \vec{b})|$
 
 ## Beschreibung von geradlinigen Bewegungen
-Für die Modellierung einer geradlinigen Bewegung im Raum wird eine Zeit-Ort-Gleichung verwendet. Diese ist nach dem Schema $s: X = P + t * \vec{v}$ aufgebaut, wobei $P$ den Punkt zu $t_0$ angibt und $\vec{v}$ die Verschiebung pro Zeiteinheit $t$ angibt. Wenn nun beispielsweise überprüft werden soll, ob es zu einer Kollision zwischen zwei Zeit-Ort-Gleichungen kommt, werden diese gleichgesetzt, wobei beide den Gleichen Parameter $t$ besiten, sodass überprüft wird, ob es einen Schnittpunkt gibt, bei welchem beide Objekte zum gleichen Zeitpunkt sind.
+Für die Modellierung einer geradlinigen Bewegung im Raum wird eine Zeit-Ort-Gleichung verwendet. Diese ist nach dem Schema $s: X = P + t * \vec{v}$ aufgebaut, wobei $P$ den Punkt zu $t_0$ angibt und $\vec{v}$ die Verschiebung pro Zeiteinheit $t$ angibt. Wenn nun beispielsweise überprüft werden soll, ob es zu einer Kollision zwischen zwei Zeit-Ort-Gleichungen kommt, werden diese gleichgesetzt, wobei beide den Gleichen Parameter $t$ besitzen, sodass überprüft wird, ob es einen Schnittpunkt gibt, bei welchem beide Objekte zum gleichen Zeitpunkt sind.
 
 ## Beweise mit Vektoren
 \-
