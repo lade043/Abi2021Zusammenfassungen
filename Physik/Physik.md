@@ -79,7 +79,7 @@ Jedes elektrisches Feld übt des Weiteren auch eine Kraft auf andere Ladungen au
 
 ## Kondensatoren
 Dieses elektrische Feld kann auch durch Kondensatoren dazu genutzt werden Ladungen zu speichern. Die Ladungsmenge hat dabei folgenden Zusammenhang: $Q \sim U$. Die Menge an Ladung, die pro Spannung dabei gespeichert werden kann nennt sich Kapazität. Für die Kapazität eines Plattenkondensators gilt folgendes: $C = \varepsilon_0 * \varepsilon_r * \frac{A}{d}$.  
-Wenn Kondensatoren in einem Stromkreis benutzt werden sollen, so gilt für die Gesamtkapazität in einer Parallelschaltung $C_{ges} = C_1 + C_2 + ...$ und bei einer Reihenschaltung $\frac{1}{C_{ges}} = \frac{1}{C_1} + \frac{1}{C_2} + ...$.
+Wenn Kondensatoren in einem Stromkreis benutzt werden sollen, so gilt für die Gesamtkapazität in einer Parallelschaltung $C_{ges} = C_1 + C_2 + ...$ und bei einer Reihenschaltung $\frac{1}{C_{ges}} = \frac{1}{C_1} + \frac{1}{C_2} + ...$. 
 
 ## Energie im elektrischen Feld
 Wenn ein elektrisches Feld erzeugt wird, so ist dies immer ein Energiespeicher, da in diesem Ladungen getrennt, bzw. zusammengebracht sind und die Energie, die dafür notwendig ist auch wieder abgeben können. Die Formel für diese Energie lautet: $E = \frac{1}{2} Q * U$, was im Falle eines Kondensators folgendes bedeutet: $E = \frac{1}{2} C * U^2$. Dies kommt dadurch zustande, dass die Energie pro Ladung die für eine weitere Ladungstrennung zunimmt und somit ein Dreieck bei der Gesamtenergie entsteht. Die Ladung einer einzelnen Ladung, bzw. die elektrische Energie beträgt dabei $E_{el} = q * U$. Diese Energie pro Ladung kann auch dazu genutzt werden, um die Geschwindigkeit dieses nach der Beschleunigung durch ein elektrisches Feld zu bestimmen, dabei gilt, dass  $E_{kin} = E_ {el} \rightarrow v = \sqrt{\frac{2 * q * U}{m}}$. Dieser Effekt wird beispielsweise auch bei der Kathodenstrahlröhre genutzt (vgl. Abbildung Kathodenstrahl).  
@@ -97,8 +97,61 @@ Des Weiteren kann diese Kraft genutzt werden, um die stärke eines Magnetfelds m
 
 Soll die magnetische Flussdichte von einer (langen) Spule berechnet werden, so gilt: $B = \mu_0 * \mu_r * I * \frac{n}{l}$.
 
-# Induktion
+## Induktion
+Wenn es zu einer Änderung des magnetischen Flusses($\phi$) kommt, so wird in einen elektrischen Leiter eine Spannung induziert. Die Formel für diese Spannung lautet: $$U_{ind} = - n * \dot{\phi} = - n * (\dot{A} * B + A * \dot{B})$$. Dass ein negatives Vorzeichen verwendet wird, liegt an der sogenannten Lenzschen Regel, wo nach die Induktionsspannung immer der Ursache entgegengesetzt ist. Diese Regel kann zum Beispiel mit dem Thomsonschen Ringversuch beobachtet werden, wobei ein Ring welcher Parallel zu einer Spule gelagert ist beim Einschalten des Stroms durch die Spule abgestoßen wird und angezogen wird beim Ausschalten. Ein weiterer Anwendungsfall dieses Phänomens ist die Wirbelstrombremse, wobei in einem Metall, welches durch ein Magnetfeld bewegt wird in dem Metall sogenannte Wirbelströme entstehen, also geschlossene Stromkreise, welche nur durch die Induktion angetrieben werden. Das Magnetfeld dieser Wirbelströme bremst dabei die Bewegung des Metalls ab, da nach Lenz die Induktion der Ursache entgegengesetzt ist.  
 
+Um das Phänomen der Induktion zusammenzufassen erstellte Maxwell die sogenannten 4 Maxwellschen Gleichungen:
+
+1. "Elektrische Ladungen sind die Quellen des elektrischen Feldes“
+
+2. "Magnetfeldlinien sind immer geschlossen.“
+
+3. "Zeitlich verändernde Magnetfelder erzeugen ein elektrisches Feld mit geschlos-
+senen Feldlinien"
+
+4. "Ein magnetisches Feld mit geschlossen Feldlinien wird erzeugt durch einen
+elektrischen Strom oder durch ein sich änderndes elektrisches Feld.“
+
+Des Weiteren gibt es das Phänomen der Selbstinduktion, dabei erzeugt die Erhöhung der Stromstärke in einer Spule, dass ein sich zeitlich-änderndes Magnetfeld entsteht, wodurch eine Spannung in der Spule selbst induziert wird, welche jedoch aufgrund der Lenzschen Regel der Erhöhung der Stromstärke entgegenwirkt. Somit steigt der Strom durch eine Spule nie unendlich schnell an und wird immer abgebremst. Analog dazu gilt auch, dass beim herunterfahren der Stromstärke eine Spannung induziert wird, welche den Strom aufrecht erhalten will. Dieses Verhalten einer Spule nennt man Induktivität, und kann wie folgt berechnet werden: $$L = \mu_0 * \mu_r * \frac{A * n^2}{l}$$. Außerdem gilt für die Selbstinduktion: $$U_{ind} = - L * \dot{I}$$. Diese Induktivität einer Spule kann auch als Energiespeicher fungieren, bzw. ist ein Energiespeicher, durch das Magnetfeld. Die Formel für die gespeicherte Energie lautet: $$E_{magn} = \frac{1}{2} * L * I^2$$
+
+# harmonische Schwingungen
+Unter einer harmonischen Schwingung versteht man eine Schwingung, bei der die rücktreibende Kraft immer proportional zur Auslenkung von der Ruhelage ist, wodurch diese eine sinusartige Schwingung vollzieht. Dass es sich um eine sinusartige Schwingung handelt, lässt sich durch lösen der folgenden Differentialgleichung ableiten (siehe Skript S. 89 für genaueres): $$0 = \ddot{s}(t) + k * s(t)$$. Für das Federpendel lässt sich diese Gleichung unter der folgenden Bedingung lösen: $\omega = \sqrt{\frac{D}{m}}$. Dann gilt, dass $s(t) = \hat{y} * \sin{(\omega * t)}; v(t) = \hat{y} * \omega * \cos{(\omega * t)}; a(t) = - \hat{y} * \omega^2 * \sin{(\omega * t)}$.  
+Dies ist beim Fadenpendel ähnlich, lediglich, dass gilt: $\omega = \sqrt{\frac{g}{L}}$ und beachtet werden muss, dass nur für kleine Auslenkungen der Fehler vernachlässigbar ist, der durch die Anwendung der Kleinwinkelnäherung eingegangen wird.  
+
+Für die Energie in einem harmonischen Oszillator gilt, dass diese immer in anderer Form gespeichert sein kann, wobei die Gesamtmenge immer gleich ist. So gibt es beispielsweise den Fall, welcher in der Ruhelage eintritt, dass die gesamte Energie in kinetischer Energie vorliegt, aber zu einem anderen Zeitpunkt (bei der max. Auslenkung) als potentielle Energie (Fadenpendel), bzw. Spannenergie (Fadenpendel) vorliegt.  
+
+Zwei Schwingungen können auch überlagert werden, dabei kommt es zur Addition der beiden Amplituden, bei konstruktiver und subtraktion bei destruktiver Interferenz (Phasenverschiebung 0 vs. $\pi$). Allgemein gilt des Weiteren, dass die beiden Wellenfunktionen auch einfach addiert werden können um eine Gesamtwellenfunktion zu erhalten.
+
+# Wellen
+Wenn sich die bereits beschriebenen Schwingungen im Raum ausbreiten, so spricht man dann von Wellen. Es kann unterschieden werden in longitudinal (Auslenkung parallel zur Ausbreitung) und transversal (Auslenkung orthogonal Ausbreitung). Nur bei Transversalwellen kann es zum Phänomen der Polarisation kommen. Bei der Polarisationsrichtung betrachtet man die Auslenkungsrichtung und wie sich diese verändert. Verändert diese nicht spricht man von linearer Polarisation, im anderen Fall von zirkularer Polarisation. Mithilfe eines Polarisationsfilters kann jede Welle zudem zu einer linear polarisierten Welle mit bestimmter Ausbreitnugsrichtung umgewandelt werden. Für die entstehende Amplitude gilt dabei: $\hat{y}_{danach} = \hat{y}_{davor} * \cos{(\alpha)}$. Allgemein gilt für Wellen noch der Zusammenhang $$v_{Welle} = c = \frac{\lambda}{T} = \lambda * f$$, wobei die Geschwindigkeit für einen bestimmten Wellentyp in einem bestimmten Medium konstant ist und die Wellenlänge die räumliche Ausdehnung einer kompletten Welle angibt, also der Abstand über zwei Extrema.
+
+Nach dem Huygenschen Prinzip (jeder Punkt einer Wellenfront ist der Ausgangspunkt einer neuen Wellenfront) enstehen meherere Phänomene, wenn eine Welle mit Materie interagiert. So kommt es beispielsweise zur Beugung, wenn diese durch einen Spalt hindurchtritt. Es gilt, umso kleiner der Spalt, desto größer die Beugung. Ein weiteres Phänomen welches durch Huygens zu erklären ist, ist die Brechung, wobei sich die Ausbreitungsrichtung einer Welle ändert, wenn diese in ein Medium eintritt, in welchem sie eine andere Ausbreitungsgeschwindigkeit besitzt.  
+
+Etwas anderes, was auch bei Wellen auftreten kann ist die Interferenz, wobei es wieder konstruktive und desktruktive Interferenz gibt und man die Wellengleichungen einfach addieren kann um die Gesamtwelle zu erhalten.
+
+Wenn Wellen reflektiert werden und wieder auf dem gleichen Weg zum Erzeuger zurückkehren kommt es zu einer stehenden Welle. Diese zeichnet sich dadurch aus, dass die Position der Berge und Täler im Raum fix ist und somit Bäuche und auch Knoten entstehen. Es wird unterschieden zwischen Reflektion an einem offenen und an einem geschlossenen Ende. Dabei gilt, dass bei gleichen Enden (beide offen bzw. beide geschlossen) sthende Wellen von halber, ganzer, 1.5-facher.... Wellenlänge möglich sind und bei verschiedenen $\frac{1}{4}, \frac{3}{4}, \frac{5}{4}...$ möglich sind.
+
+## elektromagnetische Wellen
+Die einfachste Form um eine elektromagnetische Schwingung zu erzeugen ist der elektromagnetische Schwingkreis. Eine einfacher Stromkreis mit einer Spule und einem Kondensator. Wenn der Kondensator dabei einmal geladen wird, würden die Ladungen wenn man Verluste ignoriert unendlich lang in dem Kreis "schwingen", da der Kondensator entladen wird, wenn dieser ausgeglichen ist die Spule den Strom aufrecht erhält und ihn wieder lädt. Weiter vereinfacht wurde diese Schaltung weiterhin im Hertzschen Dipol, wobei es sich lediglich um eine Eisenstange handelt, welche zugleich die Spule als auch den Kondensator darstellt. Allgemein gilt für einen Schwingkreis und desssen Schwingung durch lösen einer Differentialgleichung, dass $$\omega = \sqrt{\frac{1}{LC}}$$.
+Ein solcher Schwingkreis erzeugt des Weiteren auch immer eine elektromagnetische Welle, denn durch die bewegten Ladungen entstehen magnetische Felder, welche durch die unterschiedliche Stromstärken ebenfalls schwingen. Auch erzeugen diese sich ändernden Magnetfelder immer ein elektrisches Feld, welches wieder ein magnetisches erzeugt und so setzt sich die Welle durch den Raum fort. Ausbreiten tut sie sich mit der Lichtgeschwindigkeit, also $c$, wobei gilt dass: $$c = \sqrt{\frac{1}{\mu_0 * \varepsilon_0 (* \mu_r * \varepsilon_r)}}$$. Auch können diese Wellen in einem Lecherleiter untersucht werden, was ein u-förmiger Draht ist, in welchem sich eine stehende elektromagnetische Welle ausbilden kann. 
+
+### Wellenoptik
+In der Optik wird sich damit beschäftigt, wie sich elektromagnetische Wellen beeinflussen lassen. Häufig wird hierbei zeitlich und räumlich kohärentes Licht (also eine elektromagnetische Welle) verwendet - also Licht einer Frequenz (zeitlich) und einer Ausbreitungsrichtung (räumlich). Sonst verhält sich Licht genauso wie mechanische Wellen und gleiche Phänomene lassen sich beobachten (vgl. Brechung, Beugung, Interferenz in [Abschnitt Wellen](#wellen)).  
+Ein Phänomen welches häufig bei Lichtwellen untersucht wird ist der sogenannte Doppelspalt. Hierbei kommt es zu einem Interferenzmuster, wenn Licht durch diesen geschienen wird und auf einen dahinter liegenden Schirm trifft. Eine mögliche Skizze zur Erklärung sieht wie folgt aus (vgl. Abbildung Doppelspalt).
+
+![Doppelspalt](assets/Doppelspalt.png)
+
+Denn es kommt immer zu einem Maximum, wenn der Gangunterschied ein vielfaches der Wellenlänge beträgt, also folgendes gilt: $$n * \lambda = \delta x = \sin{(\alpha)} * g; \hspace{40pt} n \in \mathbb{N} = {0, 1, ...}$$. Die Minima liegen entsprechend dazwischen bei $\delta x = \frac{(2n+1) \lambda}{2}$.  
+Wenn nun statt eines Doppelspaltes eine sogenanntes optisches Gitter (mit sehr vielen Spalten) verwendet wird, so entstehen zusätzlich zu den bereits betrachteten Maxima Nebenmaxima, welche eine nicht ganz so hohe Intensität wie die Hauptmaxima besitzen, an welchen sich das Licht aus allen den Spalten konstruktiv überlagert. Zusätzlich zu den Nebenmaxima entstehen auch mehre Minima entstehen. Es gilt, dass bei einem $n$-fach Spalt zwischen Hauptmaxima $n-1$ Minima und $n-2$ Nebenmaxima entstehen. Des Weiteren wird das Bild durch steilere Intensitätsflanken schärfer.  
+
+Dass dies jedoch nicht vollständig das ganze Phänomen erklärt zeigt sich schon daran, dass man bei den Versuchen eine starke Abnahme der Intensität zu den Rändern des Interferenzmusters erkennt. Dies liegt daran, dass sich das Licht eines Einzelspaltes sich auch gegenseitig auslöschen kann. Dies ist immer dann der Fall, wenn $$\sin{(\alpha)} = n * \frac{\lambda}{b}$$ gilt. Dies lässt sich dadurch erklären, dass für jeden Lichtstrahl im Bündel es dann einen "umgekehrten" gibt und diese sich destruktiv überlagern.  
+Wenn nun dieses Intensitätsbild mit dem eines Gitters bzw. Doppelspalts überlagert erhält man ein sogenanntes reales Doppelspalt-Interferenzbild bzw. reales Gitter-Interferenzbild.  
+
+Wenn die Interferenz durch ein optisches Gitter betrachtet wird, fällt auf, dass die Lage der Maxima unter anderem auch abhängig von der Wellenlänge ist. Hierdurch kann man das optische Gitter auch als Spektrometer verwenden, wobei gilt dass längere Wellenlängen ("röter") weiter außen auf dem Schirm liegen.  
+
+Wie bereits erwähnt gibt es auch bei elektromagnetischen Wellen Brechung wenn diese in ein Medium eintreten. Folgender mathematische Zusammenhang ist dabei wichtig: $$\frac{\sin{(\alpha_1)}}{\sin{(\alpha_2)}} = \frac{c_1}{c_2} = \frac{\lambda_1}{\lambda_2} = \frac{n_2}{n_1}$$. Dabei ist $_1$ immer vor der Brechung. $n$ ist der sogenannte Brechungsindex eines Mediums. Auch hier gilt, dass die Stärke der Brechung abhängig von der Wellenlänge ist. Dies nennt man Dispersion. Allgemein gilt, dass "blau bricht's sich besser".
+
+# Quantenphysik
 
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
