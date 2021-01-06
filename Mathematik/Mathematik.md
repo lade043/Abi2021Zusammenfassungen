@@ -49,7 +49,6 @@ $d$
 : Es kommt zur Verschiebung in y-Richtung nach oben ($d>1$), bzw. unten ($d<1$).
 : > Der Graph der Sinusfunktion wurde um $|d|$ nach oben/unten verschoben.
 
-
 Abbildung(vgl. Abbildung trigonometrische Funktionen) der trigonometrischen Funktionen im Koordinatensystem. $f(x)= \sin{(x)}; \hspace{40pt} g(x) = \cos{(x)}; \hspace{40pt} h(x) = \tan{(x)}$  
 
 ![trigonometrische Funktionen](assets/Trigonometrie.png)
@@ -119,7 +118,6 @@ Um herauszufinden, welche Punkte alle Funktionen der Schar gemein haben, wird di
 ### Bestimmung der Ortskurve besonderer Punkte
 Unter der Ortskurve versteht man die Funktion, auf welcher sich alle besonderen Punkte (Hoch-, Tief- und Wendepunkte) sich bei Variation des Parameters bewegen.  
 Um diese zu bestimmen muss zuerst der Punkt in Abhängigkeit von dem Parameter bestimmt werden. Dafür wird wie bei der sonstigen Bestimmung von Extrem-, bzw. Wendepunkten vorgegangen. Nun kann der x-Wert des Punktes in die Ursprungsfunktionenschar eingesetzt werden und man erhält eine Funktion, welche lediglich Parameter enthält und keine "$x$e". Dies ist die Ortskurve $f(k)$, diese kann nun zu beispielsweise $g(x)$ umbenannt werden.
-
 
 [//]: # (Auch hier eventuell eine Beispielrechnung)
 
@@ -275,7 +273,6 @@ $$f(x) = \sin{(x)}; \hspace{40pt} F(x) = - \cos{(x)}$$
 $$f(x) = \cos{(x)}; \hspace{40pt} F(x) = sin{(x)}$$
 $$f(x) = e^x; \hspace{40pt} F(x) = e^x$$
 
-
 ### rekonstruierter Bestand
 Die Stammfunktion kann beispielsweise verwendet werden, um einen absoluten Wert für einen x-Wert zu bestimmen, wenn lediglich eine Funktion vorhanden ist, welche die Änderungsrate beschreibt. Hierfür wird einerseits die Funktion $f$ benötigt, welche die Änderungsrate beschreibt, als auch der Anfangsbestand $c$. Dann gilt, dass der absolute Bestand $B$ zu einem Punkt $x$ wie folgt berechnet werden kann: $$B(x) = F(x) + c$$
 
@@ -314,7 +311,6 @@ Um den Mittelwert einer Funktion $f$ auf einem Intervall $I = [a;b]$ zu bestimme
 ### Volumen von Rotationskörpern
 Wenn man eine Funktion $f$ um die x-Achse rotieren lässt, so entsteht ein sogenannter Rotationskörper. Dessen Volumen läst sich ähnlich zu dem eines Zylinders, im Integral $[a;b]$ mit $$V = \pi \int_a^b (f(x))^2 dx$$ berechnen. Im Falle, dass ein Körper mit freiem Kern entstehen soll, muss beachtet werden, dass der Kern nicht vor der Berechnung des Integrals von der Funktion subtrahiert werden darf, da sonst eine Verschiebung der Funktion nach unten geschieht und das Volumen nicht mehr stimmt.
 
-
 # Geometrie
 ## Vektoren
 Ein Vektor ist ein Zahlentupel, also eine Sammlung aus einer bestimmten Anzahl an Zahlen. Dieser kann eine Verschiebung oder Richtung angeben.  
@@ -343,7 +339,6 @@ Distributivgesetz
 : *vgl. Grundlagen*
 : $$\vec{u} \cdot (\vec{v} + \vec{w}) = \vec{u} \cdot \vec{v} + \vec{u} \cdot \vec{w}$$
 : $$(r * \vec{u}) \cdot (s * \vec{v}) = (r*s) * (\vec{u} \cdot \vec{v})$$
-
 
 #### Vektorprodukt
 Das Vektor- oder Kreuzprodukt wird dazu genutzt einen Vektor zu finden, der zu beiden Vektoren orthogonal ist. Somit gilt: $$\vec{n} = \vec{a} \times \vec{b}; \hspace{40pt} \vec{a} \cdot \vec{n} = \vec{b} \cdot \vec{a} = 0$$. Die Berechnung des Kreuzprodukts geht dabei wie folgt: $$\vec{a} \times \vec{b} = \begin{pmatrix} a_2 b_3 - a_3 b_2 \\ a_3 b_1 - a_1 b_3 \\ a_1 b_2 - a_2 b_1 \end{pmatrix}$$. Dies kann mithilfe des folgenden Schemas vereinfacht hergeleitet werden (vgl. Abbildung Kreuzprodukt).  
@@ -407,7 +402,6 @@ Hierfür wird zunächst eine Ebene ($E$) in Koordinatenform und eine Gerade ($g$
 2. Die Gleichung stimmt unabhängig davon, was der Parameter annimmt. In diesem Fall gilt $g \in E$, bzw. $g$ liegt in $E$.
 
 3. Die Gleichung stimmt, wenn der Parameter einen bestimmten Wert annimmt, also wenn die Gleichung wie folgt vereinfacht werden kann $s = k; k \in \mathbb{R}$. In diesem Fall schneidet die Gerade die Ebene. Um den Schnittpunkt zu bestimmen kann $k$ in die Geradengleichung eingesetzt werden.
-
 
 ### Lagebeziehungen von Ebenen
 Wenn die Lage zwischen zwei Ebenen bestimmt werden soll, so müssen zunächst die Normalenvektoren ($\vec{n_1}, \vec{n_2}$) der beiden Ebenen bekannt sein. Wenn gilt, dass $\vec{n_1} \parallel \vec{n_2}$, bzw. $\vec{n_1} = r * \vec{n_2}; r \in \mathbb{R}$, dann ind die beiden Ebenen parallel. Wenn dies nicht gilt, so schneiden sie sich. Ein Spezialfall des Schneidens ist, wenn $\vec{n_1} \cdot \vec{n_2} = 0$, da dann die Ebenen sich orthogonal schneiden und $E_1 \perp E_2$ ist.
@@ -490,8 +484,58 @@ Für die Modellierung einer geradlinigen Bewegung im Raum wird eine Zeit-Ort-Gle
 ## Scharen
 Scharen sind immer eine Menge an Geraden oder Ebenen, welche in einem der Vektoren einen Parameter besitzen. Hierdurch wird bei Variation des Parameters die Ebene, bzw. Gerade verändert.
 
-
 # Stochastik
+
+Ergebnis
+: Möglichkeiten die sich beim durchführen des Experiment ergeben können, beispielsweise $\{ 1, 2, 3, 4, 5, 6 \}$ beim Werfen eines Würfels als Menge aller Ergebnisse
+
+Ereignis
+: Teilmenge an Ergebnissen
+
+Gegenereignis
+: das genau umgekehrte Ereignis zu einem Ereignis $E$, man schreibt um $\overline{E}$ es anzugeben
+: es gilt: $P(\overline{E}) = 1 - P(E)$
+
+## mehrstufige Zufallsexperimente
+Wenn ein Zufallsexperiment gemacht werden soll, bei welchem mehrere Einzelereignisse in dem Ereignis zusammengefasst werden, also beispielsweise das Ergebnis von zwei Würfeln betrachtet werden soll, so gilt, dass um die Gesamtwahrscheinlichkeit zu erhalten man die Einzelwahrscheinlichkeiten multiplizieren muss. Dabei nennt man die Kette an Einzelereignissen einen Pfad. Wenn das Ereignis eine Menge ist, so kann die Wahrscheinlichkeit der verschiedenen Pfade addiert werden.
+
+## bedingte Wahrscheinlichkeit
+Wenn die Wahrscheinlichkeit, dass ein Ereignis $B$ dadurch verändert wird, dass Ereignis $A$ eingetreten ist, so spricht man von einer bedingten Wahrscheinlichkeit. Um diese Wahrscheinlichkeit anzugeben schreibt man $P_A(B)$. Allgemein gilt, dass: $$P_A(B) = \frac{P(A \cap B)}{P(A)}$$. Wenn zwei Ereignisse nicht bedingt sind --- also unabhängig, so gilt immer $$P_A(B) = P(B) \hspace{40pt} P(A \cap B) = P(A) * P(B)$$
+
+## besondere Experimente
+### LaPlace Experiment
+Unter einem LaPlace-Experiment versteht man ein Experiment bei welchem alle möglichen Ergebnisse gleich wahrscheinlich sind. Ein Beispiel hierfür wäre das Werfen einer Münze oder eines Würfels. Allgemein gilt dabei hierdurch, dass $$P(E) = \frac{Anzahl Ergebnisse in E}{Anzahl aller möglichen Ergebnisse}$$
+
+### Bernoulli Experiment
+Das Bernoulli Experiment ist ein mehrstufiges Zufallsexperiment mit zwei Ergebnissen, wobei sich die Wahrscheinlichkeit der Ereignisse über die Versuche hinweg nicht verändert. Es handelt sich also um das klassische Zufallsexperiment mit zurücklegen.  
+Das Bernoulli Experiment ist zudem die Ausgangsbasis der Binomialverteilung, bei welcher die Wahrscheinlichkeiten eines Bernoulli Experiment betrachtet werden.
+
+## Binomialverteilung
+Wenn ein Bernoulli Experiment durchgeführt wird und die Wahrscheinlichkeit für $r$ Treffer berechnet werden soll, so gilt: $$P(X = r) = B_{n;p}(r) = {n \choose r} * p^r * (1-p)^{n-r}$$, wobei $p$ die Wahrscheinlichkeit eines Treffers angibt und $n$ die Länge der Bernoulli Kette, also wie viele Versuche gemacht werden sollen, in welchen $r$ Treffer vorkommen sollen. ${n \choose r}$ ist der Binomialkoeffizient, also wie viele Kombinationen von $r$ Treffern in $n$ Versuchen es gibt. Er wird wie folgt berechnet: $${n \choose r} = \frac{n!}{r! * (n-r)!}$$. Der Erwartungswert einer solchen Verteilung ist immer $E(X) = n * p$, die Standardabweichung beträgt immer $\tau = \sqrt{n * p * (1-p)}$.  
+Wenn $P(X = r)$ berechnet werden soll, so muss `binomialpdf` verwendet werden, wenn die kumulierte Wahrscheinlichkeit $P(X \leq r)$ berechnet werden soll, dann wird `binomialcdf` verwendet.  
+
+Wenn in einer Aufgabe mit der Binomialverteilung gerechnet wird muss immer folgendes angegeben werden: *X ist binomialverteilt mit Parameter $n$ und $p$* oder *X ist $B_{n;p}$-verteilt*.
+
+## Histogramme
+Um die Wahrscheinlichkeit für verschiedene Ereginisse zu veranschaulichen werden häufig Histogramme verwendet, welche die Wahrscheinlichkeit für jedes Ereignis anzeigen. Auf der x-Achse ist dabei $X$ aufgetragen, auf der y-Achse $P(X)$. Leicht lässt sich des Weiteren der Erwartungswert in einem solchen Diagramm ablesen, da es sich lediglich um die höchste Säule handelt, da der Erwartungswert das Ereignis mit der höchsten Wahrscheinlichkeit ist, wenn es sich um eine der in den Schulen üblichen Wahrscheinlichkeitsverteilungen handelt. Ein Beispiel für ein Histogramm ist in der Abbildung Histogramm zu sehen. 
+
+![Histogramm](assets/histogramm.png)
+
+## Hypothesentest
+Wenn überprüft werden soll, ob eine Hypothese, welche im Zusammenhang mit einer Binomialverteilung steht, stimmt so kann ein Hypothesentest gemacht werden.
+
+### einseitiger Hypothesentest
+Wenn lediglich überprüft werden soĺl, ob eine Wahrscheinlichkeit in Wirklichkeit größer oder kleiner ist, so kann ein einseitiger Hypothesentest gemacht werden. Hierfür wird zunächst die Hypothese $H_0$ aufgestellt mit der zutreffenden Wahrscheinlichkeit $p_0$ und eine Alternative $H_1$, dass $p < p_0$ bei einem linksseitigen Test bzw. $p > p_0$ bei einem rechtsseitigen Test. Nun muss noch das Signifikanzniveau $\alpha$ bestimmt werden, ab welchem man die Hypothese verwirft. Ein häufiger Wert ist $\alpha = 5 %$.  
+
+Bei einem linksseitigen Test muss nun der Ablehnungsbereich bestimmt werden, in dem man die größtmögliche Zahl $g$ bestimmt, für welche $$P(X \leq g) \leq \alpha$$ gilt. Dann ist der Ablehnungsbereich wie folgt: $\{0, 1, ..., g \}$. Des Weiteren kann nun noch die Entscheidungsregel definiert werden.  
+
+Beim rechtsseitigen Test wird ähnlich vorgegangen, nur dass die kleinstmögliche Zahl gesucht wird, für welche gilt $P(X \geq g) \leq \alpha$. Da dies jedoch nicht mit dem Taschenrechner berechnet werden kann wird $g$ für folgende Bedingung gesucht: $$P(X \leq g - 1) \geq 1 - \alpha$$. Hierbei gilt, dass der Ablehnungsbereich $\{g, g+1, ..., n \}$ ist. Dementsprechend kann auch hier die Entscheidungsregel bestimmt werden.  
+
+Für beide Tests wird die Entscheidungsregel dann wie folgt formuliert: *Wenn das Stichprobenergebnis im Ablehnungsbereich liegt, wird $H_0$ verworfen. Anderen Falls wird $H_0$ nicht verworfen.*.  
+Auch muss beachtet werden, dass in jedem Fall eine Binomialverteilung verwendet wird, wodurch wie im [Abschnitt Binomialverteilung](#binomialverteilung) bereits beschrieben ein Satz wie folgt angegeben werden muss: *X ist im Extremfall (bei wahrer Nullhypothese $H_0$) $B_{n;p}$-verteilt.*
+
+### zweiseitiger Hypothesentest
+
 
 
 # Anhang
