@@ -1,12 +1,43 @@
 {
     "cSpell.language": ",de",
     "cSpell.words": [
+        "ausmultiplizierung",
         "ber",
         "berührpunkt",
         "berührpunkts",
+        "extremal",
+        "frey",
         "hebbare",
+        "hesse",
+        "hesse'sche",
         "hrpunkt",
         "hrpunkts",
-        "ungestrecktem"
+        "perp",
+        "pmatrix",
+        "ungestrecktem",
+        "vieta"
+    ],
+    "cSpell.ignoreWords": [
+        "author",
+        "downarrow",
+        "einzelspaltes",
+        "fungen",
+        "intensit",
+        "intensitätsflanken",
+        "krischke",
+        "longrightarrow",
+        "martenstein",
+        "mathbb",
+        "october",
+        "pr",
+        "präsentationsprüfungen",
+        "r",
+        "rescale",
+        "räuml",
+        "sentationspr",
+        "steueridentnummer",
+        "tsflanken",
+        "uml",
+        "zeitl"
     ]
 }

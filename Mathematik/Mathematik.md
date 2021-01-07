@@ -536,7 +536,10 @@ Auch muss beachtet werden, dass in jedem Fall eine Binomialverteilung verwendet 
 
 ### zweiseitiger Hypothesentest
 
+### Fehler
+Wenn Hypothesen überprüft werden, so können zwei Arten von Fehlern auftreten. Der Fehler 1.Art ist, wenn man die Nullhypothese verwirft obwohl sie richtig ist. Die Wahrscheinlichkeit für diesen Fehler ist gleich der Irrtumswahrscheinlichkeit, also der Wahrscheinlichkeit, welche bei der Berechnung des Ablehnungsbereichs das erste Mal die Bedingung erfüllt.  
 
+Der Fehler zweiter Art ist, wenn man die Hypothese nicht verwirft obwohl diese falsch ist. Für diesen Fehler die Wahrscheinlichkeit zu berechnen ist nur möglich wenn man die reellen Werte hat.
 
 # Anhang
 ## Grundwissen
