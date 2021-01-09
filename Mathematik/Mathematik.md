@@ -496,6 +496,18 @@ Gegenereignis
 : das genau umgekehrte Ereignis zu einem Ereignis $E$, man schreibt um $\overline{E}$ es anzugeben
 : es gilt: $P(\overline{E}) = 1 - P(E)$
 
+Erwartungswert
+: der Wert, welcher im Durchschnitt als Ergebnis eines Zufallsexperiments entsteht
+: Die zugehörige Formel ist: $E(X) = \mu = p_{X_1} * X_1 + p_{X_2} * X_2 + ....$
+: Für Erwartungswert bei der Binomialverteilung vgl. [Abschnitt Binomialverteilung](#binomialverteilung)
+
+Standardabweichung
+: ($\sigma$) ist eine Kennzahl für die Breite einer Wahrscheinlichkeitsverteilung
+: Näherungsweise gelten des weiteren folgende Werte:
+: $P(E - \sigma \leq X \leq E + \sigma) = 68,3 \%$  
+: $P(E - 2 \sigma \leq X \leq E + 2 \sigma) = 95,4 \%$  
+: $P(E - 3 \sigma \leq X \leq E + 3 \sigma) = 99,7 \%$
+
 ## mehrstufige Zufallsexperimente
 Wenn ein Zufallsexperiment gemacht werden soll, bei welchem mehrere Einzelereignisse in dem Ereignis zusammengefasst werden, also beispielsweise das Ergebnis von zwei Würfeln betrachtet werden soll, so gilt, dass um die Gesamtwahrscheinlichkeit zu erhalten man die Einzelwahrscheinlichkeiten multiplizieren muss. Dabei nennt man die Kette an Einzelereignissen einen Pfad. Wenn das Ereignis eine Menge ist, so kann die Wahrscheinlichkeit der verschiedenen Pfade addiert werden.
 
@@ -504,7 +516,7 @@ Wenn die Wahrscheinlichkeit, dass ein Ereignis $B$ dadurch verändert wird, dass
 
 ## besondere Experimente
 ### LaPlace Experiment
-Unter einem LaPlace-Experiment versteht man ein Experiment bei welchem alle möglichen Ergebnisse gleich wahrscheinlich sind. Ein Beispiel hierfür wäre das Werfen einer Münze oder eines Würfels. Allgemein gilt dabei hierdurch, dass $$P(E) = \frac{Anzahl Ergebnisse in E}{Anzahl aller möglichen Ergebnisse}$$
+Unter einem LaPlace-Experiment versteht man ein Experiment bei welchem alle möglichen Ergebnisse gleich wahrscheinlich sind. Ein Beispiel hierfür wäre das Werfen einer Münze oder eines Würfels. Allgemein gilt dabei hierdurch, dass $$P(E) = \frac{\text{Anzahl Ergebnisse in E}}{\text{Anzahl aller möglichen Ergebnisse}}$$
 
 ### Bernoulli Experiment
 Das Bernoulli Experiment ist ein mehrstufiges Zufallsexperiment mit zwei Ergebnissen, wobei sich die Wahrscheinlichkeit der Ereignisse über die Versuche hinweg nicht verändert. Es handelt sich also um das klassische Zufallsexperiment mit zurücklegen.  
@@ -525,7 +537,7 @@ Um die Wahrscheinlichkeit für verschiedene Ereginisse zu veranschaulichen werde
 Wenn überprüft werden soll, ob eine Hypothese, welche im Zusammenhang mit einer Binomialverteilung steht, stimmt so kann ein Hypothesentest gemacht werden.
 
 ### einseitiger Hypothesentest
-Wenn lediglich überprüft werden soĺl, ob eine Wahrscheinlichkeit in Wirklichkeit größer oder kleiner ist, so kann ein einseitiger Hypothesentest gemacht werden. Hierfür wird zunächst die Hypothese $H_0$ aufgestellt mit der zutreffenden Wahrscheinlichkeit $p_0$ und eine Alternative $H_1$, dass $p < p_0$ bei einem linksseitigen Test bzw. $p > p_0$ bei einem rechtsseitigen Test. Nun muss noch das Signifikanzniveau $\alpha$ bestimmt werden, ab welchem man die Hypothese verwirft. Ein häufiger Wert ist $\alpha = 5 %$.  
+Wenn lediglich überprüft werden soĺl, ob eine Wahrscheinlichkeit in Wirklichkeit größer oder kleiner ist, so kann ein einseitiger Hypothesentest gemacht werden. Hierfür wird zunächst die Hypothese $H_0$ aufgestellt mit der zutreffenden Wahrscheinlichkeit $p_0$ und eine Alternative $H_1$, dass $p < p_0$ bei einem linksseitigen Test bzw. $p > p_0$ bei einem rechtsseitigen Test. Nun muss noch das Signifikanzniveau $\alpha$ bestimmt werden, ab welchem man die Hypothese verwirft. Ein häufiger Wert ist $\alpha = 5 \%$.  
 
 Bei einem linksseitigen Test muss nun der Ablehnungsbereich bestimmt werden, in dem man die größtmögliche Zahl $g$ bestimmt, für welche $$P(X \leq g) \leq \alpha$$ gilt. Dann ist der Ablehnungsbereich wie folgt: $\{0, 1, ..., g \}$. Des Weiteren kann nun noch die Entscheidungsregel definiert werden.  
 
