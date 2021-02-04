@@ -39,7 +39,7 @@ $a$
 
 $b$  
 : Es kommt zu Streckung ($b<1$), bzw. Stauchung ($b>1$) in x-Richtung. Die Periode der Funktion beträgt dabei immer $p = \frac{2 \pi}{b}$. **$\rightarrow$ desto kleiner b, desto größer die Periodenlänge**
-: > Der Graph der Sinusfunktion wurde um den Faktor $1/b$, bzw. $b$ in y-Richtung gestreckt/gestaucht. Die entstandene Periodendauer entspricht $\frac{2 \pi}{b}$.
+: > Der Graph der Sinusfunktion wurde um den Faktor $1/b$, bzw. $b$ in x-Richtung gestreckt/gestaucht. Die entstandene Periodendauer entspricht $\frac{2 \pi}{b}$.
 
 $c$  
 : Es kommt zur Verschiebung in x-Richtung, nach links ($c<0$) bzw. rechts ($c>0$).
@@ -101,7 +101,7 @@ Von einer Verkettung von Funktionen spricht man, wenn die Funktionswerte der ein
 Um eine ganzrationale Funktion mit gewünschten Eigenschaften zu erhalten, muss zunächst eine Grundfunktion aufgestellt werden. Diese ist immer nach dem Muster aller ganzrationalen Funktionen (vgl. [Abschnitt ganzrationale Funktionen](#ganzrationale-funktionen)): $f(x) = a_n * x^n + .... + a_1 * x^1 + a_0; \hspace{40pt} n \in \mathbb{N}$.  
 Nun müssen die allgemeinen Eigenschaften verallgemeinert werden. Beispiele hierfür wären:
 
-- Hochpunkt bei $HP(2|3)$ wird zu $f'(2) = 0$, $f(2) = 3$ und $f''(2)<0$  
+- Hochpunkt bei $HP(2|3)$ wird zu $f(2) = 3$, $f'(2) = 0$ und $f''(2)<0$  
 - Funktion 3. Grades bedeutet, dass $n=3$ gilt  
 - Achsensymmetrie bedeutet, dass nur geradzahlige Exponenten vorkommen dürfen, Punktsymmetrie, dass nur ungeradzahlige Exponenten
 
@@ -116,7 +116,7 @@ Um herauszufinden, welche Punkte alle Funktionen der Schar gemein haben, wird di
 [//]: # (Beispielrechnung wäre hier wahrscheinlich ganz hilfreich.....)
 
 ### Bestimmung der Ortskurve besonderer Punkte
-Unter der Ortskurve versteht man die Funktion, auf welcher sich alle besonderen Punkte (Hoch-, Tief- und Wendepunkte) sich bei Variation des Parameters bewegen.  
+Unter der Ortskurve versteht man die Funktion, auf welcher sich alle besonderen Punkte (Hoch-, Tief- und Wendepunkte) bei Variation des Parameters bewegen.  
 Um diese zu bestimmen muss zuerst der Punkt in Abhängigkeit von dem Parameter bestimmt werden. Dafür wird wie bei der sonstigen Bestimmung von Extrem-, bzw. Wendepunkten vorgegangen. Nun kann der x-Wert des Punktes in die Ursprungsfunktionenschar eingesetzt werden und man erhält eine Funktion, welche lediglich Parameter enthält und keine "$x$e". Dies ist die Ortskurve $f(k)$, diese kann nun zu beispielsweise $g(x)$ umbenannt werden.
 
 [//]: # (Auch hier eventuell eine Beispielrechnung)
@@ -247,7 +247,7 @@ Zur Bestimmung der Extrempunkte einer Funktion $f$, müssen zuerst die Extremste
 Wenn die Wendepunkte einer Funktion $f$ berechnet werden sollen, müssen zunächst die Wendestellen mittels lösen der folgenden Gleichung bestimmt werden: $$f''(x) = 0$$, wobei wiederum gelten muss, dass $$f'''(x) \neq 0$$ ist. Nun kann der Wendepunkt $WP$ nach dem folgenden Schema bestimmt werden: $WP(x|f(x))$.
 
 ## Extremwertbestimmung mit Nebenbedingungen
-Zunächst muss der Term bestimmt werden, welcher extremal werden soll. Wenn dieser mehrere Variablen enthält muss mittels der Zusammenhänge zwischen den Variablen einer gefunden werden, mit einer Variable. Diese Funktion nennt man Zeilfunktion. Außerdem muss das Intervall bekannt sein, in welchem die Zielfunktion auf Extrembedingungen untersucht werden soll.  Nun kann die Zielfunktion auf Extremwerte untersucht werden, welche im Intervall liegen. Auch muss durch überprüfen der Ränder des Intervalls gesichert werden, dass diese keine höheren (oder sonstigen extremen) Werte besitzen. Nun kann zum Schluss das Ergebnis formuliert werden, wobei angegeben wird, ob der extremste Wert an den Rändern oder in dem Intervall liegt.
+Zunächst muss der Term bestimmt werden, welcher extremal werden soll. Wenn dieser mehrere Variablen enthält muss mittels der Zusammenhänge zwischen den Variablen einer gefunden werden, mit einer Variable. Diese Funktion nennt man Zielfunktion. Außerdem muss das Intervall bekannt sein, in welchem die Zielfunktion auf Extrembedingungen untersucht werden soll.  Nun kann die Zielfunktion auf Extremwerte untersucht werden, welche im Intervall liegen. Auch muss durch überprüfen der Ränder des Intervalls gesichert werden, dass diese keine höheren (oder sonstigen extremen) Werte besitzen. Nun kann zum Schluss das Ergebnis formuliert werden, wobei angegeben wird, ob der extremste Wert an den Rändern oder in dem Intervall liegt.
 
 ## Stammfunktionen
 Wenn man die kumulierten Werte einer Funktion bis zu einem Punkt erhalten möchte, so kann man eine Funktion $f(x)$ aufleiten und ihre Stammfunktion $F(x)$ erhalten. Die Aufleitung, bzw. Stammfunktion ist das umgekehrte zur Ableitung einer Funktion. Deshalb gilt auch, dass $F'(x) = f(x)$.  
@@ -450,7 +450,7 @@ Punktspiegelung
 : Der gespiegelte Punkt $P'$ entsteht wie folgt, wenn an dem Punkt $Z$ gespiegelt wird: $P' = Z + \vec{PZ}$.
 
 Spiegelung an einer Geraden
-: Hierfür wird eine Hilfsebene $E_h$, aus dem Richtungsvektor der Geraden ($g$) als Normalenvektor und dem Punkt $P$ als Punkt der Ebene, erzeugt. Für diese gilt: $P \in E_h \perp g$. Wenn nun der Schnittpunkt zwischen $E_h$ und $g4 berechnet und wie bei der Punktspiegelung am Schnittpunkt verfahren. Somit gilt dann, wenn $E_h \cap g = \{F\}$ gilt, dass der gespiegelte Punkt $P'$ wie folgt berechnet wird: $P' = F + \vec{PF}$.
+: Hierfür wird eine Hilfsebene $E_h$, aus dem Richtungsvektor der Geraden ($g$) als Normalenvektor und dem Punkt $P$ als Punkt der Ebene, erzeugt. Für diese gilt: $P \in E_h \perp g$. Wenn nun der Schnittpunkt zwischen $E_h$ und $g$ berechnet wird, kann wie bei einer Punktspiegelung am Schnittpunkt verfahren werden. Somit gilt dann, wenn $E_h \cap g = \{F\}$ gilt, dass der gespiegelte Punkt $P'$ wie folgt berechnet wird: $P' = F + \vec{PF}$.
 
 Spiegelung an einer Ebene
 : Wenn diese Art der Spiegelung vollzogen werden soll, so muss eine Hilfsgerade durch den Punkt $P$, welche rechtwinklig zu der Ebene $E$ ist erzeugt werden (Normalenvektor gleich dem Richtungsvektor und $P$ als Punkt der Geraden). Nun kann wieder der Schnittpunkt $F$ zwischen Gerade und Ebene bestimmt werden und mit der folgenden Gleichung de gespiegelte Punkt $P'$ berechnet werden: $P' = F + \vec{PF}$. 
@@ -547,11 +547,12 @@ Für beide Tests wird die Entscheidungsregel dann wie folgt formuliert: *Wenn da
 Auch muss beachtet werden, dass in jedem Fall eine Binomialverteilung verwendet wird, wodurch wie im [Abschnitt Binomialverteilung](#binomialverteilung) bereits beschrieben ein Satz wie folgt angegeben werden muss: *X ist im Extremfall (bei wahrer Nullhypothese $H_0$) $B_{n;p}$-verteilt.*
 
 ### zweiseitiger Hypothesentest
+Der zweiseitige Hypothesentest ist letztlich eine Kombination aus einem rechts- und einem linksseitigen Test. Durch ihn wird eine Hypothese allgemein auf Richtigkeit überprüft. Zur Berechnung des Ablehnungsbereich werden die Ablehnungsbereiche eines linksseitigen Tests und eines rechtsseitigen kombiniert. Für diese Hypothesentests wird als Signifikanzniveau $\frac{\alpha}{2}$ genutzt, da durch Kombination das Gesamtsignifikanzniveau $\alpha$ ergibt. Auch hier gilt, dass häufig als Signifikanzniveau $\alpha = 2,5 \%$. Da der zweiseitige Hypothesentest eine Kombination aus zwei einseitigen Tests ist, wird ansonsten wie im [vorherigen Abschnitt](#einseitiger-hypothesentest) vorgegangen. Das heißt es werden ein linksseitiger Test mit $P(X \leq g_1) \leq \frac{\alpha}{2}$ und ein rechtseitiger Test mit $P(X \geq g_2) \leq \frac{\alpha}{2}$ durchgeführt und der Ablehnungsbereich $\{0, 1, ..., g_1, g_2, g_2+1, ..., n\}$ erstellt.
 
 ### Fehler
-Wenn Hypothesen überprüft werden, so können zwei Arten von Fehlern auftreten. Der Fehler 1.Art ist, wenn man die Nullhypothese verwirft obwohl sie richtig ist. Die Wahrscheinlichkeit für diesen Fehler ist gleich der Irrtumswahrscheinlichkeit, also der Wahrscheinlichkeit, welche bei der Berechnung des Ablehnungsbereichs das erste Mal die Bedingung erfüllt.  
+Wenn Hypothesen überprüft werden, so können zwei Arten von Fehlern auftreten. Der Fehler 1.Art ist, wenn man die Nullhypothese verwirft obwohl sie richtig ist. Die Wahrscheinlichkeit für diesen Fehler ist gleich der Irrtumswahrscheinlichkeit, also der Wahrscheinlichkeit, welche bei der Berechnung des Ablehnungsbereichs das erste Mal die Bedingung erfüllt. Somit kann die Wahrscheinlichkeit für einen Fehler erster Art vor allem durch die Veränderung des Signifikanzniveaus beeinflusst werden. 
 
-Der Fehler zweiter Art ist, wenn man die Hypothese nicht verwirft obwohl diese falsch ist. Für diesen Fehler die Wahrscheinlichkeit zu berechnen ist nur möglich wenn man die reellen Werte hat.
+Der Fehler zweiter Art ist, wenn man die Hypothese nicht verwirft obwohl diese falsch ist. Für diesen Fehler die Wahrscheinlichkeit zu berechnen ist nur möglich wenn man die reellen Werte hat. In diesem Fall, muss die Wahrscheinlichkeit berechnet werden, dass mit der reellen Verteilung das Ergebnis im Annahmebereich, also außerhalb des Ablehnungsbereichs liegt. Diese Wahrscheinlichkeit für diese Art von Fehler kann am leichtesten durch die Erhöhung des Stichprobenumfangs verringert werden.
 
 # Anhang
 ## Grundwissen
