@@ -14,7 +14,7 @@ fontsize: 12pt
 papersize: a4
 toc: true
 linestretch: 1.25
-copyright: Copyright © 2020 Lars Bogner
+copyright: Copyright © 2020-2021 Lars Bogner
 ---
 
 # Analysis
@@ -553,6 +553,18 @@ Der zweiseitige Hypothesentest ist letztlich eine Kombination aus einem rechts- 
 Wenn Hypothesen überprüft werden, so können zwei Arten von Fehlern auftreten. Der Fehler 1.Art ist, wenn man die Nullhypothese verwirft obwohl sie richtig ist. Die Wahrscheinlichkeit für diesen Fehler ist gleich der Irrtumswahrscheinlichkeit, also der Wahrscheinlichkeit, welche bei der Berechnung des Ablehnungsbereichs das erste Mal die Bedingung erfüllt. Somit kann die Wahrscheinlichkeit für einen Fehler erster Art vor allem durch die Veränderung des Signifikanzniveaus beeinflusst werden. 
 
 Der Fehler zweiter Art ist, wenn man die Hypothese nicht verwirft obwohl diese falsch ist. Für diesen Fehler die Wahrscheinlichkeit zu berechnen ist nur möglich wenn man die reellen Werte hat. In diesem Fall, muss die Wahrscheinlichkeit berechnet werden, dass mit der reellen Verteilung das Ergebnis im Annahmebereich, also außerhalb des Ablehnungsbereichs liegt. Diese Wahrscheinlichkeit für diese Art von Fehler kann am leichtesten durch die Erhöhung des Stichprobenumfangs verringert werden.
+
+## Dichtefunktionen
+Zufallsgrößen können zudem entsprechend einer Dichtefunktion verteilt sein. Dies ist der Fall, wenn es eine unendliche Anzahl an Ergebnissen gibt. Diese Art von Zufallsgrößen nennt man stetige Zufallsgrößen. Für solche gibt das Integral der Dichtefunktion für ein bestimmtes Intervall an, welche Wahrscheinlichkeit besteht, dass ein Ergebnis in diesem Intervall ist. Die Wahrscheinlichkeit für ein bestimmtes Ergebnis ist wiederum immer 0, da es eine unendliche Anzahl an möglichen gibt.  
+
+Damit eine Funktion ($f$) eine Dichtefunktion sein kann, müssen zwei Bedingungen erfüllt sein. So muss gelten, dass die Funktion im Intervall der Zufallsgrößen ($I$) nie unter die x-Achse fällt, also $$f(x) \geq 0; \hspace{40pt} x \in I$$. Zudem muss das Integral über das Intervall genau 1, also 100% ergeben. Also muss gelten, dass $$\int_{I_0}^{I_1} f(x) dx = 1$$
+
+## Normalverteilung
+Eine weitere Verteilung von Zufallsgrößen ist die Normalverteilung. Sie beschreibt die Verteilung von stetigen Zufallsgrößen und ist somit eine Dichtefunktion. Diese Form der Verteilung kommt insbesondere häufig in der Natur vor. Der Graph der Dichtefunktion dieser Verteilung beschreibt eine Glockenkurve, mit einem Hochpunkt beim Erwartungswert. Die Breite der Glocke ist zudem direkt durch die Standardabweichung bzw. umgekehrt beeinflusst. Die Glockenkurve wird durch die folgende Funktion definiert: $$\varphi(x) = \frac{1}{\sqrt{2 \pi} * \sigma} * e^{- \frac{(x - \mu)^2}{2 \sigma^2}}$$. Da es sich bei dieser Funktion um eine Dichtefunktion handelt gilt zudem, dass $$\int_{-\infty}^{\infty} \varphi(x) dx = 1$$. Dies muss jedoch nicht bewiesen werden im Abitur. Ein Beispielgraph für eine Normalverteilung mit $\sigma = \frac{1}{3}$ und $\mu = 1$ ist in der Abbildung Normalverteilung zu erkennen.
+
+![Normalverteilung](assets/normalverteilung.png)
+
+Wenn eine Wahrscheinlichkeit für normalverteilte Zufallsgrößen berechnet werden soll, wird `normalpdf` und `normalcdf` verwendet. Dabei wird `normalcdf` zur Berechnung der Wahrscheinlichkeit, dass das Ergebnis in dem angegebenen Intervall liegt, genutzt. `normalpdf` liefert die Werte der Dichtefunktion an der angegeben Stelle.
 
 # Anhang
 ## Grundwissen

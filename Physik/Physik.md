@@ -14,7 +14,7 @@ fontsize: 12pt
 papersize: a4
 toc: true
 linestretch: 1.25
-copyright: Copyright © 2020 Lars Bogner
+copyright: Copyright © 2020-2021 Lars Bogner
 ---
  
 # Mechanik
