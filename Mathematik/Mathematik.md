@@ -107,6 +107,13 @@ Nun müssen die allgemeinen Eigenschaften verallgemeinert werden. Beispiele hier
 
 Alle somit erhaltenen Eigenschaften müssen nun verarbeitet werden. Dabei gilt als Faustformel, dass Eigenschaften des Funktionsterms (Bsp.: "nur ungeradzahlige Exponenten") direkt auf diesen angewendet werden, Gleichungen die man erhält in ein lineares Gleichungssystem (LGS) übernommen werden und Ungleichungen zur Probe des finalen Terms genutzt werden. **Wenn eine Probe möglich ist, darf diese nicht vergessen werden.**
 
+### Bestimmung trigonometrischer Funktionen
+Zur Bestimmung von trigonometrischen Funktionen müssen die charakteristischen Eigenschaften des Graphen der Funktion zunächst betrachtet werden. Das heißt es wird bestimmt, um welche Mittellage die Funktion schwingt, was der Verschiebung in y-Richtung entspricht. Darauf folgend wird die Amplitude und Periode der Funktion betrachtet und zur Bestimmung der Streckung in y-Richtung und x-Richtung verwendet. Zuletzt wird bestimmt, um wie viel der Graph in x-Richtung verschoben ist, wozu der Durchgang des Graphen durch die Mittellage in aufsteigende Richtung zunächst gesucht wird, da dieser bei einem unverschobenen Graphen bei $x=0$ zu finden ist.  
+Die genauere Funktion der Parameter, welche bei der Bestimmung gefunden werden müssen, wurde im [Abschnitt trigonometrische Funktionen](#trigonometrische-funktionen) behandelt, weshalb dieser bei diesem Aufgabentyp ebenfalls wichtig ist.
+
+### Bestimmung exponentieller Funktionen
+Um eine Funktion des Typs $f(x) = a * e^{bx} + c$ zu bestimmen, kann wie folgt vorgegangen werden. Zunächst wird $c$ bestimmt, indem betrachtet wird auf welchem Niveau die waagrechte Asymptote des Graphen liegt. Denn bei einer unverschobenen Funktion liegt dieses bei $y = 0$, wobei allgemein gilt, dass $y = c$. Darauf hin wird $f(0)$ bestimmt, da dies uns mit bekanntem $c$ eine Gleichung mit einer Variablen nach dem Schema $f(0) = a * e^{b*0} + c = a * 1 +c$ liefert. Im Anschluss kann nun noch $b$ mittels Nutzung eines beliebigen Funktionswerts mit Bedingung $x \neq 0$ bestimmt werden, erneut durch Lösung der Gleichung, in diesem Fall zu $b$ mittels des natürlichen Logarithmus.
+
 ## Funktionenscharen
 Eine Funktionenschar ist eine Menge an Funktionen, wobei diese Funktionen durch einen Parameter variiert werden. Eine Funktionenschar wird wie folgt dargestellt: $$f_t(x) = ...$$. Dabei ist $t$ der Parameter. Ein mögliches Beispiel wäre hier $f_t(x) = x^2 - tx$. Beim Rechnen mit einer solchen Schar von Funktionen wird $t$ als konstante Zahl betrachtet und entsprechend mit diesem vorgegangen. So lassen sich dann beispielsweise auch Integrale oder Extrempunkte bestimmen in Abhängigkeit von $t$, wobei das $t$ in das Ergebnis übernommen wird.
 
@@ -487,7 +494,7 @@ Scharen sind immer eine Menge an Geraden oder Ebenen, welche in einem der Vektor
 # Stochastik
 
 Ergebnis
-: Möglichkeiten die sich beim durchführen des Experiment ergeben können, beispielsweise $\{ 1, 2, 3, 4, 5, 6 \}$ beim Werfen eines Würfels als Menge aller Ergebnisse
+: Möglichkeiten die sich beim Durchführen des Experiment ergeben können, beispielsweise $\{ 1, 2, 3, 4, 5, 6 \}$ beim Werfen eines Würfels als Menge aller Ergebnisse
 
 Ereignis
 : Teilmenge an Ergebnissen
@@ -498,15 +505,17 @@ Gegenereignis
 
 Erwartungswert
 : der Wert, welcher im Durchschnitt als Ergebnis eines Zufallsexperiments entsteht
-: Die zugehörige Formel ist: $E(X) = \mu = p_{X_1} * X_1 + p_{X_2} * X_2 + ....$
+: Die zugehörige Formel lautet bei einer diskret verteilten Zufallsgröße: $$E(X) = \mu = \sum_{i=1}^{n} p_{X_i} * X_i = p_{X_1} * X_1 + p_{X_2} * X_2 + ....$$ und bei einer stetigen Zufallsgröße: $$E(X) = \mu = \int_{a}^{b} x * f(x) dx$$
 : Für Erwartungswert bei der Binomialverteilung vgl. [Abschnitt Binomialverteilung](#binomialverteilung)
 
 Standardabweichung
 : ($\sigma$) ist eine Kennzahl für die Breite einer Wahrscheinlichkeitsverteilung
-: Näherungsweise gelten des weiteren folgende Werte:
+: Näherungsweise gelten des Weiteren folgende Werte:
 : $P(E - \sigma \leq X \leq E + \sigma) = 68,3 \%$  
 : $P(E - 2 \sigma \leq X \leq E + 2 \sigma) = 95,4 \%$  
 : $P(E - 3 \sigma \leq X \leq E + 3 \sigma) = 99,7 \%$
+:
+: Berechnet wird die Standardabweichung allgemein, bei diskreten Zufallsgrößen, wie folgt: $$\sigma = \sqrt{\sum_{i=1}^{n}(X_i - \mu)^2 * p_{X_i}}$$ und mittels $$\sigma = \sqrt{\int_{a}^{b}(x - \mu)^2 * f(x) dx}$$ bei stetigen Zufallsgrößen.
 
 ## mehrstufige Zufallsexperimente
 Wenn ein Zufallsexperiment gemacht werden soll, bei welchem mehrere Einzelereignisse in dem Ereignis zusammengefasst werden, also beispielsweise das Ergebnis von zwei Würfeln betrachtet werden soll, so gilt, dass um die Gesamtwahrscheinlichkeit zu erhalten man die Einzelwahrscheinlichkeiten multiplizieren muss. Dabei nennt man die Kette an Einzelereignissen einen Pfad. Wenn das Ereignis eine Menge ist, so kann die Wahrscheinlichkeit der verschiedenen Pfade addiert werden.
@@ -523,7 +532,7 @@ Das Bernoulli Experiment ist ein mehrstufiges Zufallsexperiment mit zwei Ergebni
 Das Bernoulli Experiment ist zudem die Ausgangsbasis der Binomialverteilung, bei welcher die Wahrscheinlichkeiten eines Bernoulli Experiment betrachtet werden.
 
 ## Binomialverteilung
-Wenn ein Bernoulli Experiment durchgeführt wird und die Wahrscheinlichkeit für $r$ Treffer berechnet werden soll, so gilt: $$P(X = r) = B_{n;p}(r) = {n \choose r} * p^r * (1-p)^{n-r}$$, wobei $p$ die Wahrscheinlichkeit eines Treffers angibt und $n$ die Länge der Bernoulli Kette, also wie viele Versuche gemacht werden sollen, in welchen $r$ Treffer vorkommen sollen. ${n \choose r}$ ist der Binomialkoeffizient, also wie viele Kombinationen von $r$ Treffern in $n$ Versuchen es gibt. Er wird wie folgt berechnet: $${n \choose r} = \frac{n!}{r! * (n-r)!}$$. Der Erwartungswert einer solchen Verteilung ist immer $E(X) = n * p$, die Standardabweichung beträgt immer $\tau = \sqrt{n * p * (1-p)}$.  
+Wenn ein Bernoulli Experiment durchgeführt wird und die Wahrscheinlichkeit für $r$ Treffer berechnet werden soll, so gilt: $$P(X = r) = B_{n;p}(r) = {n \choose r} * p^r * (1-p)^{n-r}$$, wobei $p$ die Wahrscheinlichkeit eines Treffers angibt und $n$ die Länge der Bernoulli Kette, also wie viele Versuche gemacht werden sollen, in welchen $r$ Treffer vorkommen sollen. ${n \choose r}$ ist der Binomialkoeffizient, also wie viele Kombinationen von $r$ Treffern in $n$ Versuchen es gibt. Er wird wie folgt berechnet: $${n \choose r} = \frac{n!}{r! * (n-r)!}$$. Der Erwartungswert einer solchen Verteilung ist immer $E(X) = \mu = n * p$, die Standardabweichung beträgt immer $\sigma = \sqrt{n * p * (1-p)}$.  
 Wenn $P(X = r)$ berechnet werden soll, so muss `binomialpdf` verwendet werden, wenn die kumulierte Wahrscheinlichkeit $P(X \leq r)$ berechnet werden soll, dann wird `binomialcdf` verwendet.  
 
 Wenn in einer Aufgabe mit der Binomialverteilung gerechnet wird muss immer folgendes angegeben werden: *X ist binomialverteilt mit Parameter $n$ und $p$* oder *X ist $B_{n;p}$-verteilt*.
@@ -543,7 +552,7 @@ Bei einem linksseitigen Test muss nun der Ablehnungsbereich bestimmt werden, in 
 
 Beim rechtsseitigen Test wird ähnlich vorgegangen, nur dass die kleinstmögliche Zahl gesucht wird, für welche gilt $P(X \geq g) \leq \alpha$. Da dies jedoch nicht mit dem Taschenrechner berechnet werden kann wird $g$ für folgende Bedingung gesucht: $$P(X \leq g - 1) \geq 1 - \alpha$$. Hierbei gilt, dass der Ablehnungsbereich $\{g, g+1, ..., n \}$ ist. Dementsprechend kann auch hier die Entscheidungsregel bestimmt werden.  
 
-Für beide Tests wird die Entscheidungsregel dann wie folgt formuliert: *Wenn das Stichprobenergebnis im Ablehnungsbereich liegt, wird $H_0$ verworfen. Anderen Falls wird $H_0$ nicht verworfen.*.  
+Für beide Tests wird die Entscheidungsregel dann wie folgt formuliert: *Wenn das Stichprobenergebnis im Ablehnungsbereich liegt, wird $H_0$ verworfen. Anderen Falls wird $H_0$ nicht verworfen.*  
 Auch muss beachtet werden, dass in jedem Fall eine Binomialverteilung verwendet wird, wodurch wie im [Abschnitt Binomialverteilung](#binomialverteilung) bereits beschrieben ein Satz wie folgt angegeben werden muss: *X ist im Extremfall (bei wahrer Nullhypothese $H_0$) $B_{n;p}$-verteilt.*
 
 ### zweiseitiger Hypothesentest
@@ -560,11 +569,15 @@ Zufallsgrößen können zudem entsprechend einer Dichtefunktion verteilt sein. D
 Damit eine Funktion ($f$) eine Dichtefunktion sein kann, müssen zwei Bedingungen erfüllt sein. So muss gelten, dass die Funktion im Intervall der Zufallsgrößen ($I$) nie unter die x-Achse fällt, also $$f(x) \geq 0; \hspace{40pt} x \in I$$. Zudem muss das Integral über das Intervall genau 1, also 100% ergeben. Also muss gelten, dass $$\int_{I_0}^{I_1} f(x) dx = 1$$
 
 ## Normalverteilung
-Eine weitere Verteilung von Zufallsgrößen ist die Normalverteilung. Sie beschreibt die Verteilung von stetigen Zufallsgrößen und ist somit eine Dichtefunktion. Diese Form der Verteilung kommt insbesondere häufig in der Natur vor. Der Graph der Dichtefunktion dieser Verteilung beschreibt eine Glockenkurve, mit einem Hochpunkt beim Erwartungswert. Die Breite der Glocke ist zudem direkt durch die Standardabweichung bzw. umgekehrt beeinflusst. Die Glockenkurve wird durch die folgende Funktion definiert: $$\varphi(x) = \frac{1}{\sqrt{2 \pi} * \sigma} * e^{- \frac{(x - \mu)^2}{2 \sigma^2}}$$. Da es sich bei dieser Funktion um eine Dichtefunktion handelt gilt zudem, dass $$\int_{-\infty}^{\infty} \varphi(x) dx = 1$$. Dies muss jedoch nicht bewiesen werden im Abitur. Ein Beispielgraph für eine Normalverteilung mit $\sigma = \frac{1}{3}$ und $\mu = 1$ ist in der Abbildung Normalverteilung zu erkennen.
+Eine weitere Verteilung von Zufallsgrößen ist die Normalverteilung. Sie beschreibt die Verteilung von stetigen Zufallsgrößen und ist somit eine Dichtefunktion. Diese Form der Verteilung kommt insbesondere häufig in der Natur vor. Der Graph der Dichtefunktion dieser Verteilung beschreibt eine Glockenkurve, mit einem Hochpunkt beim Erwartungswert, mit $y = \frac{1}{\sqrt{2 \pi} \sigma} \approx \frac{0,4}{\sigma}$. Die Breite der Glocke ist zudem direkt durch die Standardabweichung bzw. umgekehrt beeinflusst. Die Glockenkurve wird durch die folgende Funktion definiert: $$\varphi_{\mu; \sigma}(x) = \frac{1}{\sqrt{2 \pi} * \sigma} * e^{- \frac{(x - \mu)^2}{2 \sigma^2}}$$. Da es sich bei dieser Funktion um eine Dichtefunktion handelt gilt zudem, dass $$\int_{-\infty}^{\infty} \varphi(x) dx = 1$$. Dies muss jedoch nicht bewiesen werden im Abitur. Ein Beispielgraph für eine Normalverteilung mit $\sigma = \frac{1}{3}$ und $\mu = 1$ ist in der Abbildung Normalverteilung zu erkennen.
 
 ![Normalverteilung](assets/normalverteilung.png)
 
+Für die Ableitungen von $\varphi (x)$ gilt: $$\varphi_{\mu; \sigma}'(x) = - \frac{1}{\sigma \sqrt{2 \pi}} * \frac{(x - \mu)}{\sigma^2} * e^{- \frac{(x - \mu)^2}{2 \sigma^2}}$$ $$\varphi_{\mu; \sigma}''(x) = - \frac{1}{\sigma^3 \sqrt{2 \pi}} * e^{- \frac{(x - \mu)^2}{2 \sigma^2}} * (1 - \frac{(x - \mu)^2}{\sigma^2})$$. Dadurch ergibt sich auch, dass die Wendepunkte der Funktion bei $\mu \pm \sigma$ liegen.
+
 Wenn eine Wahrscheinlichkeit für normalverteilte Zufallsgrößen berechnet werden soll, wird `normalpdf` und `normalcdf` verwendet. Dabei wird `normalcdf` zur Berechnung der Wahrscheinlichkeit, dass das Ergebnis in dem angegebenen Intervall liegt, genutzt. `normalpdf` liefert die Werte der Dichtefunktion an der angegeben Stelle.
+
+Die Normalverteilung kann zudem verwendet werden um eine Binomialverteilung als stetige Zufallsgröße zu modellieren. Hierfür wird zunächst $\mu$ und $\sigma$ bestimmt (vgl. [Abschnitt zur Binomialverteilung](#binomialverteilung)). Nun kann die Wahrscheinlichkeit, dass $X$ in einem bestimmten Intervall liegt mit den Mitteln der Normalverteilung berechnet werden. Hierbei muss allerdings zumeist eine sogenannte Stetigkeitskorrektur vorgenommen werden. Da die Binomialverteilung jeweils eine Säule mit breite 1 nutzt, muss das Intervall $[a; b]$ der Normalverteilung um 0,5 in jede Richtung erweitert werden zu $[a - 0,5; b + 0,5]$ erweitert werden um der Binomialverteilung ähnliche Werte zu erhalten.
 
 # Anhang
 ## Grundwissen
