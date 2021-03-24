@@ -55,6 +55,7 @@ Walter Eucken fasst die Prinzipien der sozialen Marktwirtschaft wie folgt zusamm
 Allgemein gilt in der sozialen Marktwirtschaft, dass der Staat die Wirtschaft primär durch ordnungspolitische Maßnahmen reglementiert, jedoch diese durch Prozesspolitik unterstützt und ergänzt werden, wo dies notwendig ist.
 
 ## Staat in der Wirtschaft
+Für den Staat als Wirtschaftsakteur im Wirtschaftskreislauf siehe [Grundwissen/Wirtschaftskreislauf](#wirtschaftskreislauf)
 ### Funktionen des Staates
 #### Allokationsfunktion
 Die Allokationsfunktion des Staates umfasst die gerechte und passende Verteilung der Produktionsfaktoren und Produktionsmittel, da diese nur begrenzt zur Verfügung stehen aber unbegrenzte Bedürfnisse an diesen gegenüber stehen. Der Staat versucht bei der Verteilung dieser den maximalen Nutzen für die Gesamtheit zu erlangen, ohne zu große Einschnitte wie in der Zentralverwaltungswirtschaft vorzunehmen. Mittel zur Erreichung der optimalen Verteilung sind die Ordnungspolitik, die Wettbewerbspolitik aber auch die Umweltpolitik.
@@ -147,6 +148,56 @@ Zur Erkennung, in welcher Phase des Konjunkturzyklus sich die Wirtschaft aktuell
 | Lagerbestände | Sparquote | Zinsniveauentwicklung |
 
 
+Eine Möglichkeit, wie der Staat solche Schwankungen ausgleichen kann und somit zu Stabilität führen kann ist durch die expansive und restriktive Geldpolitik. Diese beschäftigt sich mit der Erhöhung bzw. Begrenzung der im Umlauf befindlichen Geldmenge. Dies kann beispielsweise mittels der Zentralbanken geschehen. Eine geringere Geldmenge im Umlauf führt zu einem geringeren Angebot an Währung auf dem Markt, wodurch allgemein das Preisniveau steigt. Zudem führt dies dazu, dass weniger investiert wird, da die Zinsen steigen. Hierbei kommt es so gesehen zu einem umgekehrten Multiplikator- und Akzeleratoreffekt.
+
+**SCHWARZE NULL**
+
+#### Strukturpolitik
+Die Strukturpolitik ist kurz gesagt der Teil der Wirtschaftspolitik, welcher sich mit dem Ausgleich der Folgen des Strukturwandels, neuer Produkte und der Globalisierung befasst. Also aktuell beispielsweise den Auswirkungen aus dem Wandel Deutschlands hin zu einer dienstleistungsorientierten Wirtschaft in einer zunehmend technisierten, digitalen und globalen Welt.  
+Dafür werden vor allem Subventionen und Steuervergünstigungen für manche Bereiche, aber auch beispielsweise die Einführung von Schutzzöllen. Es handelt sich also um Maßnahmen der Prozesspolitik.
+
+
+#### Tarifpolitik
+In Deutschland herrscht grundlegend durch das Grundgesetz die Tarifautonomie (Art. 9 (3)). Demnach dürfen die Lohn- und Arbeitsbedingungen von beiden Tarifparteien (Arbeitgeber und Arbeitnehmer, evtl. durch jeweilige Vereinigung) frei ohne staatliche Eingriffe ausgehandelt werden.
+
+Hierbei spielen auch Tarifverträge eine wichtige Rolle. Sie regeln alles was mit der Beziehung zwischen Arbeitgeber und -nehmer zu tun hat, wie Rechte und Pflichten beider. Sie werden grundsätzlich von den Vereinigungen dieser ausgehandelt. Wenn beide Arbeitsvertragsparteien tarifgebunden sind, gilt ein solcher Tarifvertrag auch unmittelbar für dieses Arbeitsverhältnis.  
+Allgemein wird bei den Tarifverträgen unterschieden, in welchem Geltungsraum sie wirken und was sie beinhalten. So wird unterschieden in Flächen-/Branchen-Tarifvertrag und Firmentarifvertrag, wobei ersteres für mehrere Unternehmen gilt, letzteres nicht. Zudem kann auch unterschieden werden in Manteltarifvertrag, Rahmentarifvertrag und Lohn-/Gehaltstarifvertrag. Diese regeln dann jeweils folgendes:
+
+Manteltarifvertrag
+: Allgemeine Arbeitsbedingungen (Arbeitszeit, Arbeitsschutz, Urlaub, Kündigungsfristen)
+
+(Lohn-/Gehalts-)Rahmentarifvertrag
+: Regelt in welche Lohngruppen die Arbeitgeber nach ihren Arbeitsinhalten einzuordnen sind
+
+Lohn-/Gehaltstarifvertrag
+: beinhaltet Löhne, Zulagen, usw.
+
+
+Allgemein bieten solche Tarifverträge sowohl dem Arbeitgeber als auch dem Arbeitnehmer Sicherheit, denn es herrscht Planbarkeit durch die Friedenspflicht während der Laufzeit des Tarifvertrags, als auch einem besseren Arbeitsverhältnis und leichter Verhandlungen, da diese zentral geführt werden. Zudem können sich hierdurch Arbeitnehmer absichern, weil eine Unausgewogenheit in den Arbeitsverhältnissen durch den Zusammenschluss verhindert werden kann. Zudem können beispielsweise in Krisenzeiten wie der Finanzkrise 2008 Massenentlassungen verhindert werden. Dies kann unter den folgenden Funktionen eines Tarifvertrags zusammengefasst werden:
+
+Ordnungsfunktion
+: einheitliche Arbeitsbedingungen sorgen für Rechtssicherheit zwischen den Tarifparteien
+
+Schutzfunktion
+: verlässliche Mindestarbeitsbedingungen werden festgelegt (z.B. Arbeitszeiten)
+
+Friedensfunktion
+: keine ständigen Arbeitskampfmaßnahmen, was zu Planbarkeit führt
+
+Verteilungsfunktion
+: Flexibilität um auf branchenspezifische Ereignisse/Bedürfnisse einzugehen, was zu einem Interessenausgleich zwischen Arbeitgeber und Arbeitnehmer führt
+
+Weitere wichtige Begriffe zu diesem Thema sind:
+
+Tarifeinheit
+: nach dem Grundsatz: "Ein Betrieb --- ein Tarifvertrag"; Bundesarbeitsgericht in 2010: unvereinbar mit Art. 9 GG (Koalitionsfreiheit)
+
+Tarifpluralität
+: Es gelten mehrere Tarife für verschiedene Arbeitsverhältnisse
+
+Tarifkonkurrenz
+: Mehrere Tarife sind auf dasselbe Arbeitsverhältnis anwendbar
+
 
 ### Einnahmequellen des Staates
 Die Einnahmequellen des Staates sind in der zugehörigen Abbildung übersichtlich dargestellt.
@@ -154,10 +205,38 @@ Die Einnahmequellen des Staates sind in der zugehörigen Abbildung übersichtlic
 ![Einnahmequellen des Staates](assets/Einnahmequellen-des-Staates.png)
 
 
+## Gerechtigkeit im Staat
+### Verteilungsgerechtigkeit
+
+### Wohlstand im Staat
+
+
+### Bedingungsloses Grundeinkommen
+
 # Ausland
 
 # Anhang
 Für weitere Informationen kann unter anderem die Basisbegriffeliste^[Link auf moodle: https://moodle.nbg.pf.schule-bw.de/moodle/pluginfile.php/40814/mod_resource/content/1/Hinweise%20zum%20Umgang%20mit%20Material%20und%20Basisbegriffe.pdf] verwendet werden.
+
+## Grundwissen
+### Wirtschaftskreislauf
+![Wirtschaftskreislauf](assets/wirtschaftskreislauf.png)
+
+### Produktionsfaktoren
+Unter Produktionsfaktoren versteht man alles, was zur Herstellung von Gütern benötigt wird. Hierbei wird unterschieden in die volkswirtschaftliche und betriebswirtschaftliche Einteilung.
+
+- volkswirtschaftlich:
+  1. Arbeit
+  2. Kapital
+  3. Boden
+  4. Wissen
+- betriebswirtschaftlich:
+  1. menschliche (ausführende) Arbeit
+  2. Werkstoffe
+  3. Betriebsmittel
+  4. Leitung und Planung
+
+### Preis-Mengen-Diagramme
 
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
