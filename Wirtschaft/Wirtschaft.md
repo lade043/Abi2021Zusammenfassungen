@@ -23,7 +23,7 @@ copyright: Copyright © 2020-2021 Lars Bogner
 ### Ordoliberalismus
 Diese Wirtschaftsordnung ist eine Kombination aus den Vorzügen der freien Marktwirtschaft und einer Ordnung mit Eingriff des Staates. Dies geschieht dadurch, dass im Allgemeinen Angebot und Nachfrage den Markt bestimmen, der Staat jedoch den Ordnungsrahmen vorgibt und Eingriffe in die Wirtschaft vornimmt, falls die Notwendigkeit besteht beispielsweise zum Schutz des Wettbewerbs durch Monopolaufsicht. Diese Wirtschaftsordnung, wie sie von Walter Eucken ins Leben gerufen wurde, gilt zudem als Wegbereiter der sozialen Marktwirtschaft.
 
-### soziale Marktwirtschaft
+### Soziale Marktwirtschaft
 Die Wirtschaftsordnung der Bundesrepublik Deutschland ist die soziale Marktwirtschaft. Die geistigen Väter Ludwig Erhardt und Alfred Müller-Armack sahen in dieser Form der wirtschaftlichen Ordnung die Möglichekit auf "Wohlstand für alle" und die Möglichkeit "das Prinzip der Freiheit auf dem Markte mit dem sozialen Ausgleich zu verbinden". Dies geschieht durch die Mischung einer Marktwirtschaft mit staatlichen Eingriffen, wie es beim Ordoliberalismus ebenfalls gehandhabt wird. Auch wenn die soziale Marktwirtschaft nicht im Grundgesetz festgeschrieben ist, so ist dieses werder mit der freien Marktwirtschaft (Rechtsstaatlichkeit (Art. 28 (1))) noch mit der Zentralverwaltungswirtschaft (persönliche Freizügigkeit (Art. 2 (1), Art. 11), Freiheit Gewerkschaften zu bilden (Art. 9 (3)), Berufsfreiheit (Art. 12 (2))) vereinbar. Des Weiteren äußert sich die soziale Marktwirtschaft im Grundgesetz im Rahmen der sogenannten Sozialpflichtigkeit. So ist in Artikel 14 festgehalten, wie es sich um Eigentum in der Bundesrepublik verhält. So ist Privateigentum möglich, es gilt jedoch: "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen" (Art. 14 (2)).
 
 Das System der sozialen Marktwirtschaft kann in vier Grundprinzipien nach Müller-Armack zusammengefasst werden. Diese sind wie folgt:
@@ -56,6 +56,7 @@ Allgemein gilt in der sozialen Marktwirtschaft, dass der Staat die Wirtschaft pr
 
 ## Staat in der Wirtschaft
 Für den Staat als Wirtschaftsakteur im Wirtschaftskreislauf siehe [Grundwissen/Wirtschaftskreislauf](#wirtschaftskreislauf)
+
 ### Funktionen des Staates
 #### Allokationsfunktion
 Die Allokationsfunktion des Staates umfasst die gerechte und passende Verteilung der Produktionsfaktoren und Produktionsmittel, da diese nur begrenzt zur Verfügung stehen aber unbegrenzte Bedürfnisse an diesen gegenüber stehen. Der Staat versucht bei der Verteilung dieser den maximalen Nutzen für die Gesamtheit zu erlangen, ohne zu große Einschnitte wie in der Zentralverwaltungswirtschaft vorzunehmen. Mittel zur Erreichung der optimalen Verteilung sind die Ordnungspolitik, die Wettbewerbspolitik aber auch die Umweltpolitik.
@@ -150,7 +151,7 @@ Zur Erkennung, in welcher Phase des Konjunkturzyklus sich die Wirtschaft aktuell
 
 Eine Möglichkeit, wie der Staat solche Schwankungen ausgleichen kann und somit zu Stabilität führen kann ist durch die expansive und restriktive Geldpolitik. Diese beschäftigt sich mit der Erhöhung bzw. Begrenzung der im Umlauf befindlichen Geldmenge. Dies kann beispielsweise mittels der Zentralbanken geschehen. Eine geringere Geldmenge im Umlauf führt zu einem geringeren Angebot an Währung auf dem Markt, wodurch allgemein das Preisniveau steigt. Zudem führt dies dazu, dass weniger investiert wird, da die Zinsen steigen. Hierbei kommt es so gesehen zu einem umgekehrten Multiplikator- und Akzeleratoreffekt.
 
-**SCHWARZE NULL**
+Bei diesen Maßnahmen muss jedoch auch die Staatsverschuldung beachtet werden. Siehe hierfür den zugehörigen [Abschnitt](#staatsverschuldung).
 
 #### Strukturpolitik
 Die Strukturpolitik ist kurz gesagt der Teil der Wirtschaftspolitik, welcher sich mit dem Ausgleich der Folgen des Strukturwandels, neuer Produkte und der Globalisierung befasst. Also aktuell beispielsweise den Auswirkungen aus dem Wandel Deutschlands hin zu einer dienstleistungsorientierten Wirtschaft in einer zunehmend technisierten, digitalen und globalen Welt.  
@@ -204,6 +205,41 @@ Die Einnahmequellen des Staates sind in der zugehörigen Abbildung übersichtlic
 
 ![Einnahmequellen des Staates](assets/Einnahmequellen-des-Staates.png)
 
+
+### Staatsverschuldung
+Laut dem Grundgesetz (Art. 109) ist der deutsche Staat dazu angehalten die Neuverschuldung sehr gering zu halten. So darf die strukturelle (über Konjunkturzyklus hinweg quasi) Neuverschuldung nicht mehr als 0,35% des BIP betragen. Hiervon darf nur durch  wieder ausgeglichene Neuverschuldung bei konjunkturellen Schwankungen und bei Schuldenaufnahme durch Notsituationen wie Naturkatastrophen abgewichen werden. Für die Länder besteht zudem das komplette Verbot sich neu zu verschulden.  
+Dieses Vorgehen bei der Neuverschuldung wird auch als schwarze Null bezeichnet.
+
+#### Probleme durch Staatsverschuldung
+
+Crowding-Out-Effekt
+: Verdrängung der privaten Nachfrage durch staatliche;  
+: geschieht durch steigende Zinsen, aufgrund der gestiegenen Kapitalnachfrage;  
+: kann zudem zu Inflation führen durch gestiegene Kosten durch teurere Investitionen
+
+Schuldenfalle
+: bei zu großer Schuldenaufnahme besteht die Gefahr, dass die Rückzahlung so groß wird, dass neue Kreditaufnahme nötig ist; gipfelt in Spirale
+
+sinkende Bonität
+: durch hohe Kreditaufnahme vergeben Rating-Agenturen schlechtere Ratings an Staaten;  
+: führt zu schlechteren Kreditbedingungen
+
+#### Probleme durch die schwarze Null
+
+- Scheu vor Schulden kann langfristige negative Folgen haben
+  - schlechte Infrastruktur, Bildung, etc.
+  - Konjunktur wird nicht ausreichend ausgeglichen durch mangelnde Liquidität für antizyklische Wirtschaftspolitik
+
+Sparpolitik wird auch allgemein als Austeritätspolitik bezeichnet.
+
+## Arten der Wirtschaftspolitik
+### Angebotsorientierte Wirtschaftspolitik
+
+### Nachfrageorientierte Wirschaftspolitik
+
+### Ordnungspolitik
+
+### Prozesspolitik
 
 ## Gerechtigkeit im Staat
 ### Verteilungsgerechtigkeit
