@@ -234,12 +234,89 @@ Sparpolitik wird auch allgemein als Austeritätspolitik bezeichnet.
 
 ## Arten der Wirtschaftspolitik
 ### Angebotsorientierte Wirtschaftspolitik
+Dieser wirtschaftspolitische Ansatzpunkt geht davon aus, dass die Wirtschaft sich recht selbstständig erholen kann, wenn lediglich das Angebot gefördert wird, da der Markt immer ein Gleichgewicht anstrebt (Stichwort Saysches Theorem). Der Staat kann dies nicht so gut, da er nie alle Wirtschaftsakteure gleichzeitig überblicken kann. Deshalb sollte allgemein versucht werden die freie Wirtschaft zu fördern, durch Deregulierung und Senkung der Kosten für Unternehmen. Der Staat soll lediglich durch die Geldmenge die Gesamtwirtschaft steuern und die Währung stabil halten. Diese Art der Wirtschaftspolitik wird auch im Zuge des Neoliberalismus genannt.
+
+Als Initialzündung für ein wirtschaftliches Wachstum kann beispielsweise eine Steuersenkung wirken. Danach folgt eine Wirk-Kette:
+
+1. Ertragskraft der Unternehmen wird gestärkt
+2. mehr private Innovationen und dafür Investitionen
+3. mehr Beschäftigung in der Investitionsgüterindustrie
+4. Modernisierung des Produktionsapparates
+
+[//]: # (evtl. Schaubild einfügen "Scan 27.03.2021, 11.54.pdf")
+
+Saysches Theorem
+: "Jedes Angebot schafft sich seine Nachfrage."  
+: durch Produktion von Angebot kommt es zu Konsum und somit zu Nachfrage
+
+| Maßnahmen | Kritik |
+|-|-|
+| *Minderung der öffentlichen Staatsausgaben*:  \newline -> weniger Staatsschulden -> geringere Nachfrage auf Kreditmarkt -> niedrige Zinsen | - muss in Übereinstimung mit EZB sein \newline - fördert Fehlinvestitionen \newline - kann Depression provozieren \newline - Geld für Investitionen fehlt (F&E; E-Auto-Förderung) |
+| *Senkung der Personalkosten*: \newline - Bsp.: kein Mindestlohn, geringere Lohnsteuer, weniger Sozialversicherungen | - geringere gesamtwirtschaftliche Nachfrage \newline - fehlen der Sozialversicherungserträge, etc -> geringere Staatseinnahmen |
+| *Steuersenkungen/Einführung eines leistungssteigernden Steuersystems*: \newline - weniger Steuern -> mehr Liquidität für Konsum und Investition -> Nachfrage | - sinkende Staatseinnahmen \newline - nicht zwangsläufig höhere Nachfrage (zielgerichtet?) \newline - kann zu Steuersenkungswettläufen kommen (z.B. D vs. F) ("Race to the bottom") |
+| *Rückführung der Sozialtransfers und der öffentlichen Beschäftigung*. \newline - geringere Sozialleistungen -> mehr Liquidität für Konsum und Investition | - Abnehmen der Nachfrage der unteren sozialen Schichten \newline - schlechtere Sozialstandards |
+| *Deregulierung*: \newline - geringere Kosten für Einhaltung der Regelungen und Gesetze | - Missbrauch der ökonomischen Macht -> Monopolbildung \newline - Abnehmen der sozialen Standards/Umweltstandards |
 
 ### Nachfrageorientierte Wirschaftspolitik
+Diese Art der Wirtschaftspolitik, nutzt als Ansatzpunkt, dass die staatliche Nachfrage und die vom Staat geförderte Nachfrage der gesamten Wirtschaft mittels Akzelerator- und Multiplikatoreffekt hilft. Der Staat setzt so gesagt die Initialzündung für den wirtschaftlichen Aufschwung durch antizyklisches Handeln. Da diese Art durch John Maynard Kaynes begründet wurde, wird sie auch Keynesianismus genannt.
 
-### Ordnungspolitik
+Multiplikatoreffekt
+: Nachfrage führt zu weiterer Nachfrage nach Konsumgütern;  
+: Bsp.: Bauarbeiter kaufen am Schulkiosk ein, nachdem sie für den Staat arbeiten
 
-### Prozesspolitik
+Akzeleratoreffekt
+: Nachfrage führt zu Nachfrage an Investitionsgütern;  
+: Bsp.: Bauarbeiter kaufen neuen LKW für Transport
+
+Mögliche Maßnahmen der Nachfragepolitik sind:
+
+| Maßnahmen | Kritik |
+|-|-|
+| *Nachfrageprogramme der öffentlichen Hand*:  \newline (Programme der öffentlichen Hand finanziert durch zusätzliche Kredite \newline | - Neuverschuldung des Staates  \newline - nur kurze Zeit realisierbar |
+| *Zinssenkung durch Geldpolitik des Staates*:  \newline (Staat senkt Mittels der Zentralbank den Leitzins um Kreditaufnahme zu vergünstigen und damit Geldmenge zu regulieren \newline | -verzögerte und schwache Wirkung  \newline - schlecht für Sparer und Gläubiger\newline - Abzug von Investitionskapital |
+| *Erhöhung der verfügbaren Realeinkommen*:  \newline (Änderung der Kaufkraft durch gestiegene Löhne bei gleichen Preisen oer durch sinkende Preise\newline -> höhere Kaufkraft \newline | - nur mit anderen Maßnahmen zielgerichtet\newline - begrenzte Wirkung\newline - geringere Staatseinnahmen\newline - möglicher Abfluss ins Ausland |
+| *Ausweitung der öffentlichen Beschäftigung, der Sozialtransfers und der Arbeitsmarktpolitik*:  \newline (Abflachung sozialer Unterschiede durch Förderung der sozial Schwachen durch gezielte Förderung der Einkommensumverteilung \newline | - führt nicht zwangsläufig zu positiver Nachfrageentwicklung\newline - Fehlallokation möglich\newline - Verzerrung des Arbeitsmarktes möglich (vgl. ABM) |
+| *Förderprogramme des Staates*:  (Steigerung der Nachfrafe durch gezielte Anreize; durch den Staat finanziert \newline | - muss zielgerichtet und zeitlich gut gezielt sein  \newline - eher aus politischen als aus wirtschaftlichen Gründen genutzt\newline - Staatsverschuldung\newline - einseitig |
+
+### Ordnungs- und Prozesspolitik
+Zudem wird unterschieden, wie der Staat wirtschaftspolitisch agiert. Wenn er lediglich den Regelrahmen für die Wirtschaftspolitik vorgibt ist dies ordnungspolitisch, wenn er aktiv in das Wirtschaftsgeschehen eingreift, ist es prozesspolitisch. Dadurch ergibt sich der folgende Vergleich.
+
+| Ordnungspolitik |  | Prozesspolitik |
+|-|-|-|
+| Regelrahmen für die Wirtschaft \newline | Was? | Eingriff in das Wirtschaftsgeschehen \newline |
+| wie Spielregeln eines Fußballspiels \newline | Spielvergleich | Spielzug im Fußballspiel \newline |
+| Zielerreichung durch gesetzliche Regelungen und Maßnahmen \newline | Wie? | Zielerreichung durch aktives Eingreifen in ökonomische Kennzahlen \newline |
+| legislative \newline | Wer? | exekutive \newline |
+| langfristig \newline | Wie lange? | kurz- und mittelfristig \newline |
+| Wettbewerbsschutz, Arbeitsschutz, Umweltregelungen, Eigentumsrechte, Tarifautonomie, ... \newline | Beispiele für Maßnahmen | Subventionen für Unternehmen/Haushalte, Verbote, Zinspolitk der EZB, ... \newline |
+
+
+## Wirtschaftliche Entwicklung der letzten Jahre
+### Beschäftigung
+siehe Abbildungen *Arbeitslosenquote* und *Arbeitslosenzahl*
+
+![Arbeitslosenquote](assets/wirtschaftliche-entwicklung/statistic_id1224_arbeitslosenquote-in-deutschland-bis-2021.png)
+
+![Arbeitslosenzahl](assets/wirtschaftliche-entwicklung/statistic_id1223_arbeitslosenzahl-bis-2021.png)
+
+### Geldwert
+siehe Abbildungen *Inflationsrate langzeit* und *Inflationsrate letztes Jahr*
+
+![Inflationsrate langzeit](assets/wirtschaftliche-entwicklung/statistic_id1046_inflationsrate-in-deutschland-bis-2020.png)
+
+![Inflationsrate letztes Jahr](assets/wirtschaftliche-entwicklung/statistic_id1045_inflationsrate-in-deutschland-bis-februar-2021.png)
+
+### Außenbeitrag
+siehe Abbildung *Außenbeitrag*
+
+![Außenbeitrag](assets/wirtschaftliche-entwicklung/statistic_id161382_aussenbeitrag-in-deutschland-bis-2020.png)
+
+### Bruttoinlandsprodukt
+siehe Abbildungen *Bruttoinlandsprodukt der letzten Jahre* und *Prognose des BIP*
+
+![Bruttoinlandsprodukt der letzten Jahre](assets/wirtschaftliche-entwicklung/statistic_id1251_bruttoinlandsprodukt--bip--in-deutschland-bis-2020.png)
+
+![Prognose des BIP](assets/wirtschaftliche-entwicklung/statistic_id5848_prognose-zur-entwicklung-des-bruttoinlandsprodukts-in-deutschland-bis-2022.png)
 
 ## Gerechtigkeit im Staat
 ### Verteilungsgerechtigkeit
