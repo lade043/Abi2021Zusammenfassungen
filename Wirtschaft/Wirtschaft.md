@@ -318,8 +318,16 @@ siehe Abbildungen *Bruttoinlandsprodukt der letzten Jahre* und *Prognose des BIP
 
 ![Prognose des BIP](assets/wirtschaftliche-entwicklung/statistic_id5848_prognose-zur-entwicklung-des-bruttoinlandsprodukts-in-deutschland-bis-2022.png)
 
+\newpage
+
 ## Gerechtigkeit im Staat
 ### Verteilungsgerechtigkeit
+Die Verteilung des Vermögens in einem Staat --- auch die Schere zwischen Arm und Reich genannt --- spielt vor allem in einer sozialen Marktwirtschaft eine große Rolle, da sie ein großer Faktor in der sozialen Ungerechtigkeit spielt.  
+Eine mögliche Form, wie diese Ungerechtigkeit gemessen werden kann ist der sogenannte Gini-Koeffizient. Für diesen wird die Lorenzkurve (vgl. Abbildung *Lorenzkurve*) eines bestimmten Wirtschaftsraums betrachtet. Die Lorenz-Kurve ist die aufsteigende kumulierte Funktion der Einkommen der Einzelpersonen in einem Wirtschaftsraum. Somit lässt sich beispielsweise ablesen, wie viel Prozent des Einkommens die untersten $x$ Prozent der Bevölkerung verdienen. Somit lässt sich leicht die Ungleichverteilung erkennen, denn ein perfekt gleichverteilter Wirtschaftsraum hätte eine Gerade als Lorenzkurve. Diese Eigenschaft macht sich auch der Gini-Koeffizient zu nutze, welcher das Verhältnis zwischen der Fläche zwischen realer Lorenzkurve und gleichverteilter Lorenzkurve zu Fläche unter der gleichverteilten Lorenzkurve ist (vgl. Abbildung *Gini-Koeffizient*). Als Gleichung dargestellt ergibt sich: $$GUK = \frac{A_{gl} - A_{real}}{A_{gl}}$$
+
+![Lorenzkurve](assets/lorenzkurve.jpg){ width=250px }
+
+![Gini-Koeffizient](assets/500px-Gini-Coefficient-pure.svg.png){ width=250px }
 
 ### Wohlstand im Staat
 
