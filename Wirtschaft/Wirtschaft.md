@@ -330,11 +330,46 @@ Eine mögliche Form, wie diese Ungerechtigkeit gemessen werden kann ist der soge
 ![Gini-Koeffizient](assets/500px-Gini-Coefficient-pure.svg.png){ width=250px }
 
 ### Wohlstand im Staat
+**INHALT EINFÜGEN**
 
 
 ### Bedingungsloses Grundeinkommen
+**INHALT EINFÜGEN**
+
 
 # Ausland
+## Außenhandel
+### Zahlungsbilanz
+Die Zahlungsbilanz gibt alle Transaktionen an, welche ein Land in einem bestimmten Zeitraum mit dem Ausland getätigt hat. Der Aufbau ist dabei wie in der Abbildung zu erkennen.
+
+![Zahlungsbilanz](assets/zahlungsbilanz.jpg)
+
+### Freihandel und Protektionismus
+
+
+## Globaler Finanzmarkt
+### Finanzkrise
+### Wechselkurse
+
+## Internationale Wirtschaftsorganisationen
+### Europäische Wirtschaft
+#### EZB
+#### EWWU
+
+### Multilaterale Übereinkommen und Organisationen
+#### WTO
+#### Andere Institutionen
+
+### Global Governance
+
+
+## Industrie-, Schwellen- und Entwicklungsländer
+### Disparitäten
+### UN-Ziele
+### Globale Sozial- und Umweltstandards
+#### Global Compact
+#### International Labour Organization
+
 
 # Anhang
 Für weitere Informationen kann unter anderem die Basisbegriffeliste^[Link auf moodle: https://moodle.nbg.pf.schule-bw.de/moodle/pluginfile.php/40814/mod_resource/content/1/Hinweise%20zum%20Umgang%20mit%20Material%20und%20Basisbegriffe.pdf] verwendet werden.
