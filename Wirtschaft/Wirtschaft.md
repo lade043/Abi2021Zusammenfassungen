@@ -16,6 +16,10 @@ toc: true
 toc-depth: 4
 linestretch: 1.25
 copyright: Copyright © 2020-2021 Lars Bogner
+
+header-includes: |
+    \usepackage{caption}
+    \usepackage{subcaption}
 ---
 
 # Staat
@@ -325,9 +329,18 @@ siehe Abbildungen *Bruttoinlandsprodukt der letzten Jahre* und *Prognose des BIP
 Die Verteilung des Vermögens in einem Staat --- auch die Schere zwischen Arm und Reich genannt --- spielt vor allem in einer sozialen Marktwirtschaft eine große Rolle, da sie ein großer Faktor in der sozialen Ungerechtigkeit spielt.  
 Eine mögliche Form, wie diese Ungerechtigkeit gemessen werden kann ist der sogenannte Gini-Koeffizient. Für diesen wird die Lorenzkurve (vgl. Abbildung *Lorenzkurve*) eines bestimmten Wirtschaftsraums betrachtet. Die Lorenz-Kurve ist die aufsteigende kumulierte Funktion der Einkommen der Einzelpersonen in einem Wirtschaftsraum. Somit lässt sich beispielsweise ablesen, wie viel Prozent des Einkommens die untersten $x$ Prozent der Bevölkerung verdienen. Somit lässt sich leicht die Ungleichverteilung erkennen, denn ein perfekt gleichverteilter Wirtschaftsraum hätte eine Gerade als Lorenzkurve. Diese Eigenschaft macht sich auch der Gini-Koeffizient zu nutze, welcher das Verhältnis zwischen der Fläche zwischen realer Lorenzkurve und gleichverteilter Lorenzkurve zu Fläche unter der gleichverteilten Lorenzkurve ist (vgl. Abbildung *Gini-Koeffizient*). Als Gleichung dargestellt ergibt sich: $$GUK = \frac{A_{gl} - A_{real}}{A_{gl}}$$
 
-![Lorenzkurve](assets/lorenzkurve.jpg){ width=250px }
-
-![Gini-Koeffizient](assets/500px-Gini-Coefficient-pure.svg.png){ width=250px }
+![Lorenzkurve](assets/lorenzkurve.jpg){ width=53% }
+![Gini-Koeffizient](assets/500px-Gini-Coefficient-pure.svg.png){ width=47% }
+\begin{figure}[!h]
+\begin{subfigure}[t]{0.53\textwidth}
+\caption{Lorenzkurve}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{0.47\textwidth}
+\caption{Gini-Koeffizient}
+\end{subfigure}
+\caption{Lorenzkurve und Gini-Koeffizient}
+\end{figure}
 
 ### Wohlstand im Staat
 **INHALT EINFÜGEN**
@@ -342,14 +355,105 @@ Eine mögliche Form, wie diese Ungerechtigkeit gemessen werden kann ist der soge
 ### Zahlungsbilanz
 Die Zahlungsbilanz gibt alle Transaktionen an, welche ein Land in einem bestimmten Zeitraum mit dem Ausland getätigt hat. Der Aufbau ist dabei wie in der Abbildung zu erkennen.
 
-![Zahlungsbilanz](assets/zahlungsbilanz.jpg)
+![Zahlungsbilanz](assets/zahlungsbilanz.pdf)
+
+Als Bilanz ist Aktiva und Passiva auch bei der Zahlungsbilanz stets ausgeglichen. Zudem besteht ein Gleichgewicht zwischen dem Leistungsbilanzüberschuss und dem Kapitalbilanzüberschuss, welcher durch die Zusammenhänge der Zahlungsbilanz zu erklären ist. Dieser Zusammenhang lässt sich leicht an einem Beispiel erkennen: Wenn ein Land mehr importiert als exportiert (Leistungsbilanzdefizit) muss es das dafür nötige Kapital aus dem Ausland beziehen (Kapitalbilanzdefizit).
 
 ### Freihandel und Protektionismus
+In der globalen Finanzwelt kommt immer wieder die Debatte über den Freihandel auf. Dieser ermöglicht bessere Zusammenarbeit über Landesgrenzen hinweg, wenn auch die eigene Wirtschaft nicht so gut geschützt werden kann. 
+
+Zum Schutz der eigenen Wirtschaft werden dabei immer wieder Handelhemnisse genutzt. Diese lassen sich unterteilen in tarifär und nichttarifär. Tarifäre Handelshemmnisse sind Zölle, also Mengen- und Wertzölle.  
+Nichttarifäre Hemmnisse sind Aktionen wie Preisbeeinflussung durch Subventionen und Dumping, Mengenbeschränkungen beim internationalen Handel durch Kontingente, Quoten, Ein- & Ausfuhrverbote, Boykotte und Embargos und administrative Bechränkungen durch Grenzformalias, technische Standards und Vorschriften zu Gesundheit, Umweltschutz und Sicherheit.
+
+Dumping
+: Subvention der Produktion von Gütern, sodass diese unter Herstellkosten verkauft werden können
+
+Kontingent
+: absolutes Limit der Menge, welche eingeführt werden kann, von einem bestimmten Gut
+
+Quoten
+: vorgeschriebenes Verhältnis der Mengen von Im- und Export eines bestimmten Gut
+
+Boykott und Embargo
+: Ausschluss eines anderen Staats vom Wirtschaftsverkehr;  
+: "Der Begriff Embargo [...] wird ausschließlich für Staaten benutzt und auch auf staatlich angeordneten und durchgesetzten Ausschluss vom Geschäftsverkehr angewendet, der Begriff Boykott umfasst dagegen – über staatliche Anordnungen hinaus – freiwillige, privatwirtschaftliche Maßnahmen und betont diese."
+
+Trotz dessen haben sowohl Freihandel, als auch Protektionismus Vorteile, wie in der zugehörigen Abbildung zu erkennen ist.
+
+![Freihandel und Protektionismus](assets/freihandel-vs-protektionismus.png)
+
+Beim Freihandel wird zudem in verschiedene Arten des Zusammenschlusses zum Freihandel unterschieden:
+
+Freihandelszone
+: Wirtschaftsgebiet, in dem Zölle abgebaut und Handelshemmnisse zwischen den teilnehmenden Staaten verboten sind.; z.B. EFTA (Europäische Freihandelsassoziation)
+
+Zollunion
+: Vereinigung von Staaten, die sich zu einem einheitlichen Zollgebiet zusammenschließen, alle Binnenzölle abschaffen und gemeinsame Außenzölle für Importe aus Drittstaaten vereinbaren; z.B. Europäische Wirtschaftsgemeinschaft (EWG)
+
+Binnenmarkt
+: Ein Gebiet, wo sich das gesamte wirtschaftliche Geschehen nach weitgehend einheitlichen Regeln und gleichen Bedingungen abspielt. Der Binnenmarkt ist gewöhnlich identisch mit dem Hoheitsgebiet eines Staates. Besteht er aus mehreren Staatsgebieten – wie der Europäische Binnenmarkt – ist er wirtschaftlich gesehen Inland
+
 
 
 ## Globaler Finanzmarkt
 ### Finanzkrise
+Vor dem Hintergrund der globalen Finanzwelt wird auch immer wieder auf die Probleme durch globale Abhängigkeiten bei Finanzkrisen hingewiesen.  
+Eine der großen Finanzkrisen der letzten Jahre war die Weltwirtschaftskrise ab 2007, bei welcher nach dem Platzen der Immobilienblase in den USA die globale Bankenwelt fast zum erliegen kam und durch welche auch maßgeblich die anschließende Eurokrise verursacht wurde.
+
+Die Krise begann damit, dass in den Vereinigten Staaten Kredite an Haushalte für den Hausbau ausgegeben wurden. Dies wurde durch günstige Zinsen und die Subvention des Hausbaus weiter verstärkt. Die starke Nachfrage nach Immobilien ließ dabei auch die Nachfrage nach diesen und somit den Marktpreis steigen. Dies führte dazu, dass auch sogenannte Subprime-Kredite vergeben wurden --- Kredite an Schuldner mit geringer Bonität mit Immobilie als einzige Sicherheit ---, da im Falle eines Zahlungsausfalls die Immobilie mit Gewinn verkauft werden konnte. Dies gipfelte sogar in sogenannten ninja-Krediten (*no income, no job, no assets*). Im Aufschwung dieser Kredite war das Wachstum sogar so groß und vielversprechend, dass auch ausländische Investoren am Boom teilhaben wollten, weshalb die kredite in sogenannten CDOs (*Collateralised Debt Obligations*) als Derivate gehandelt wurden. Das Risiko wurde von den kreditvergebenden Banken an die Investoren ausgelagert, wodurch die Banken noch mehr risikobehaftete kredite vergaben. Um die CDOs weiterhin attraktiv zu gestalten wurden sie auch mit "guten Wertpapieren" aufgewertet und die Kredite in Tranchen eingetielt nach ihrem Risiko (investment grade > mezzanine > untere Tranche (toxic)). Die Rating-Agenturen vergaben *AAA*-Ratings.  
+Nach Erhöhung der Leitzinsen durch die Fed (Federal Reserve, US-Notenbank) und der ausstehenden Rückzahlungen von Schuldnern platzte diese Spekulationsblase allerdings und durch das extrem hohe Angebot an Immobilien fielen die Preise, wodurch auch die Kredite der bestehenden Schuldner nicht mehr ausreichend gedeckt waren und alle Investoren die Derivate möglichst schnell ablegen wollten. Auch das Angebot an CDOs war übersättigt, wodurch deren Wert gedrückt wurde (unterstützt durch die neuen Ratings, welche deutlich schlechter waren).  
+Die Krise war mit der Insolvenz der Lehman Brothers Investmentbank. Zudem vertrauten sich die Banken untereinander nicht mehr, da sie vermuteten die andere Bank würde ebenfalls insolvent gehen, aufgrund des Besitztes von amerikanischen Immobilienderivaten. Letzten Endes mussten soagr die Staaten eintreten um die Banken zu retten, welche nach dem Prinzip *to big to fail* nicht insolvent gehen durften (Bsp.: Deutsche Bank).
+
+Indirekt durch die Weltwirtschaftskrise ausgelöst kam es in den Euro-Staaten auch zu der Eurokrise. Diese wurde jedoch zudem von dem desolaten Zustand der Staatsfinanzen der Hauptkrisenstaaten (Griechenland, Portugal, Spanien, Italien, Irland), die zwar gleiche Geld- aber nicht abgestimmte Fiskalpolitik der Euro-Länder, der mangelnden Durchsetzung der Konvergenzkriterien und starke wirtschaftliche Unterschiede zwischen den Euro-Staaten, sehr stark begünstigt. Die Krise äußerte sich dann in einer Schuldenkrise, bei der viele Staaten nicht mehr in der Lage waren ihre eigenen Staatsfinanzen zu stemmen. Verstärkt wurde dieser Engpass an Liquidität der Staaten durch immer schlechtere Ratings der Staatsanleihen, aufgrund der Überschuldung der Länder. 
+
+Konvergenzkriterien
+: Kriterien, welche im Vertrag von Maastricht festgehalten wurden und die wirtschaftliche Zusammenarbeit der EU-Staaten erleichtern soll; 
+: Diese sind wie folgt:
+: 
+: - *Preisniveaustabilität*: Die Inflationsrate darf nicht mehr als 1,5 Prozentpunkte über derjenigen der drei preisstabilsten Mitgliedstaaten liegen.
+: - *Haushaltsdisziplin*: Der staatliche Schuldenstand darf nicht mehr als 60 % des Bruttoinlandsprodukts betragen und das jährliche Haushaltsdefizit darf nicht mehr als 3 % des Bruttoinlandsprodukts betragen
+: - *Wechselkursstabilität*: Der Staat muss mindestens zwei Jahre lang ohne Abwertung am Wechselkursmechanismus II teilgenommen haben. Dabei darf die Währung des Landes nur in einer bestimmten Wechselkursbandbreite (meist 15 %) vom Eurokurs abweichen; bei größeren Abweichungen muss die Zentralbank des Landes intervenieren.
+: - *Langfristige Zinssätze*: Der Zinssatz langfristiger Staatsanleihen darf nicht mehr als 2 Prozentpunkte über dem Durchschnitt der drei preisstabilsten Mitgliedstaaten liegen.
+
+Staatsanleihen
+: festverzinste Schuldscheine eines Staates, zur Erhöhung der eigenen Liquidität des betreffenden Staates
+
+Maßnahmen, welche in Reaktion auf die Eurokrise getroffen werden lassen sich in der zugehörigen Abbildung erkennen.
+
+![Maßnahmen Eurokrise](assets/Eurokrise-Maßnahmen.pdf)
+
+\newpage
+
+
 ### Wechselkurse
+In der globalen Wirtschaft besteht auch häufiger die Notwendigkeit andere Währungen zu verwenden. Hierfür können Währungen gegeneinander getauscht werden. Den Tauschkurs welchen man dabei verwendet, nennt man Wechselkurs. In der immer globaleren Wirtschaft kommt diesen deshalb auch eine immer größere Bedeutung zu. 
+
+Wechselkurse können sowohl in der sogenannten Mengen-, als auch in der Preisnotierung angegeben werden. Dabei gibt die Mengennotierung an, eine wie große Menge an ausländischer Währung ich für eine Einheit meiner inländischen Erhalte. Die Preisnotierung gibt an, wie viel mich eine Einheit ausländischer Währung in meiner inländischen kostet. Die Mengennotierung ist in der heutigen Welt die häufigere und sie eignet sich auch besonders für Preis-Mengen-Diagramme zu Wechselkursen.
+
+| Mengennotierung | Preisnotierung |
+|-|-|
+| $1 \hspace{5pt} \text{EUR} = 1,1741 \hspace{5pt} \text{USD}$ | $1 \hspace{5pt} \text{USD} = 0,8517 \hspace{5pt} \text{EUR}$ |
+
+Allgemein wird unterschieden zwischen festen und freien Wechselkursen. Zunächst einmal entsteht jeder Wechselkurs aufgrund von Angebot und Nachfrage. Bei einer geringen menge der Wärhung auf dem markt bei einer hohen Nachfrage nach dieser, führt zu hohen Wechselkursen. Da die Zentralbanken allerdings eine große Kontrolle über das Angebot einer Währung auf dem Markt hat, kann diese den Wechselkurs zu einer anderen Währung fixieren. Dies kann entweder durch gezielte Steuerung der Geldmenge geschehen, oder aber einfacher durch das einfache Festschreiben eines Kurses, gegen welche sie die Währungen tauschen, letzlich aber immer durch den gezielten An- und Verkauf von Devisen.  
+Feste Wechselkurse werden unter anderem von südamerikanischen Staaten in Bezug auf den US-Dollar benutzt, um die eigene Wirtschaft zu stabilisieren und den Handel mit den USA zu begünstigen (Argentinischer Peso zu US-Dollar). Ein weiteres bekanntes Beispiel von festen Wechselkursen ist das System von Bretton Woods. Hierbei handelt es sich um ein Übereinkommen von 44 Staaten zu "flexiblen, festgesetzten Wechselkursen" (geringfügige Abweichungen erlaubt, max. $\pm 1 \%$) zum US-Dollar. Gesichert wurde das System dadurch, dass die Vereinigten Staaten den US-Dollar in eine festgelegte Goldmenge umgetauscht haben. 1973 wurde das von den Briten und den den USA ins Leben gerufene System endgültig außer Kraft gesetzt.
+
+Dass beide Systeme Vorteile für sich haben, lässt sich in der folgenden Tabelle erkennen:
+
+| Vorteile von festen Wechselkursen | Nachteile von festen Wechselkursen |
+|-|-|
+| - Kursspekulationen effektiv verhindert -> Stabilität \newline- politische Zusammenarbeit gefördert (Abhängigkeit voneinander, wirtschaftliche Auswirkungen ähnlicher) \newline- Planung wird erleichtert, kein Kursrisiko \newline- Preise und Zinsen vergleichbar \newline- Preisschwankungen durch Wechselkurse verhindert (vgl. Ölpreis) | - nicht marktgerechte Wechselkurse aufgrund unterschiedlicher Entwicklungen möglich \newline- plötzliche Kursschwankungen bei Anpassung der Wechselkurse -> Inflationsgefahr \newline- wirtschaftspolitische Maßnahmen müssen im Einklang geschehen \newline- Import von Inflationen möglich \newline- Zentralbanken müssen weiteres Ziel verfolgen und intervenieren |
+
+Zur Erklärung der Schwankungen bei den Wechselkursen gibt es mehrere Theorien, welche alle in der Praxis einen Teil beitragen:
+
+1. *Kaufkraftparitätentheorie*: (in Praxis nur 5% der gesamten Schwankungen allerdings): Wenn durch die Wechselkurse der Kauf eines Guts im Ausland günstiger ist, werden für den Kauf Einheiten in dieser Währung nachgefragt und der Wechselkurs steigt, bis der Preis ausgeglichen ist.
+2. *Kapitalbewegungen*: Um höhere Renditen zu erreichen, wechseln Investoren ihr Kapital um, wodurch der Wechselkurs aufgrund der höheren Nachfrage nach der Währung steigt. Zudem sinkt aufgrund des höheren Angebots der Zinssatz und somit die Rendite.
+3. *Spekulationen*: Um durch Wechselkurse Profit zu schlagen, wird auf die Wechselkurse, ähnlich wie an der Aktie spekuliert.
+
+Allgemein gilt, dass schwache Wechselkurse insbesondere für den Export gut sind, da die exportierten Güter für das Ausland aufgrund der schwachen Wechselkurse günstig zu kaufen sind. Zudem wird der Import auf umgekehrte Weise hierdurch reduziert, da importierte Waren in ihrem Preis für Konsumenten des Inlands steigen.  
+Des Weiteren sorgen schwache Wechselkurse für die Verhinderung einer Deflation, aufgrund einer höheren Güternachfrage im Inland nach obigem Wirkgefüge. Dieser Zusammenhang ist in der Abbildung *Preisentwicklung durch Wechselkurse* zu erkennen.
+
+![Preisentwicklung durch Wechselkurse](assets/inflation-wechselkurse.png){ width=60% }
+
 
 ## Internationale Wirtschaftsorganisationen
 ### Europäische Wirtschaft
@@ -393,6 +497,12 @@ Unter Produktionsfaktoren versteht man alles, was zur Herstellung von Gütern be
   4. Leitung und Planung
 
 ### Preis-Mengen-Diagramme
+
+### kurz-, lang- und mittelfristig
+
+
+
+[//]: # (\listoffigures)
 
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
