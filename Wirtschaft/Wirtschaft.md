@@ -20,6 +20,7 @@ copyright: Copyright © 2020-2021 Lars Bogner
 header-includes: |
     \usepackage{caption}
     \usepackage{subcaption}
+    \usepackage{pdfpages}
 ---
 
 # Staat
@@ -396,6 +397,15 @@ Binnenmarkt
 
 
 ## Globaler Finanzmarkt
+### Verschiedene Teilmärkte
+| Teilmarkt | Definition |
+|-|-----|
+| Geldmarkt | Teilmarkt, auf dem kurzfristige finanzielle Mittel gehandelt werden |
+| Kapitalmarkt | Teilmarkt, auf dem mittel- und langfriste Finanzmittel gehandelt werden: \newline (1) *Primärmarkt für Wertpapierfinanzierung*: \newline Hier gibt ein Kapitalnehmer Wertpapiere aus (Emission), um im Gegenzug finanzielle Mittel für mittel- oder langfristige Investitionen zu erhalten. Bei den Wertpapieren handelt es sich beispielsweise um Aktien eines Unternehmens oder Anleihen eines Staates. Diese werden etwa von Banken, Versicherungen oder Investmentfonds gekauft, die finanzielle Mittel bereitstellen. \newline (2) *Sekundärmarkt für Wertpapierhandel*: \newline Hier können bereits auf dem Markt befindliche Finanzprodukte gehandelt werden. Benötigt z. B. ein Anleger sein in Wertpapieren gebundenes Kapital, kann er die Wertpapiere hier verkaufen. |
+| Kreditmarkt | Teilmarkt, auf dem ausschließlich bilaterale Kreditverträge individuell vergeben und abgeschlossen werden. Dabei vergeben Banken kurz-, mittel- oder langfristige Kredite an Unternehmen, Regierungen und Privathaushalte, um deren Geschäfte zu finanzieren. |
+| Devisenmarkt | Teilmarkt, auf dem ausländische Währungen gehandelt werden und so der internationale Zahlungsverkehr zwischen Ländern bzw. Zonen mit unterschiedlichen Währungen ermöglicht wird. V. a. Großbanken. |
+| Derivatemarkt | Teilmarkt, auf dem abgeleitete Finanzprodukte gehandelt werden. Diese leiten ihren Wert von anderen Basiswerten (z. B. Rohstoffe, Aktien, Zinssätze) ab. Bei Derivaten handelt es sich i. d. R. um Termingeschäfte, bei denen der Kauf oder Verkauf von Gütern zu einem zukünftigen Zeitpunkt vereinbart wird. ertragsbedingungen und Preise werden bereits heute festgeschrieben. |
+
 ### Finanzkrise
 Vor dem Hintergrund der globalen Finanzwelt wird auch immer wieder auf die Probleme durch globale Abhängigkeiten bei Finanzkrisen hingewiesen.  
 Eine der großen Finanzkrisen der letzten Jahre war die Weltwirtschaftskrise ab 2007, bei welcher nach dem Platzen der Immobilienblase in den USA die globale Bankenwelt fast zum erliegen kam und durch welche auch maßgeblich die anschließende Eurokrise verursacht wurde.
@@ -458,16 +468,118 @@ Des Weiteren sorgen schwache Wechselkurse für die Verhinderung einer Deflation,
 ## Internationale Wirtschaftsorganisationen
 ### Europäische Wirtschaft
 #### EZB
+Als Zentralbank aller Staaten des Euro-Raums ist die Europäische Zentralbank von hoher Bedeutung ---  für die Wirtschaft Deutschlands, der EU, aber auch weltweit. Als Zentralbank ist EZB unabhängig. Das oberste Ziel der EZB ist als Zentralbank die Erhaltung der Stabilität des Euros, also genau genommen die Preisniveaustabilität (Art. 127 AEUV (Vertrag über die Arbeitsweise der Europäischen Union)). Dabei ist das Ziel der EZB die Inflation im Euro-Raum "unter, aber nahe 2 Prozent" zu halten. Hierfür besitzt die EZB mehrere geldpolitische Instrumente, welche die EZB verwenden kann. Hierzu zählen die Fazilitäten, die Offenmarktgeschäfte und die Mindestreservepflicht.
+
+Der größte Teil der geldpolitischen Handlungen stellen Offenmarktgeschäfte dar. Hierbei schreibt die EZB als Zentralbank den Geschäftsbanken liquides Kapital zur Verfügung (durch Gutschreibung auf ein EZB-Konto der Geschäftsbank) im Gegenzug für Sicherheiten der Geschäftsbank. Zudem können sie beispielsweise Wertpapiere ankaufen. Es wird unterschieden in endgültige Transaktionen (Outright-Geschäfte) und Geschäfte mit einer sogenannten Rückkaufvereinbarung (Repo-Geschäfte; von "repurchase agreement"). Den größten Teil dieser Offenmarktgeschäfte stellen die Hauptrefinanzierungsgeschäfte dar. Dies sind auf 7 Tage befristete Offenmarktgeschäfte. Der Zinssatz dieser ist der wichtigste Leitzins der EZB, da sie einen so großen Teil der Handlungen der EZB ausmachen. Durch die Regelung der Offenmarktgeschäfte kann die Geldmenge und somit auch das Preisniveau im Euro-Raum, gezielt gesteuert werden.
+
+Zudem stellt die EZB Liquidität im Rahmen der Fazilitäten den Geschäftsbanken zur Verfügung. Dies geschieht durch die Spitzenrefinanzierungsfazilitäten. Dabei stellt die EZB der Bank Zentralbankgeld auf Nachfrage der Bank zum Spitzenrefinanzierungssatz für eine Nacht zur Verfügung. Da anders wie bei den Tenderverfahren bei den Offenmarktgeschäften die Vergabe dieser Kredite auf Nachfrage der Banken geschieht, ist dieser Zinssatz auch in der Regel höher. Zudem stellt dieser letztlich eine Höchstgrenze für Tageszinssätze dar, da keine Bank Kapital für höhere Zinssätze aufnehmen wird, wenn sie dieses von der EZB erhalten können.  
+Die andere Fazilität, welche die EZB zur Verfügung stellt, ist die Einlagefazilität. Diese ermöglicht es den Banken ihr Kapital bei der Zentralbank kurzfristig einzulagern. Der Zinssatz der Einlagefazilitäten stellt die untere Grenze für den Tagesgeldzinssatz dar aus ähnlichen Gründen.  
+Die Fazilitäten können durch ihre Zinssätze ebenso zur Steuerung der Geldmenge verwendet werden.
+
+Die dritte Möglichkeit der EZB die Geldmenge zu steuern ist durch die Veränderung des Mindestreservesatzes. Durch die Mindestreservepflicht der EZB sind Geschäftsbanken verpflichtet immer eine bestimmte Menge an Kapital (abhängig von den reservepflichtigen Verbindlichkeiten) auf Zentralbankkonten zu haben. Durch die Steuerung des Mindestreservesatzes kann die EZB zudem die Geldmenge im Umlauf steuern, da bei einem höheren Satz die Banken weniger Geld vergeben können, da dieses auf Konten der Zentralbanken sein muss. Auch erfüllt die Mindestreservepolitik der EZB eine Puffer- und Stabilisierungsfunktion, da Banken zunächst dieses Geld nicht dauerhaft auf den Konten haben müssen und nur der Durchschnitt über einen Zeitraum in der Höhe stimmen muss und Banken immer Zugriff auf sicheres Kapital haben, wobei sie nicht auf andere Banken angewiesen sind.
+
+Die Veränderung der Zinssätze führt dabei nach dem Transmissionsmechanismus zu einer Veränderung des Geldwerts und der Kaufkraft. Dieser ist in der zugehörigen Abbildung dargestellt.
+
+![Transmissionsmechanismus](assets/transmissionsmechanismus.png){ width=60% }
+
+Unabhängigkeit der EZB
+: operativ/funktionell, finanziell, institutionell, personell;  
+: Methoden zur Zielerreichung, eigener Haushalt mit eigener Verfügung, keine Anweisungen aus Politik, Mitarbeiter nur EZB unterstellt
+
+
 #### EWWU
+Die europäische Wirtschafts- und Währungsunion ist die Währungsunion der EU. Formell sind alle EU-Mitgliedsstaaten verpflichtet an dieser teilzunehmen. Somit sind auch die Staaten verpflichtet nach der Erfüllung der Konvergenzkriterien (vgl. [Abschnitt Finanzkrise](#finanzkrise)) den Euro einzuführen.
+
+Alle Staaten der Union gelten volkswirtschaftlich gesehen als Inland und beim innereuropäischen Markt handelt es sich um einen Binnenmarkt, da er nach innen keine Grenzen hat und nach außen als Einheit auftritt (vgl. Definition Binnenmarkt im [Abschnitt Freihandel und Protektionismus](#freihandel-und-protektionismus)).
 
 ### Multilaterale Übereinkommen und Organisationen
 #### WTO
+Die Welthandelsorganisation ist eine internationale Organisation, welche den Abbau von Handelshemmnissen und die Schaffung internationaler Rahmenbedingungen, fördern soll.  Sie entstand aus den Unterzeichnerstaaten des *General Agreement on Tariffs and Trade* (GATT), welcher das gleiche Ziel verfolgte. Heute bestehen folgende Übereinkommen in der WTO: GATT (Regelungen für den Warenhandel), GATS (Regelungen für Dienstleistungen; *General Agreement on Trade in services*), TRIPS (Regelungen für das geistige Eigentum; *Agreement on Trade-Related Aspects of Intellectual Property Rights*) (und GPA (Beihilfe- und Vergaberecht) (nicht alle Länder)). Zudem dient die WTO als internationales Forum zur Streitbeilegung (DSU; *Dispute Settlement Understanding*) und als Rahmen für die Schaffung von Handelsabkommen.
+
+DSU
+: gilt für alle WTO-Abkommen;  
+. zunächst Vermittlung, danach Empfehlung durch Gremium (Panel), darauf Berufung vor Appelate Body (Berufungsgericht; aktuell handlungsunfähig aufgrund fehlender Richter, Blockade der USA) möglich, Sanktionen möglich
+
+In der WTO gelten zudem bestimmte Grundprinzipien, wozu alle Teilnehmerländer verpflichtet sind. Dazu gehört das Inländerprinzip, das Prinzip der Meistbegünstigung, das Prinzip der Nichtdiskriminierung und sowohl der Grundsatz der Transparenz, als auch der Gegenseitigkeit und Liberalisierung.
+
+Grundsatz der Meistbegünstigung
+: (Art. 1 GATT), Vorteile die einem Handelspartner gegeben werden, müssen auch den anderen gewährleistet werden
+
+Inländerprinzip
+: (Art. 3 GATT), inländische Wirtschaftsakteure dürfen nicht anders behandelt werden, wie ausländische
+
+Grundsatz der Nichtdiskriminierung
+: Diskriminierung einzelner WTO-Mitglieder ist nicht zulässig
+
+Grundsatz der Transparenz
+: (Art. 10 GATT), alle außenwirtschaftlichen Aktionen eines Landes müssen transparent gestaltet sein
+
+Grundsatz der Gegenseitigkeit
+: alle Teilnehmer der WTO müssen sich gegenseitig Zugeständnisse machen, keine Einseitigkeit
+
+Grundsatz der Liberalisierung
+: das Ziel der WTO ist der Abbau aller Handelshemmnisse; z.B. Verbot von mengenmäßigen Beschränkungen (Art. 11 GATT)
+
 #### Andere Institutionen
+| Organisation | Ziel | heute | Kritik |
+|-|-|-|-|
+| WTO | Abbau von Handelshemmnissen | Vermittlung bei Streitigkeiten, Fördern von Handelsabkommen | - westliche Länder schaden Entwicklungsländern durch viele Exporte \newline - Entwicklungsländer benötigen Schutz vor Freihandel |
+| OPEC | Interessensvertretung der Öl-Exporteure | gleiche Ziele wie bei Gründung, durch Streitigkeiten häufig nicht handlungsfähig | - nicht das Wohl der Verbraucher im Blick \newline - Öl als politische Waffe verwendet \newline - keine Zukunftsperspektiven nach Öl |
+| OECD | Wiederaufbau von Europa nach WW2 | Förderung von Demokratie, Lebensqualität und Marktwirtschaft, Empfehlungen für Regierungshandeln | - geschlossener gehobener Kreis \newline - zu starke Orientierung an freie Marktwirtschaft \newline - Empfehlungen häufig nicht umsetzbar |
+| IWF | Förderung der Zusammenarbeit in Währungspolitik, Hilfe bei Finanzkrisen | Kreditvergabe bei Krisen und gefährdetem Haushalt eines Staats | - zu strenge Auflagen bei Kreditvergabe \newline - zu starke Orientierung an freie Marktwirtschaft |
+| Weltbank | Förderung des Wideraufbaus nach WW2, Schaffung stabiler Währung | Armutsbekäpfung und Hilfe für Entwicklungsländer | - Förderungen von Projekten ohne Rücksicht auf Bevölkerung \newline - keine Prüfung von Menschenrechtsverletzungen |
 
 ### Global Governance
+Global Governance ist der Versuch die Politik und das Handeln der Staaten auf globaler Ebene zusammenzufassen in einer Art Einheitsregierung für die gesamte Welt. Hierfür soll das Zusammenwirken verschiedener staatlicher und nicht-staatlicher, mulitalteraler Organisationen genutzt werden.
 
+Global Governance wird zudem in 5 Bereiche gegliedert, die sogenannten 5 Säulen der Global Governance.
+
+1. *Welthandelsordnung*: Kartellbehörden werden ergänzt durch WTO, OECD und UNCTAD
+2. *Weltfinanzordnung*: Zentralbanken werden ergänzt durch IWF, Weltbank, FSB und BIZ
+3. *Weltwährungsordnung*: gleich wie *Weltfinanzordnung*
+4. *Weltökologieordnung*: UNEP und die Agenda 21 sollen diese gewährleisten
+5. *Weltsozialordnung*: ILO als zentrales Element
+
+Säulen 1-3 werden zudem durch die G8 und G20-Zusammenschlüsse und das Weltwirtschaftsforum unterstützt. Bei Säulen 4 und 5 spielt Global Compact als UN-Organisation eine Rolle. Ein weiteres internationales Netzwerk zu Säule 5 ist das Weltsozialforum.
+
+UNCTAD
+: Welthandels- und Entwicklungskonferenz (*United Nations Conference on Trade and Development*); Ziel ist die Förderung des Handels zwischen Industrie- und Entwicklungsländern
+
+FSB
+: *Financial Stability Board*; Ziel ist die Sicherung des globalen Finanzsystems durch Überwachung dessen
+
+BIZ
+: *Bank für internationalen Zahlungsausgleich*; Forum für den internationalen Austausch zwischen den Zentralbanken, fördert internationale Zusammenarbeit zwischen den Zentralbanken
+
+*UNEP*
+: *United Nations Environment Program*; Programm der UN, welches auf die aktuellen Bedrohungen der Umwelt hinweisen soll und unter anderem multilaterale Umweltverträge ins Leben ruft
 
 ## Industrie-, Schwellen- und Entwicklungsländer
+
+Entwicklungsland
+: Land mit schlechten wirtschaftlichen und gesellschaftlichen Bedingungen;  
+: schlechte Nahrungsmittelversorgung, hohe Armut und soziale Ungleichheit, schlechte Gesundheitsversorgung, schlechter Bildungsstand
+: Bsp.: Angola, Argentinien, Burkina Faso
+
+Schwellenland
+: Unterart der Entwicklungsland, welches sich durch ein hohes Wirtschaftswachstum auszeichnet und nicht mehr alle Bedingungen eines Entwicklungslands erfüllt, häufig große Wirtschaft in Nischensparten;
+: Bsp.: Indien, Brasilien, Südafrika
+
+LDC
+: *Least Developed Countries*; Teil der Entwicklungsländer, welche als besonders rückständig gelten;
+: ausschlaggebend für die Einordnung sind: BNE pro Kopf, HAI (*Human Assets Index*), EVI (*Economic Vulnerability Index*);  
+: Bsp.: Bhutan, Benin, Ruanda
+
+Inudstrieland
+: Länder die im Gegenssatz zu den Entwicklungsländern eine große Wirtschaft aufweisen und auch gesellschaftlich fortgeschritten sind, großer Fokus auf tertiärem Sektor in der Wirtschaft;  
+: Bsp.: Deutschland, Frankreich, USA
+
+BRIC(S)-Staaten
+: Brasilien, Russland, Indien, China, Südafrika; Sammlung von Staaten mit extrem hohem Wirtschaftswachstum
+
+Triade
+: Kombination aus NAFTA-Staaten (US, CA, MX), EU und industrialisiertes Ostasien (JP, TW, SK, HK, SG); 3 größten Wirtschaftsräume der Welt
+
 ### Disparitäten
 ### UN-Ziele
 ### Globale Sozial- und Umweltstandards
@@ -477,6 +589,8 @@ Des Weiteren sorgen schwache Wechselkurse für die Verhinderung einer Deflation,
 
 # Anhang
 Für weitere Informationen kann unter anderem die Basisbegriffeliste^[Link auf moodle: https://moodle.nbg.pf.schule-bw.de/moodle/pluginfile.php/40814/mod_resource/content/1/Hinweise%20zum%20Umgang%20mit%20Material%20und%20Basisbegriffe.pdf] verwendet werden.
+
+Für das Abitur müssen die Operatoren auswendig gekonnt werden. Siehe hierfür letzte Seite.
 
 ## Grundwissen
 ### Wirtschaftskreislauf
@@ -499,10 +613,23 @@ Unter Produktionsfaktoren versteht man alles, was zur Herstellung von Gütern be
 ### Preis-Mengen-Diagramme
 
 ### kurz-, lang- und mittelfristig
+kurzfristig
+: \< 1 Jahr
 
+mittelfristig
+: zwischen 1 und 5 Jahren
 
+langfristig
+: \> 5 Jahre
+
+### Arten von Gütern
+
+![Arten von Gütern](assets/güter.jpg){ width=70% }
 
 [//]: # (\listoffigures)
+
+\newpage
+\includepdf[pages=-1]{assets/operatoren.pdf}
 
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
