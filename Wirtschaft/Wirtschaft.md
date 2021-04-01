@@ -352,6 +352,30 @@ Eine mögliche Form, wie diese Ungerechtigkeit gemessen werden kann ist der soge
 
 
 # Ausland
+## Ursachen der Globalisierung
+### Ökonomische Ursachen
+
+- Deregulierung
+- Privatisierung
+- zunehmende ausländische Direktinvestitionen
+
+## Politische Ursachen
+
+- veränderte politische Gegebenheiten durch Machtzunahme von China
+- Zusammenbruch des Ostblocks
+- Staatenbund in Europa
+
+## Technologische Ursachen
+
+- steigende Transportkapazität durch beispielsweise größere Containerschiffe
+- schnellere und einfachere Kommunikation durch Internet und Telefon
+- günstigere Arbeit durch Mechanisierung
+- fortschreitende Digitalisierung
+
+## Soziokulturelle Ursachen
+
+- einheitlicher werden der Kulturen ("McDonaldisierung")
+
 ## Außenhandel
 ### Zahlungsbilanz
 Die Zahlungsbilanz gibt alle Transaktionen an, welche ein Land in einem bestimmten Zeitraum mit dem Ausland getätigt hat. Der Aufbau ist dabei wie in der Abbildung zu erkennen.
@@ -363,7 +387,7 @@ Als Bilanz ist Aktiva und Passiva auch bei der Zahlungsbilanz stets ausgeglichen
 ### Freihandel und Protektionismus
 In der globalen Finanzwelt kommt immer wieder die Debatte über den Freihandel auf. Dieser ermöglicht bessere Zusammenarbeit über Landesgrenzen hinweg, wenn auch die eigene Wirtschaft nicht so gut geschützt werden kann. 
 
-Zum Schutz der eigenen Wirtschaft werden dabei immer wieder Handelhemnisse genutzt. Diese lassen sich unterteilen in tarifär und nichttarifär. Tarifäre Handelshemmnisse sind Zölle, also Mengen- und Wertzölle.  
+Zum Schutz der eigenen Wirtschaft werden dabei immer wieder Handelhemmnisse genutzt. Diese lassen sich unterteilen in tarifär und nichttarifär. Tarifäre Handelshemmnisse sind Zölle, also Mengen- und Wertzölle.  
 Nichttarifäre Hemmnisse sind Aktionen wie Preisbeeinflussung durch Subventionen und Dumping, Mengenbeschränkungen beim internationalen Handel durch Kontingente, Quoten, Ein- & Ausfuhrverbote, Boykotte und Embargos und administrative Bechränkungen durch Grenzformalias, technische Standards und Vorschriften zu Gesundheit, Umweltschutz und Sicherheit.
 
 Dumping
@@ -428,6 +452,9 @@ Konvergenzkriterien
 Staatsanleihen
 : festverzinste Schuldscheine eines Staates, zur Erhöhung der eigenen Liquidität des betreffenden Staates
 
+Rating-Agentur
+: privates Unternehmen, welches Finanzprodukte in ihrem Risiko bewertet und die Bonität von Banken und Staaten beurteilt; ihre Urteile müssen stets objektiv und transparent sein, trotz dessen Befürchtung von Interessenkonflikten, da Kunden der Agentur Interesse an gutem Rating haben
+
 Maßnahmen, welche in Reaktion auf die Eurokrise getroffen werden lassen sich in der zugehörigen Abbildung erkennen.
 
 ![Maßnahmen Eurokrise](assets/Eurokrise-Maßnahmen.pdf)
@@ -464,6 +491,19 @@ Des Weiteren sorgen schwache Wechselkurse für die Verhinderung einer Deflation,
 
 ![Preisentwicklung durch Wechselkurse](assets/inflation-wechselkurse.png){ width=60% }
 
+
+## Deutschland als Wirtschaftsstandort
+| Schwächen |  | Stärken |
+|-|-|-|
+| - Rohstoffarmut \newline - hohe Umweltauflagen \newline | natürliche Ressourcen | - ständige Verfügbarkeit durch offene Grenzen \newline - hoch entwickelte Umwelttechnologie \newline |
+| - inflexibler Arbeitsmartkt \newline - hohe Lohnkosten \newline - lange Ausbildungszeit, praxisferne Ausbildung \newline | Arbeitskräfte | - sozialer Friede \newline - ausgebildete Fachkräfte \newline - duale Ausbildung \newline |
+| - Risikokapitalmarkt klein \newline - schwierige Startkapitalbeschaffung \newline | Kapital | - hohe Ersparnisse \newline - freier Kapitalmarkt \newline |
+| - schlechter Breitbandausbau im ländlichen Raum \newline | Infrastruktur | - gute Infrastruktur \newline |
+| - hohe Staatsverschuldung \newline - hohe Steuern \newline - Abgrenzung gegen Außer-EU \newline - hohe Bürokratie \newline | Politk und Verwaltung | - gut organisierte Verwaltung \newline - Rechtssicherheit \newline - politische Sicherheit \newline - großer Binnenmarkt durch EU \newline - keine Korruption \newline |
+| - "überzogener Sozialstaat" \newline - schlechtes Rentensystem \newline | Sozialbereich | - sozialer Friede \newline - breite Einkommensstreuung \newline - gute Gesundheitsversorgung \newline |
+| - Überalterung \newline | Gesellschaft | - breite Mittelschicht \newline |
+| - nicht bedarfsorientiert \newline - unzureichende Kooperation mit Industrie \newline - wenig Umsetzung der Neuerungen \newline | Forschung und Entwicklung | - hoch entwickelte Grundlagenforschung \newline - innovative Klein- und Mittelbetriebe \newline - gute Schulbildung \newline |
+| - hoher Anteil in traditioneller Industrie \newline - Tertiärsektor unterentwickelt \newline - einige strukturschwache Gebiete (BB, MP,...) \newline - teilweise unrentable Industrien durch Subventionen \newline - mangelnde Prozessorientierung in Unternehmen \newline | Wirtschaftsstruktur | - Sekundärsektor hochentwickelt \newline - viele Ballungszentren \newline - hohe Spezialisierung \newline - starker Mittelstand \newline - große Exportstärke \newline |
 
 ## Internationale Wirtschaftsorganisationen
 ### Europäische Wirtschaft
@@ -526,8 +566,23 @@ Grundsatz der Liberalisierung
 | WTO | Abbau von Handelshemmnissen | Vermittlung bei Streitigkeiten, Fördern von Handelsabkommen | - westliche Länder schaden Entwicklungsländern durch viele Exporte \newline - Entwicklungsländer benötigen Schutz vor Freihandel |
 | OPEC | Interessensvertretung der Öl-Exporteure | gleiche Ziele wie bei Gründung, durch Streitigkeiten häufig nicht handlungsfähig | - nicht das Wohl der Verbraucher im Blick \newline - Öl als politische Waffe verwendet \newline - keine Zukunftsperspektiven nach Öl |
 | OECD | Wiederaufbau von Europa nach WW2 | Förderung von Demokratie, Lebensqualität und Marktwirtschaft, Empfehlungen für Regierungshandeln | - geschlossener gehobener Kreis \newline - zu starke Orientierung an freie Marktwirtschaft \newline - Empfehlungen häufig nicht umsetzbar |
-| IWF | Förderung der Zusammenarbeit in Währungspolitik, Hilfe bei Finanzkrisen | Kreditvergabe bei Krisen und gefährdetem Haushalt eines Staats | - zu strenge Auflagen bei Kreditvergabe \newline - zu starke Orientierung an freie Marktwirtschaft |
+| IWF | Förderung der Zusammenarbeit in Währungspolitik, Hilfe bei Finanzkrisen | Kreditvergabe bei Krisen und gefährdetem Haushalt eines Staats | - zu strenge Auflagen bei Kreditvergabe \newline - zu starke Orientierung an freie Marktwirtschaft \newline - Stimmrecht über Kapitalanteil -> hohe Kontrolle der Industriestaaten |
 | Weltbank | Förderung des Wideraufbaus nach WW2, Schaffung stabiler Währung | Armutsbekäpfung und Hilfe für Entwicklungsländer | - Förderungen von Projekten ohne Rücksicht auf Bevölkerung \newline - keine Prüfung von Menschenrechtsverletzungen |
+
+
+#### Washingtoner Konsens
+Der Washingtoner Konsens ist ein Maßnahmen-Paket, welches wirtschaftlich geschädigtn Länder umsetzen sollen um wieder auf die Beine zu kommen. Dabei handelt es sich um eine Reihe von wirtschaftspolitischen Maßnahmen und Regelungen. Dieses Maßnahmen-Paket wurde auch durch den IWF und die Weltbank im folgenden als Bedingung für die Kreditvergabe verwendet. Vor allem durch seine stark wirtschaftsliberalisierenden Charakter wird der Washingtoner Konsens immer wieder kritisiert.
+
+
+Die Maßnahmen, welche stark neoliberal veranlagt sind, sind wie folgt:
+
+- Kürzung der Staatsausgaben
+- Abwertung des Wechselkurses
+- Liberalisierung der Handelspolitik
+- Deregulierung von Märkten
+- Privatisierung öffentlicher Unternehmen
+- Entbürokratisierung
+- Abbau von Subventionen
 
 ### Global Governance
 Global Governance ist der Versuch die Politik und das Handeln der Staaten auf globaler Ebene zusammenzufassen in einer Art Einheitsregierung für die gesamte Welt. Hierfür soll das Zusammenwirken verschiedener staatlicher und nicht-staatlicher, mulitalteraler Organisationen genutzt werden.
@@ -570,7 +625,7 @@ LDC
 : ausschlaggebend für die Einordnung sind: BNE pro Kopf, HAI (*Human Assets Index*), EVI (*Economic Vulnerability Index*);  
 : Bsp.: Bhutan, Benin, Ruanda
 
-Inudstrieland
+Industrieland
 : Länder die im Gegenssatz zu den Entwicklungsländern eine große Wirtschaft aufweisen und auch gesellschaftlich fortgeschritten sind, großer Fokus auf tertiärem Sektor in der Wirtschaft;  
 : Bsp.: Deutschland, Frankreich, USA
 
@@ -580,11 +635,49 @@ BRIC(S)-Staaten
 Triade
 : Kombination aus NAFTA-Staaten (US, CA, MX), EU und industrialisiertes Ostasien (JP, TW, SK, HK, SG); 3 größten Wirtschaftsräume der Welt
 
+HDI
+: *Human Developement Index*; umfasst Bildungsdauer, Lebenserwartung und Einkommen in einem Land (seit 2010; NHDI)
+: ![Karte des HDI](https://upload.wikimedia.org/wikipedia/commons/2/27/Countries_by_Human_Development_Index_%282020%29.png)
+
 ### Disparitäten
+Vor allem durch naturräumliche, endogene und exogene Faktoren kam es in der globalen Welt zu einem unterschiedlichen Entwicklungsstand der unterschiedlichen Länder. Zur Behebung dieser Unterschiede gibt es die sogenannten Entwicklungstheorien. Namentlich die Modernisierungstheorie und die Dependenztheorie. Die Behebung dieser Missstände ist auch für die westlichen Länder attraktiv, da die Unterschiede auch zu Migration führen.
+
+Die Moderinisierungstheorie geht davon aus, dass vor allem endogene Faktoren die Ursache sind und behoben werden müssen. Dafür sollen die zu entwickelnden Länder die eigene Wirtschaft nach dem Vorbild der Industriestaaten weiter entwickeln. Der Anreiz zu dieser Nachahmung in Wirtschaft, Gesellschaft und Kultur kann von außen kommen.  
+Auf der anderen Seite gibt es die Dependenztheorie, welche die exogenen Ursachen als Hauptfaktor, welcher zu beheben gilt, sieht. Für diese Befreiung der Länder muss der Anreiz allerdings von innen kommen, da sonst von außen die nächste Abhängigkeit geschaffen wird. Maßnahmen sind eine Autarkie von der Welt durch Abgrenzung der Politik und Schutz des eigenen Wirtschaftsraums.
+
+naturräumliche Faktoren
+: z.B. Ressourcenausstattung, Klima
+
+endogene Faktoren
+: inländische Faktoren, z.B. hohes Bevölkerungswachstum, Korruption, Unruhen
+
+exogene Faktoren
+: ausländische Faktoren, z.B. Kolonisierung, Abhähnigkeit von westlichen Ländern
+
+
 ### UN-Ziele
+Die Vereinten Nationen waren Forum für die Schaffung zweier Ziel-Sammlungen zur Nachhaltigkeit. Die UN-Milleniumsziele und die UN-Nachhaltigkeitsziele, auch als Agenda 2030 bezeichnet.  
+Die UN-Milleniums-Entwicklungsziele sind 8 Ziele, welche zur Jahrtausendwende beschlossen wurden und bis zum Jahr 2015 umzusetzen waren. Alle Ziele lassen sich grob in Bekämpfung von Armut und Hunger, Schaffung einer besseren Gesundheitsversorgung, ökologische Nachhaltigkeit und die Schaffung von Entwicklungspartnerschaften einordnen. Im Vergleich zur Agenda 2030 waren die Ziele auch quantitativ festgehalten.  
+
+Abgelöst wurden die Milleniumsziele durch die Agenda 2030 oder die nachhaltigen Entwicklungsziele (SDG, *Sustainable Developement Goals*). Diese 17 Ziele sind im Gegenssatz zu den vorigen zeitlich unbegrenzt definiert und sollen für immer gelten. Deshalb sind sie auch nicht quantitativ. Zudem sind sie vollumfassender, was ihren Themenbereich umfasst. Sie umfassen zusätzlich Aspekte wie Frieden, adressieren den Klimawandel direkt und die Ungleichheit.
+
+Kritik kommt in soweit, dass es sich bei den ganzen Zielen nur um Ideen handelt, aber die Umsetzung mangelt --- nach dem Motto "nur heiße Luft". Dies lässt sich auch damit stützen, dass es zwar deutliche Verbesserungen gab bei den Milleniumszielen, diese aber nicht erfüllt wurden und durch die mangelnde quantitative Zielsetzung dies bei der Agenda 2030 noch mangelhafter sein wird.
+
 ### Globale Sozial- und Umweltstandards
+vgl. 5 Säulen der Global Governance
+
 #### Global Compact
+Global Compact ist eine Aktion der UN, welche soziale und nachhaltige Entwicklung zusammen mit Unternehmen gestalten soll. Dabei verpflichten sich Unternehemen in Eigenverantwortung dafür bestimmte Mindeststandards in diesen Feldern einzuhalten. Die Prinzipien lassen sich in die Bereiche Menschenrechte, Arbeitsnormen, Umwelt/Klima und Korruptionsprävention einsortieren.
+
+Global Compact steht in der Kritik, da keine Sanktionsmöglichkeiten oder konkrete Verpflichtungen durch mangelnde Kontrollen bestehen und die Unternehmen lediglich sogeanntes Blue-Washing betreiben, also ihr eigenes Unternehemen lediglich durch ein UN-Logo aufwerten, aber nichts positiv verwirklichen. Zudem kann kritisiert werden, dass durch Global Compact nur effektive Maßnahmen, wie Gesetze und Regelungen, durch die Alibi-Wirkung verhindert werden.
+
 #### International Labour Organization
+Die internationale Arbeitsorganisation ist eine Unterorganisation der Vereinten Nationen und setzt sich für soziale Gerechtigkeit, vor allem im Umfeld der globalen Arbeit ein. Des Weiteren hat die ILO Sozialstandards festgeschrieben, gegen welche nicht verstoßen werden darf, um zu verhindern, dass Länder sich durch Ausbeitung einen Vorteil auf dem Weltmarkt verschaffen. Diese Standards umfassen: 
+
+1. Vereinigungsfreiheit (Konventionen 87, 98)
+2. Beseitigung von Zwangsarbeit (Konventionen 29, 105)
+3. Abschaffung von Kinderarbeit (Konventionen 138, 182)
+4. Verbot von Diskriminierung (Konventionen 100, 111)
 
 
 # Anhang
@@ -626,7 +719,18 @@ langfristig
 
 ![Arten von Gütern](assets/güter.jpg){ width=70% }
 
+### Ausländische Direktinvestitionen
+Ausländische Direktinvestitionen sind Investitionen mit dem Ziel des Investors Kontrolle und Einfluss über ein Unternehmen zu erhalten. Ab einer Übernahme von ca. 10% des Unternehmens kann davon gesprochen werden. In Deutschland kann der Bund in einigen Sektoren bei einer Übernahme von über 15% ein Veto einlegen.
+
+### Ausländische Zahlungsmittel
+Devisen
+: Zahlungsmittel in Fremdwährung in einer Form außer Bargeld
+
+Sorten
+: ausländisches Zahlungsmittel in Form von Bargeld einer anderen Währung
+
 [//]: # (\listoffigures)
+\listoffigures
 
 \newpage
 \includepdf[pages=-1]{assets/operatoren.pdf}
