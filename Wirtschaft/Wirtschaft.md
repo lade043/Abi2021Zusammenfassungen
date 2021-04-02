@@ -384,6 +384,8 @@ Die Zahlungsbilanz gibt alle Transaktionen an, welche ein Land in einem bestimmt
 
 Als Bilanz ist Aktiva und Passiva auch bei der Zahlungsbilanz stets ausgeglichen. Zudem besteht ein Gleichgewicht zwischen dem Leistungsbilanzüberschuss und dem Kapitalbilanzüberschuss, welcher durch die Zusammenhänge der Zahlungsbilanz zu erklären ist. Dieser Zusammenhang lässt sich leicht an einem Beispiel erkennen: Wenn ein Land mehr importiert als exportiert (Leistungsbilanzdefizit) muss es das dafür nötige Kapital aus dem Ausland beziehen (Kapitalbilanzdefizit).
 
+Deutschland strebt mit einem seiner Ziele der Wirtschaftspolitik ein Außenhandelsgleichgewicht an. Das heißt, dass die Handelsbilanz ausgeglichen ist. Dies ist damit begründet, dass ein überproportionaler Import zu Verschuldung führt. Dies ist zwar bei einem Handelsbilanzüberschuss nicht gegeben, jedoch ist das aufgebaute Kapital durch den Import aus Ländern mit Staatsverschuldung, welche drohen Bankrott zu gehen, mit den entsprechenden Folgen.
+
 ### Freihandel und Protektionismus
 In der globalen Finanzwelt kommt immer wieder die Debatte über den Freihandel auf. Dieser ermöglicht bessere Zusammenarbeit über Landesgrenzen hinweg, wenn auch die eigene Wirtschaft nicht so gut geschützt werden kann. 
 
@@ -407,6 +409,8 @@ Trotz dessen haben sowohl Freihandel, als auch Protektionismus Vorteile, wie in 
 
 ![Freihandel und Protektionismus](assets/freihandel-vs-protektionismus.png)
 
+![Freihandel und Protektionsimus im Preis-Mengen-Diagramm](assets/pmd/Screenshot_20210402_162552.png)
+
 Beim Freihandel wird zudem in verschiedene Arten des Zusammenschlusses zum Freihandel unterschieden:
 
 Freihandelszone
@@ -417,8 +421,6 @@ Zollunion
 
 Binnenmarkt
 : Ein Gebiet, wo sich das gesamte wirtschaftliche Geschehen nach weitgehend einheitlichen Regeln und gleichen Bedingungen abspielt. Der Binnenmarkt ist gewöhnlich identisch mit dem Hoheitsgebiet eines Staates. Besteht er aus mehreren Staatsgebieten – wie der Europäische Binnenmarkt – ist er wirtschaftlich gesehen Inland
-
-
 
 ## Globaler Finanzmarkt
 ### Verschiedene Teilmärkte
@@ -471,7 +473,9 @@ Wechselkurse können sowohl in der sogenannten Mengen-, als auch in der Preisnot
 |-|-|
 | $1 \hspace{5pt} \text{EUR} = 1,1741 \hspace{5pt} \text{USD}$ | $1 \hspace{5pt} \text{USD} = 0,8517 \hspace{5pt} \text{EUR}$ |
 
-Allgemein wird unterschieden zwischen festen und freien Wechselkursen. Zunächst einmal entsteht jeder Wechselkurs aufgrund von Angebot und Nachfrage. Bei einer geringen menge der Wärhung auf dem markt bei einer hohen Nachfrage nach dieser, führt zu hohen Wechselkursen. Da die Zentralbanken allerdings eine große Kontrolle über das Angebot einer Währung auf dem Markt hat, kann diese den Wechselkurs zu einer anderen Währung fixieren. Dies kann entweder durch gezielte Steuerung der Geldmenge geschehen, oder aber einfacher durch das einfache Festschreiben eines Kurses, gegen welche sie die Währungen tauschen, letzlich aber immer durch den gezielten An- und Verkauf von Devisen.  
+![Wechselkurse im Preis-Mengen-Diagramm](assets/pmd/Screenshot_20210402_162603.png)
+
+Allgemein wird unterschieden zwischen festen und freien Wechselkursen. Zunächst einmal entsteht jeder Wechselkurs aufgrund von Angebot und Nachfrage. Bei einer geringen menge der Wärhung auf dem markt bei einer hohen Nachfrage nach dieser, führt zu hohen Wechselkursen. Da die Zentralbanken allerdings eine große Kontrolle über das Angebot einer Währung auf dem Markt hat, kann diese den Wechselkurs zu einer anderen Währung fixieren. Dies kann entweder durch gezielte Steuerung der Geldmenge geschehen, oder aber einfacher durch das einfache Festschreiben eines Kurses, gegen welche sie die Währungen tauschen, letzlich aber immer durch den gezielten An- und Verkauf von Devisen (*Devisenmarktintervention*).  
 Feste Wechselkurse werden unter anderem von südamerikanischen Staaten in Bezug auf den US-Dollar benutzt, um die eigene Wirtschaft zu stabilisieren und den Handel mit den USA zu begünstigen (Argentinischer Peso zu US-Dollar). Ein weiteres bekanntes Beispiel von festen Wechselkursen ist das System von Bretton Woods. Hierbei handelt es sich um ein Übereinkommen von 44 Staaten zu "flexiblen, festgesetzten Wechselkursen" (geringfügige Abweichungen erlaubt, max. $\pm 1 \%$) zum US-Dollar. Gesichert wurde das System dadurch, dass die Vereinigten Staaten den US-Dollar in eine festgelegte Goldmenge umgetauscht haben. 1973 wurde das von den Briten und den den USA ins Leben gerufene System endgültig außer Kraft gesetzt.
 
 Dass beide Systeme Vorteile für sich haben, lässt sich in der folgenden Tabelle erkennen:
@@ -653,6 +657,25 @@ endogene Faktoren
 
 exogene Faktoren
 : ausländische Faktoren, z.B. Kolonisierung, Abhähnigkeit von westlichen Ländern
+
+### Herausforderungen durch die Globalisierung
+Durch die Globalisierung kommt es immer wieder zu Problemen, welche über Landesgrenzen hinweg gehen. Insbesondere die Schwellen- und Entwicklungsländer sind von diesen Problemen immer besonders betroffen. Zu den Problemen zählen grenzüberschreitende negative externe Effekte, globale Asymmetrien, Interdependenzen und Destabilisierungsgefahren.
+
+globale Asymmetrien
+: vgl. [Abschnitt Disparitäten](#disparitäten), Informationsasymmetrien (zwei Parteien haben unterschiedliches Wissen, z.B. beim Aktienkauf oder internationalen Verträgen)
+
+Interdependenzen
+: Abhängigkeiten im weltweiten Handel, bei Krisen und Staatsfinanzen; Anpassungsdruck um globaler Konkurrenz gerecht zu werden
+
+Destabilisierungsgefahren
+: internationale Finanz- und Verschuldungskrisen, anhaltende Ungleichgewichte im Außenhandel
+
+Maßnahmen gegen diese globalen Probleme umfassen moralische Appelle, internationale Verhandlungen, Gebote und Verbote, Steuern und Subventionen, Mengenlösungen wie den Emissionshandel oder das Gemeinlastprinzip. Ein Überblick über ihre Wirksamkeit kann in der zugehörigen Abbildung gefunden werden.
+
+Gemeinlastprinzip
+: Allgemeinheit, beispielsweise in Form des Staates, kommt für Folgen auf
+
+![Lösungen für globale Herausforderungen](assets/globale-herausforderungen.png)
 
 
 ### UN-Ziele
