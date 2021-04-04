@@ -344,14 +344,27 @@ Eine mögliche Form, wie diese Ungerechtigkeit gemessen werden kann ist der soge
 \end{figure}
 
 ### Wohlstand im Staat
-**INHALT EINFÜGEN**
+Häufig wird das BIP als Wohlstandsindikator verwendet. Dies wird allerdings immer mehr kritisiert, da viele Leistungen (nicht steuerpflichtig) in diesem nicht enthalten sind und auch beispielsweise negative Folgen zur Erreichung des BIPs, welche zu Kosten führen ignoriert werden. Zudem beinhaltet das BIP viele Aspekte wie Zufriedenheit gar nicht. Deshalb gibt es Indizes wie zum Beispiel den HDI oder den HPI. Zudem muss betrachtet werden, dass eine Aussage über die Veränderung des BIP nur Aussagekräftig ist, wenn das reele BIP statt dem nominalen verwendet wird, da nur dann ein Preisanstieg herausgerechnet wird.
 
-
-### Bedingungsloses Grundeinkommen
-**INHALT EINFÜGEN**
+Zudem muss unterschieden werden in BIP und BNE. Während das Bruttoinlandsprodukt den Wert aller Güter und Dienstleistungen in einem Land von In- und Ausländern betrachtet, beschränkt sich das Bruttonationaleinkommen auf die Güter und Dienstleistungen von Inländern im In- und Ausland.
 
 
 # Ausland
+internationale Arbeitsteilung
+: multinationale Aufteilung des Wertschöpfungsprozesses; optimale Nutzung der Standortvorteile der verschiedenen Länder; nicht nur Aufteilung nach Rohstoffproduzent und Konsumgüterproduzent
+
+intraregionaler Handel
+: Waren- und Dienstleistungshandel innerhalb einer Region (bsp.: Europa)
+
+interregionaler Handel
+: Waren- und Dienstleistungshandel über Regionen hinweg
+
+transnationale Unternehmen
+: Unternehmen mit beispielsweise Niederlassungen oder Tochterunternehmen im Ausland, welche einen multinationalen Absatzmarkt haben; von Heimatstandort aus weltweite Steuerung; Nutzen die Standortvorteile der verschiedenen Länder; Schaffung von beispielsweise Arbeitsplätzen im Ausland
+
+terms of trade
+: Tauschbedingungen im internationalen Warenhandel; Verhältnis aus Menge an Import pro Einheit des Exports; bessere terms of Trade entsprechen einem höheren möglichen Import pro Exporteinheit
+
 ## Ursachen der Globalisierung
 ### Ökonomische Ursachen
 
@@ -377,6 +390,26 @@ Eine mögliche Form, wie diese Ungerechtigkeit gemessen werden kann ist der soge
 - einheitlicher werden der Kulturen ("McDonaldisierung")
 
 ## Außenhandel
+### Außenhandelstheorien
+### Absolute Kostenvorteile
+Die Außenhandelstheorie nach Adam Smith geht davon aus, dass zwei Länder globalen Handel betreiben, wenn je ein Land ein Gut günstiger herstellen kann. Nach dieser Theorie muss sich auch jedes Land auf das Gut fokussieren, welches es absolut am Günstigsten herstellen kann, was am Ende zu den maximalen Vorteilen für beide Länder führt.
+
+### Komparative Kostenvorteile
+Die Außenhandelstheorie nach David Ricardo geht davon aus, dass jedes Land das Gut produzieren muss, für welches die Opportunitätskosten im Vergleich geringer sind. Das heißt ein Land produziert nicht zwangsläufig alle Güter, welches es absolut günstiger herstellen kann, sondern achtet auch darauf, welches er im Vergleich günstiger herstellen kann. Dies wird im nachfolgenden Beispiel besonders anschaulich.
+
+|  | Deutschland | China |
+|-|-|-|
+| Textilien | 50 Einheiten | 100 Einheiten |
+| Medizinprodukte | 40 Einheiten | 50 Einheiten |
+
+Nach Ricardo würde sich Deutschland auf die Medizinprodukte, China auf die Textilien spezialisieren. Auch wenn es China möglich wäre absolut mehr Medizinprodukte als Deutschland zu produzieren.
+
+
+### Faktorproportionentheorie
+Die neue Außenhandelstheorie nach Heckser und Ohlin betrachtet die Produktionsfaktoren (vgl. Anhang) eines bestimmten Landes. So wird sich jedes Land auf Güter produzieren, welche eine große Menge eines Produktionsfaktors benötigt, welches das Land viel hat. Ein kapitalintensives Gut wird dann beispielsweise von Deutschland produziert, da Deutschland vergleichsweise wenig Arbeitskraft besitzt.
+
+In diesem Zusammehang kommt auch oft das Leontief-Paradoxon auf. Denn nach Heckscher-Ohlin müssten die USA viel kapitalintensive Güter produzieren und deshalb diese wenig importieren, was jedoch nicht der Realität entspricht. Dies ist damit zu erklären, dass in der USA allgemein eine sehr hohe Nachfrage nach solchen Gütern besteht. Zudem lässt sich das damit erklären, dass die USA mit ihren Arbeitskräften auch viele Güter produzieren können, welche im Ausland stark nachgefragt werden und sich deshalb auf diese konzentrieren.
+
 ### Zahlungsbilanz
 Die Zahlungsbilanz gibt alle Transaktionen an, welche ein Land in einem bestimmten Zeitraum mit dem Ausland getätigt hat. Der Aufbau ist dabei wie in der Abbildung zu erkennen.
 
@@ -752,11 +785,16 @@ Devisen
 Sorten
 : ausländisches Zahlungsmittel in Form von Bargeld einer anderen Währung
 
+### Produktlebenszyklus nach Vernon
+
+![Produktlebenszyklus nach Raymond Vernon](assets/Produktlebenszyklus.png)
+
 [//]: # (\listoffigures)
 \listoffigures
 
 \newpage
 \includepdf[pages=-1]{assets/operatoren.pdf}
+
 
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
