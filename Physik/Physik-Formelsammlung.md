@@ -90,6 +90,9 @@ Energie einer Ladung im elektrischen Feld
 magnetische Flussdichte einer langen Spule
 : $B = \mu_0 \cdot \mu_r \cdot I \cdot \frac{n}{l}$
 
+Induktivität einer langen Spule
+: $L = \mu_0 \cdot \mu_r \cdot \frac{A \cdot n^2}{l}$
+
 Lorentzkraft
 : $F = q \cdot v \cdot B = I \cdot l \cdot B$
 
