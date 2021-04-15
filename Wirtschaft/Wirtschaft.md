@@ -29,7 +29,7 @@ header-includes: |
 Diese Wirtschaftsordnung ist eine Kombination aus den Vorzügen der freien Marktwirtschaft und einer Ordnung mit Eingriff des Staates. Dies geschieht dadurch, dass im Allgemeinen Angebot und Nachfrage den Markt bestimmen, der Staat jedoch den Ordnungsrahmen vorgibt und Eingriffe in die Wirtschaft vornimmt, falls die Notwendigkeit besteht beispielsweise zum Schutz des Wettbewerbs durch Monopolaufsicht. Diese Wirtschaftsordnung, wie sie von Walter Eucken ins Leben gerufen wurde, gilt zudem als Wegbereiter der sozialen Marktwirtschaft.
 
 ### Soziale Marktwirtschaft
-Die Wirtschaftsordnung der Bundesrepublik Deutschland ist die soziale Marktwirtschaft. Die geistigen Väter Ludwig Erhardt und Alfred Müller-Armack sahen in dieser Form der wirtschaftlichen Ordnung die Möglichekit auf "Wohlstand für alle" und die Möglichkeit "das Prinzip der Freiheit auf dem Markte mit dem sozialen Ausgleich zu verbinden". Dies geschieht durch die Mischung einer Marktwirtschaft mit staatlichen Eingriffen, wie es beim Ordoliberalismus ebenfalls gehandhabt wird. Auch wenn die soziale Marktwirtschaft nicht im Grundgesetz festgeschrieben ist, so ist dieses werder mit der freien Marktwirtschaft (Rechtsstaatlichkeit (Art. 28 (1))) noch mit der Zentralverwaltungswirtschaft (persönliche Freizügigkeit (Art. 2 (1), Art. 11), Freiheit Gewerkschaften zu bilden (Art. 9 (3)), Berufsfreiheit (Art. 12 (2))) vereinbar. Des Weiteren äußert sich die soziale Marktwirtschaft im Grundgesetz im Rahmen der sogenannten Sozialpflichtigkeit. So ist in Artikel 14 festgehalten, wie es sich um Eigentum in der Bundesrepublik verhält. So ist Privateigentum möglich, es gilt jedoch: "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen" (Art. 14 (2)).
+Die Wirtschaftsordnung der Bundesrepublik Deutschland ist die soziale Marktwirtschaft. Die geistigen Väter Ludwig Erhardt und Alfred Müller-Armack sahen in dieser Form der wirtschaftlichen Ordnung die Möglichkeit auf "Wohlstand für alle" und die Möglichkeit "das Prinzip der Freiheit auf dem Markte mit dem sozialen Ausgleich zu verbinden". Dies geschieht durch die Mischung einer Marktwirtschaft mit staatlichen Eingriffen, wie es beim Ordoliberalismus ebenfalls gehandhabt wird. Auch wenn die soziale Marktwirtschaft nicht im Grundgesetz festgeschrieben ist, so ist dieses weder mit der freien Marktwirtschaft (Rechtsstaatlichkeit (Art. 28 (1))) noch mit der Zentralverwaltungswirtschaft (persönliche Freizügigkeit (Art. 2 (1), Art. 11), Freiheit Gewerkschaften zu bilden (Art. 9 (3)), Berufsfreiheit (Art. 12 (2))) vereinbar. Des Weiteren äußert sich die soziale Marktwirtschaft im Grundgesetz im Rahmen der sogenannten Sozialpflichtigkeit. So ist in Artikel 14 festgehalten, wie es sich um Eigentum in der Bundesrepublik verhält. So ist Privateigentum möglich, es gilt jedoch: "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen" (Art. 14 (2)).
 
 Das System der sozialen Marktwirtschaft kann in vier Grundprinzipien nach Müller-Armack zusammengefasst werden. Diese sind wie folgt:
 
@@ -77,7 +77,7 @@ Oligopol
 : Existenz von nur wenigen Anbietern auf einem bestimmten Markt; in der Praxis relativ häufig anzutreffen (CPUs, Mineralöl, Kameras, etc.); erhöhen den Wettbewerbsdruck, da auf jede Reaktion eines Mitanbieters eine Gegenreaktion folgen muss; Gefahr von Absprachen (Kartellverbot)
 
 Kartell
-: vertragliche Absprache von Unternehmen auf dem gleichen Markt um Wettbewerbsvorteile zu erlangen; Unternehmen bleiben rechtlich eigenständig
+: vertragliche und nicht-vertragliche Absprache von Unternehmen auf dem gleichen Markt um Wettbewerbsvorteile zu erlangen; Unternehmen bleiben rechtlich eigenständig
 
 Die Umweltpolitik versucht die negativen Auswirkungen aus wirtschaftlichem Handeln auf die Umwelt zu reduzieren und diese somit zu schützen. Dies geschieht durch Erhöhung der Kosten oder ein generelles Verbot von umweltschädlichem Handeln. Hierdurch steigen zudem die Produktionskosten für Unternehmen, da die Umwelt nicht mehr als kostenloses Gut betrachtet werden kann. Die umweltpolitischen Maßnahmen können wie in der Abbildung dargestellt, zusammengefasst werden. 
 
@@ -100,7 +100,7 @@ Zudem gibt es noch die handelbaren Emissionsrechte. Dies sind Zertifikate, welch
 #### Distributionsfunktion
 Unter der Distributionsfunktion des Staates versteht man primär, dass dieser für die gerechte Verteilung von Gütern und Vermögen in der Gesellschaft zuständig ist. Dies geschieht durch staatliche Einkommens- und Vermögensumverteilung. Dabei gilt allgemein gesehen das Prinzip von "oben nach unten", das heißt dass die Finanzmittel der wohlhabenderen Bevölkerungsteile zu den niedrigeren umverteilt wird, um die Gerechtigkeit zu erhöhen. Dabei kommen die Begriffe Primär- und Sekundäreinkommen auf. Dabei bezeichnet das primäre Einkommen das Einkommen aus Gehaltszahlungen, Zinsen usw., und das sekundäre die Einnahmen aus Sozialleistungen wie beispielsweise dem Kindergeld. Dabei soll das Sekundäreinkommen die Ungerechtigkeit durch das Primäreinkommen ausgleichen. 
 
-Zur Distributionsfunktion gehört auch die Einkommenspolitik. Dieser Bereich der Wirtschaftspolitik beinhaltet alles, was direkt mit der Einkommensverteilung und Vermögensbildung zusammenhängt. Sie kann sich indirekt oder indirekt äußern, beispielsweise durch eine Lohngrenze oder die Verbesserung der Marktlage in einem bestimmten Sektor, zur Förderung des Lohns in diesem.
+Zur Distributionsfunktion gehört auch die Einkommenspolitik. Dieser Bereich der Wirtschaftspolitik beinhaltet alles, was direkt mit der Einkommensverteilung und Vermögensbildung zusammenhängt. Sie kann sich direkt oder indirekt äußern, beispielsweise durch eine Lohngrenze oder die Verbesserung der Marktlage in einem bestimmten Sektor, zur Förderung des Lohns in diesem.
 
 Auch gehört die Sozialpolitik zur Distributionsfunktion. Sie beinhaltet all dies, was die soziale Sicherheit für die Bürger, in wirtschaftlicher Sicht, sicherstellt. Wie dies zum Beispiel die Sozialversicherungen tun. Deshalb machen die Sozialversicherungen auch einen Großteil der deutschen Sozialpolitik aus. Die deutschen Sozialversicherungen sind die folgenden fünf: 
 
@@ -160,7 +160,7 @@ Bei diesen Maßnahmen muss jedoch auch die Staatsverschuldung beachtet werden. S
 
 #### Strukturpolitik
 Die Strukturpolitik ist kurz gesagt der Teil der Wirtschaftspolitik, welcher sich mit dem Ausgleich der Folgen des Strukturwandels, neuer Produkte und der Globalisierung befasst. Also aktuell beispielsweise den Auswirkungen aus dem Wandel Deutschlands hin zu einer dienstleistungsorientierten Wirtschaft in einer zunehmend technisierten, digitalen und globalen Welt.  
-Dafür werden vor allem Subventionen und Steuervergünstigungen für manche Bereiche, aber auch beispielsweise die Einführung von Schutzzöllen. Es handelt sich also um Maßnahmen der Prozesspolitik.
+Dafür werden vor allem Subventionen und Steuervergünstigungen für manche Bereiche genutzt, aber auch beispielsweise die Einführung von Schutzzöllen gehört dazu. Es handelt sich also um Maßnahmen der Prozesspolitik.
 
 
 #### Tarifpolitik
@@ -212,7 +212,7 @@ Die Einnahmequellen des Staates sind in der zugehörigen Abbildung übersichtlic
 
 
 ### Staatsverschuldung
-Laut dem Grundgesetz (Art. 109) ist der deutsche Staat dazu angehalten die Neuverschuldung sehr gering zu halten. So darf die strukturelle (über Konjunkturzyklus hinweg quasi) Neuverschuldung nicht mehr als 0,35% des BIP betragen. Hiervon darf nur durch  wieder ausgeglichene Neuverschuldung bei konjunkturellen Schwankungen und bei Schuldenaufnahme durch Notsituationen wie Naturkatastrophen abgewichen werden. Für die Länder besteht zudem das komplette Verbot sich neu zu verschulden.  
+Laut dem Grundgesetz (Art. 109) ist der deutsche Staat dazu angehalten die Neuverschuldung sehr gering zu halten. So darf die strukturelle (über Konjunkturzyklus hinweg quasi) Neuverschuldung nicht mehr als 0,35% des BIP pro Jahr betragen. Hiervon darf nur durch  wieder ausgeglichene Neuverschuldung bei konjunkturellen Schwankungen und bei Schuldenaufnahme durch Notsituationen wie Naturkatastrophen abgewichen werden. Für die Länder besteht zudem das komplette Verbot sich neu zu verschulden.  
 Dieses Vorgehen bei der Neuverschuldung wird auch als schwarze Null bezeichnet.
 
 #### Probleme durch Staatsverschuldung
@@ -279,9 +279,9 @@ Mögliche Maßnahmen der Nachfragepolitik sind:
 |-|-|
 | *Nachfrageprogramme der öffentlichen Hand*:  \newline (Programme der öffentlichen Hand finanziert durch zusätzliche Kredite \newline | - Neuverschuldung des Staates  \newline - nur kurze Zeit realisierbar |
 | *Zinssenkung durch Geldpolitik des Staates*:  \newline (Staat senkt Mittels der Zentralbank den Leitzins um Kreditaufnahme zu vergünstigen und damit Geldmenge zu regulieren \newline | -verzögerte und schwache Wirkung  \newline - schlecht für Sparer und Gläubiger\newline - Abzug von Investitionskapital |
-| *Erhöhung der verfügbaren Realeinkommen*:  \newline (Änderung der Kaufkraft durch gestiegene Löhne bei gleichen Preisen oer durch sinkende Preise\newline -> höhere Kaufkraft \newline | - nur mit anderen Maßnahmen zielgerichtet\newline - begrenzte Wirkung\newline - geringere Staatseinnahmen\newline - möglicher Abfluss ins Ausland |
+| *Erhöhung der verfügbaren Realeinkommen*:  \newline (Änderung der Kaufkraft durch gestiegene Löhne bei gleichen Preisen oder durch sinkende Preise\newline -> höhere Kaufkraft \newline | - nur mit anderen Maßnahmen zielgerichtet\newline - begrenzte Wirkung\newline - geringere Staatseinnahmen\newline - möglicher Abfluss ins Ausland |
 | *Ausweitung der öffentlichen Beschäftigung, der Sozialtransfers und der Arbeitsmarktpolitik*:  \newline (Abflachung sozialer Unterschiede durch Förderung der sozial Schwachen durch gezielte Förderung der Einkommensumverteilung \newline | - führt nicht zwangsläufig zu positiver Nachfrageentwicklung\newline - Fehlallokation möglich\newline - Verzerrung des Arbeitsmarktes möglich (vgl. ABM) |
-| *Förderprogramme des Staates*:  (Steigerung der Nachfrafe durch gezielte Anreize; durch den Staat finanziert \newline | - muss zielgerichtet und zeitlich gut gezielt sein  \newline - eher aus politischen als aus wirtschaftlichen Gründen genutzt\newline - Staatsverschuldung\newline - einseitig |
+| *Förderprogramme des Staates*:  (Steigerung der Nachfrage durch gezielte Anreize; durch den Staat finanziert) \newline | - muss zielgerichtet und zeitlich gut gezielt sein  \newline - eher aus politischen als aus wirtschaftlichen Gründen genutzt\newline - Staatsverschuldung\newline - einseitig |
 
 ### Ordnungs- und Prozesspolitik
 Zudem wird unterschieden, wie der Staat wirtschaftspolitisch agiert. Wenn er lediglich den Regelrahmen für die Wirtschaftspolitik vorgibt ist dies ordnungspolitisch, wenn er aktiv in das Wirtschaftsgeschehen eingreift, ist es prozesspolitisch. Dadurch ergibt sich der folgende Vergleich.
@@ -372,20 +372,20 @@ terms of trade
 - Privatisierung
 - zunehmende ausländische Direktinvestitionen
 
-## Politische Ursachen
+### Politische Ursachen
 
 - veränderte politische Gegebenheiten durch Machtzunahme von China
 - Zusammenbruch des Ostblocks
 - Staatenbund in Europa
 
-## Technologische Ursachen
+### Technologische Ursachen
 
 - steigende Transportkapazität durch beispielsweise größere Containerschiffe
 - schnellere und einfachere Kommunikation durch Internet und Telefon
 - günstigere Arbeit durch Mechanisierung
 - fortschreitende Digitalisierung
 
-## Soziokulturelle Ursachen
+### Soziokulturelle Ursachen
 
 - einheitlicher werden der Kulturen ("McDonaldisierung")
 
@@ -406,9 +406,9 @@ Nach Ricardo würde sich Deutschland auf die Medizinprodukte, China auf die Text
 
 
 ### Faktorproportionentheorie
-Die neue Außenhandelstheorie nach Heckser und Ohlin betrachtet die Produktionsfaktoren (vgl. Anhang) eines bestimmten Landes. So wird sich jedes Land auf Güter produzieren, welche eine große Menge eines Produktionsfaktors benötigt, welches das Land viel hat. Ein kapitalintensives Gut wird dann beispielsweise von Deutschland produziert, da Deutschland vergleichsweise wenig Arbeitskraft besitzt.
+Die neue Außenhandelstheorie nach Heckser und Ohlin betrachtet die Produktionsfaktoren (vgl. Anhang) eines bestimmten Landes. So wird sich jedes Land auf Güter fokussieren, welche eine große Menge eines Produktionsfaktors benötigt, welches das Land viel hat. Ein kapitalintensives Gut wird dann beispielsweise von Deutschland produziert, da Deutschland vergleichsweise wenig Arbeitskraft besitzt.
 
-In diesem Zusammehang kommt auch oft das Leontief-Paradoxon auf. Denn nach Heckscher-Ohlin müssten die USA viel kapitalintensive Güter produzieren und deshalb diese wenig importieren, was jedoch nicht der Realität entspricht. Dies ist damit zu erklären, dass in der USA allgemein eine sehr hohe Nachfrage nach solchen Gütern besteht. Zudem lässt sich das damit erklären, dass die USA mit ihren Arbeitskräften auch viele Güter produzieren können, welche im Ausland stark nachgefragt werden und sich deshalb auf diese konzentrieren.
+In diesem Zusammehang kommt auch oft das Leontief-Paradoxon auf. Denn nach Heckscher-Ohlin müssten die USA viel kapitalintensive Güter produzieren und deshalb diese wenig importieren, was jedoch nicht der Realität entspricht. Dies ist damit zu erklären, dass in den USA allgemein eine sehr hohe Nachfrage nach solchen Gütern besteht. Zudem lässt sich das damit erklären, dass die USA mit ihren Arbeitskräften auch viele Güter produzieren können, welche im Ausland stark nachgefragt werden und sich deshalb auf diese konzentrieren.
 
 ### Zahlungsbilanz
 Die Zahlungsbilanz gibt alle Transaktionen an, welche ein Land in einem bestimmten Zeitraum mit dem Ausland getätigt hat. Der Aufbau ist dabei wie in der Abbildung zu erkennen.
@@ -463,15 +463,15 @@ Binnenmarkt
 | Kapitalmarkt | Teilmarkt, auf dem mittel- und langfriste Finanzmittel gehandelt werden: \newline (1) *Primärmarkt für Wertpapierfinanzierung*: \newline Hier gibt ein Kapitalnehmer Wertpapiere aus (Emission), um im Gegenzug finanzielle Mittel für mittel- oder langfristige Investitionen zu erhalten. Bei den Wertpapieren handelt es sich beispielsweise um Aktien eines Unternehmens oder Anleihen eines Staates. Diese werden etwa von Banken, Versicherungen oder Investmentfonds gekauft, die finanzielle Mittel bereitstellen. \newline (2) *Sekundärmarkt für Wertpapierhandel*: \newline Hier können bereits auf dem Markt befindliche Finanzprodukte gehandelt werden. Benötigt z. B. ein Anleger sein in Wertpapieren gebundenes Kapital, kann er die Wertpapiere hier verkaufen. |
 | Kreditmarkt | Teilmarkt, auf dem ausschließlich bilaterale Kreditverträge individuell vergeben und abgeschlossen werden. Dabei vergeben Banken kurz-, mittel- oder langfristige Kredite an Unternehmen, Regierungen und Privathaushalte, um deren Geschäfte zu finanzieren. |
 | Devisenmarkt | Teilmarkt, auf dem ausländische Währungen gehandelt werden und so der internationale Zahlungsverkehr zwischen Ländern bzw. Zonen mit unterschiedlichen Währungen ermöglicht wird. V. a. Großbanken. |
-| Derivatemarkt | Teilmarkt, auf dem abgeleitete Finanzprodukte gehandelt werden. Diese leiten ihren Wert von anderen Basiswerten (z. B. Rohstoffe, Aktien, Zinssätze) ab. Bei Derivaten handelt es sich i. d. R. um Termingeschäfte, bei denen der Kauf oder Verkauf von Gütern zu einem zukünftigen Zeitpunkt vereinbart wird. ertragsbedingungen und Preise werden bereits heute festgeschrieben. |
+| Derivatemarkt | Teilmarkt, auf dem abgeleitete Finanzprodukte gehandelt werden. Diese leiten ihren Wert von anderen Basiswerten (z. B. Rohstoffe, Aktien, Zinssätze) ab. Bei Derivaten handelt es sich i. d. R. um Termingeschäfte, bei denen der Kauf oder Verkauf von Gütern zu einem zukünftigen Zeitpunkt vereinbart wird. Vertragsbedingungen und Preise werden bereits heute festgeschrieben. |
 
 ### Finanzkrise
 Vor dem Hintergrund der globalen Finanzwelt wird auch immer wieder auf die Probleme durch globale Abhängigkeiten bei Finanzkrisen hingewiesen.  
 Eine der großen Finanzkrisen der letzten Jahre war die Weltwirtschaftskrise ab 2007, bei welcher nach dem Platzen der Immobilienblase in den USA die globale Bankenwelt fast zum erliegen kam und durch welche auch maßgeblich die anschließende Eurokrise verursacht wurde.
 
-Die Krise begann damit, dass in den Vereinigten Staaten Kredite an Haushalte für den Hausbau ausgegeben wurden. Dies wurde durch günstige Zinsen und die Subvention des Hausbaus weiter verstärkt. Die starke Nachfrage nach Immobilien ließ dabei auch die Nachfrage nach diesen und somit den Marktpreis steigen. Dies führte dazu, dass auch sogenannte Subprime-Kredite vergeben wurden --- Kredite an Schuldner mit geringer Bonität mit Immobilie als einzige Sicherheit ---, da im Falle eines Zahlungsausfalls die Immobilie mit Gewinn verkauft werden konnte. Dies gipfelte sogar in sogenannten ninja-Krediten (*no income, no job, no assets*). Im Aufschwung dieser Kredite war das Wachstum sogar so groß und vielversprechend, dass auch ausländische Investoren am Boom teilhaben wollten, weshalb die kredite in sogenannten CDOs (*Collateralised Debt Obligations*) als Derivate gehandelt wurden. Das Risiko wurde von den kreditvergebenden Banken an die Investoren ausgelagert, wodurch die Banken noch mehr risikobehaftete kredite vergaben. Um die CDOs weiterhin attraktiv zu gestalten wurden sie auch mit "guten Wertpapieren" aufgewertet und die Kredite in Tranchen eingetielt nach ihrem Risiko (investment grade > mezzanine > untere Tranche (toxic)). Die Rating-Agenturen vergaben *AAA*-Ratings.  
+Die Krise begann damit, dass in den Vereinigten Staaten Kredite an Haushalte für den Hausbau ausgegeben wurden. Dies wurde durch günstige Zinsen und die Subvention des Hausbaus weiter verstärkt. Die starke Nachfrage nach Immobilien ließ dabei auch die Nachfrage nach diesen und somit den Marktpreis steigen. Dies führte dazu, dass auch sogenannte Subprime-Kredite vergeben wurden --- Kredite an Schuldner mit geringer Bonität mit Immobilie als einzige Sicherheit ---, da im Falle eines Zahlungsausfalls die Immobilie mit Gewinn verkauft werden konnte. Dies gipfelte sogar in sogenannten ninja-Krediten (*no income, no job, no assets*). Im Aufschwung dieser Kredite war das Wachstum sogar so groß und vielversprechend, dass auch ausländische Investoren am Boom teilhaben wollten, weshalb die Kredite in sogenannten CDOs (*Collateralised Debt Obligations*) als Derivate gehandelt wurden. Das Risiko wurde von den kreditvergebenden Banken an die Investoren ausgelagert, wodurch die Banken noch mehr risikobehaftete kredite vergaben. Um die CDOs weiterhin attraktiv zu gestalten wurden sie auch mit "guten Wertpapieren" aufgewertet und die Kredite in Tranchen eingetielt nach ihrem Risiko (investment grade > mezzanine > untere Tranche (toxic)). Die Rating-Agenturen vergaben *AAA*-Ratings.  
 Nach Erhöhung der Leitzinsen durch die Fed (Federal Reserve, US-Notenbank) und der ausstehenden Rückzahlungen von Schuldnern platzte diese Spekulationsblase allerdings und durch das extrem hohe Angebot an Immobilien fielen die Preise, wodurch auch die Kredite der bestehenden Schuldner nicht mehr ausreichend gedeckt waren und alle Investoren die Derivate möglichst schnell ablegen wollten. Auch das Angebot an CDOs war übersättigt, wodurch deren Wert gedrückt wurde (unterstützt durch die neuen Ratings, welche deutlich schlechter waren).  
-Die Krise war mit der Insolvenz der Lehman Brothers Investmentbank. Zudem vertrauten sich die Banken untereinander nicht mehr, da sie vermuteten die andere Bank würde ebenfalls insolvent gehen, aufgrund des Besitztes von amerikanischen Immobilienderivaten. Letzten Endes mussten soagr die Staaten eintreten um die Banken zu retten, welche nach dem Prinzip *to big to fail* nicht insolvent gehen durften (Bsp.: Deutsche Bank).
+Die Krise war mit der Insolvenz der Lehman Brothers Investmentbank an ihrem Hochpunkt. Zudem vertrauten sich die Banken untereinander nicht mehr, da sie vermuteten die andere Bank würde ebenfalls insolvent gehen, aufgrund des Besitztes von amerikanischen Immobilienderivaten. Letzten Endes mussten sogar die Staaten eintreten um die Banken zu retten, welche nach dem Prinzip *to big to fail* nicht insolvent gehen durften (Bsp.: Deutsche Bank).
 
 Indirekt durch die Weltwirtschaftskrise ausgelöst kam es in den Euro-Staaten auch zu der Eurokrise. Diese wurde jedoch zudem von dem desolaten Zustand der Staatsfinanzen der Hauptkrisenstaaten (Griechenland, Portugal, Spanien, Italien, Irland), die zwar gleiche Geld- aber nicht abgestimmte Fiskalpolitik der Euro-Länder, der mangelnden Durchsetzung der Konvergenzkriterien und starke wirtschaftliche Unterschiede zwischen den Euro-Staaten, sehr stark begünstigt. Die Krise äußerte sich dann in einer Schuldenkrise, bei der viele Staaten nicht mehr in der Lage waren ihre eigenen Staatsfinanzen zu stemmen. Verstärkt wurde dieser Engpass an Liquidität der Staaten durch immer schlechtere Ratings der Staatsanleihen, aufgrund der Überschuldung der Länder. 
 
@@ -508,7 +508,7 @@ Wechselkurse können sowohl in der sogenannten Mengen-, als auch in der Preisnot
 
 ![Wechselkurse im Preis-Mengen-Diagramm](assets/pmd/Screenshot_20210402_162603.png)
 
-Allgemein wird unterschieden zwischen festen und freien Wechselkursen. Zunächst einmal entsteht jeder Wechselkurs aufgrund von Angebot und Nachfrage. Bei einer geringen menge der Wärhung auf dem markt bei einer hohen Nachfrage nach dieser, führt zu hohen Wechselkursen. Da die Zentralbanken allerdings eine große Kontrolle über das Angebot einer Währung auf dem Markt hat, kann diese den Wechselkurs zu einer anderen Währung fixieren. Dies kann entweder durch gezielte Steuerung der Geldmenge geschehen, oder aber einfacher durch das einfache Festschreiben eines Kurses, gegen welche sie die Währungen tauschen, letzlich aber immer durch den gezielten An- und Verkauf von Devisen (*Devisenmarktintervention*).  
+Allgemein wird unterschieden zwischen festen und freien Wechselkursen. Zunächst einmal entsteht jeder Wechselkurs aufgrund von Angebot und Nachfrage. Bei einer geringen Menge der Währung auf dem Kapitalmarkt bei einer gleichzeitig hohen Nachfrage nach dieser, führt zu hohen Wechselkursen. Da die Zentralbanken allerdings eine große Kontrolle über das Angebot einer Währung auf dem Markt haben, können diese den Wechselkurs zu einer anderen Währung fixieren. Dies kann entweder durch gezielte Steuerung der Geldmenge geschehen, oder aber einfacher durch das einfache Festschreiben eines Kurses, gegen welche sie die Währungen tauschen, letztlich aber immer durch den gezielten An- und Verkauf von Devisen (*Devisenmarktintervention*).  
 Feste Wechselkurse werden unter anderem von südamerikanischen Staaten in Bezug auf den US-Dollar benutzt, um die eigene Wirtschaft zu stabilisieren und den Handel mit den USA zu begünstigen (Argentinischer Peso zu US-Dollar). Ein weiteres bekanntes Beispiel von festen Wechselkursen ist das System von Bretton Woods. Hierbei handelt es sich um ein Übereinkommen von 44 Staaten zu "flexiblen, festgesetzten Wechselkursen" (geringfügige Abweichungen erlaubt, max. $\pm 1 \%$) zum US-Dollar. Gesichert wurde das System dadurch, dass die Vereinigten Staaten den US-Dollar in eine festgelegte Goldmenge umgetauscht haben. 1973 wurde das von den Briten und den den USA ins Leben gerufene System endgültig außer Kraft gesetzt.
 
 Dass beide Systeme Vorteile für sich haben, lässt sich in der folgenden Tabelle erkennen:
@@ -608,7 +608,7 @@ Grundsatz der Liberalisierung
 
 
 #### Washingtoner Konsens
-Der Washingtoner Konsens ist ein Maßnahmen-Paket, welches wirtschaftlich geschädigtn Länder umsetzen sollen um wieder auf die Beine zu kommen. Dabei handelt es sich um eine Reihe von wirtschaftspolitischen Maßnahmen und Regelungen. Dieses Maßnahmen-Paket wurde auch durch den IWF und die Weltbank im folgenden als Bedingung für die Kreditvergabe verwendet. Vor allem durch seine stark wirtschaftsliberalisierenden Charakter wird der Washingtoner Konsens immer wieder kritisiert.
+Der Washingtoner Konsens ist ein Maßnahmen-Paket, welches wirtschaftlich geschädigten Länder umsetzen sollen um wieder auf die Beine zu kommen. Dabei handelt es sich um eine Reihe von wirtschaftspolitischen Maßnahmen und Regelungen. Dieses Maßnahmen-Paket wurde auch durch den IWF und die Weltbank im folgenden als Bedingung für die Kreditvergabe verwendet. Vor allem durch seinen stark wirtschaftsliberalisierenden Charakter wird der Washingtoner Konsens immer wieder kritisiert.
 
 
 Die Maßnahmen, welche stark neoliberal veranlagt sind, sind wie folgt:
@@ -680,7 +680,7 @@ HDI
 Vor allem durch naturräumliche, endogene und exogene Faktoren kam es in der globalen Welt zu einem unterschiedlichen Entwicklungsstand der unterschiedlichen Länder. Zur Behebung dieser Unterschiede gibt es die sogenannten Entwicklungstheorien. Namentlich die Modernisierungstheorie und die Dependenztheorie. Die Behebung dieser Missstände ist auch für die westlichen Länder attraktiv, da die Unterschiede auch zu Migration führen.
 
 Die Moderinisierungstheorie geht davon aus, dass vor allem endogene Faktoren die Ursache sind und behoben werden müssen. Dafür sollen die zu entwickelnden Länder die eigene Wirtschaft nach dem Vorbild der Industriestaaten weiter entwickeln. Der Anreiz zu dieser Nachahmung in Wirtschaft, Gesellschaft und Kultur kann von außen kommen.  
-Auf der anderen Seite gibt es die Dependenztheorie, welche die exogenen Ursachen als Hauptfaktor, welcher zu beheben gilt, sieht. Für diese Befreiung der Länder muss der Anreiz allerdings von innen kommen, da sonst von außen die nächste Abhängigkeit geschaffen wird. Maßnahmen sind eine Autarkie von der Welt durch Abgrenzung der Politik und Schutz des eigenen Wirtschaftsraums.
+Auf der anderen Seite gibt es die Dependenztheorie, welche die exogenen Ursachen als Hauptfaktor, welchen es zu beheben gilt, sieht. Für diese Befreiung der Länder muss der Anreiz allerdings von innen kommen, da sonst von außen die nächste Abhängigkeit geschaffen wird. Maßnahmen sind eine Autarkie von der Welt durch Abgrenzung der Politik und Schutz des eigenen Wirtschaftsraums.
 
 naturräumliche Faktoren
 : z.B. Ressourcenausstattung, Klima
@@ -689,7 +689,7 @@ endogene Faktoren
 : inländische Faktoren, z.B. hohes Bevölkerungswachstum, Korruption, Unruhen
 
 exogene Faktoren
-: ausländische Faktoren, z.B. Kolonisierung, Abhähnigkeit von westlichen Ländern
+: ausländische Faktoren, z.B. Kolonialisierung, Abhängigkeit von westlichen Ländern
 
 ### Herausforderungen durch die Globalisierung
 Durch die Globalisierung kommt es immer wieder zu Problemen, welche über Landesgrenzen hinweg gehen. Insbesondere die Schwellen- und Entwicklungsländer sind von diesen Problemen immer besonders betroffen. Zu den Problemen zählen grenzüberschreitende negative externe Effekte, globale Asymmetrien, Interdependenzen und Destabilisierungsgefahren.
