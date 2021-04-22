@@ -26,7 +26,7 @@ header-includes: |
 # Staat
 ## Wirtschaftsordnungen
 ### Ordoliberalismus
-Diese Wirtschaftsordnung ist eine Kombination aus den Vorzügen der freien Marktwirtschaft und einer Ordnung mit Eingriff des Staates. Dies geschieht dadurch, dass im Allgemeinen Angebot und Nachfrage den Markt bestimmen, der Staat jedoch den Ordnungsrahmen vorgibt und Eingriffe in die Wirtschaft vornimmt, falls die Notwendigkeit besteht beispielsweise zum Schutz des Wettbewerbs durch Monopolaufsicht. Diese Wirtschaftsordnung, wie sie von Walter Eucken ins Leben gerufen wurde, gilt zudem als Wegbereiter der sozialen Marktwirtschaft.
+Diese Wirtschaftsordnung ist eine Kombination aus den Vorzügen der freien Marktwirtschaft und einer Ordnung mit Eingriff des Staates. Dies geschieht dadurch, dass im Allgemeinen Angebot und Nachfrage den Markt bestimmen, der Staat jedoch den Ordnungsrahmen vorgibt und Eingriffe in die Wirtschaft vornimmt, falls die Notwendigkeit besteht beispielsweise zum Schutz des Wettbewerbs durch Monopolaufsicht. Diese Wirtschaftsordnung, wie sie von Walter Eucken ins Leben gerufen wurde, gilt zudem als Wegbereiter der sozialen Marktwirtschaft. Die Prinzipien des Ordoliberalismus sind gleich derer der sozialen Marktwirtschaft. Die Gegenbewegung inzwischen zum Ordoliberalismus ist der Neoliberalismus, welcher die soziale Marktwirtschaft wieder liberaler (ähnlicher der freien Marktwirtschaft) gestalten will.
 
 ### Soziale Marktwirtschaft
 Die Wirtschaftsordnung der Bundesrepublik Deutschland ist die soziale Marktwirtschaft. Die geistigen Väter Ludwig Erhardt und Alfred Müller-Armack sahen in dieser Form der wirtschaftlichen Ordnung die Möglichkeit auf "Wohlstand für alle" und die Möglichkeit "das Prinzip der Freiheit auf dem Markte mit dem sozialen Ausgleich zu verbinden". Dies geschieht durch die Mischung einer Marktwirtschaft mit staatlichen Eingriffen, wie es beim Ordoliberalismus ebenfalls gehandhabt wird. Auch wenn die soziale Marktwirtschaft nicht im Grundgesetz festgeschrieben ist, so ist dieses weder mit der freien Marktwirtschaft (Rechtsstaatlichkeit (Art. 28 (1))) noch mit der Zentralverwaltungswirtschaft (persönliche Freizügigkeit (Art. 2 (1), Art. 11), Freiheit Gewerkschaften zu bilden (Art. 9 (3)), Berufsfreiheit (Art. 12 (2))) vereinbar. Des Weiteren äußert sich die soziale Marktwirtschaft im Grundgesetz im Rahmen der sogenannten Sozialpflichtigkeit. So ist in Artikel 14 festgehalten, wie es sich um Eigentum in der Bundesrepublik verhält. So ist Privateigentum möglich, es gilt jedoch: "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen" (Art. 14 (2)).
@@ -70,6 +70,20 @@ Unter der Ordnungspolitik versteht man die wirtschaftspolitischen Maßnahmen des
 
 Die Wettbewerbspolitik umfasst all die gesetzlichen Maßnahmen, welche den freien Wettbewerb auf dem Markt gewährleisten sollen. Oberstes Ziel ist wie bereits genannt die Erhaltung des freien Wettbewerbs sowie die Schaffung von fairen Preisen. Diese ist ein Bestandteil der sozialen Marktwirtschaft und wird in Deutschland beispielsweise durch das Bundeskartellamt gewährleistet. Alle wettbewerbspolitischen Maßnahmen sind im *Gesetz gegen Wettbewerbsbeschränkungen*(GWB) festgehalten. So gibt es in Deutschland ein allgemeines Kartellverbot(§1 GWB), Regelungen für den Umgang mit einer marktbeherrschenden Stellung (§19 GWB, §20 GWB) und gesetzliche Maßnahmen zum Umgang mit Fusionen (§35 - 44 GWB). In diesem Rahmen kommen immer wieder die Begriffe Monopole, Oligopole und Kartelle auf. Diese sind wie folgt definiert:
 
+rechtliche Selbstständigkeit
+: eigene Rechtspersönlichkeit (z.B. GmbH)
+
+wirtschaftliche Selbstständigkeit
+: eigene wirtschaftliche Aktionen (z.B. Preiskalkulation, Marketing)
+
+Kooperation
+: vertragliche Zusammenarbeit von Unternehmen, wobei diese ihre wirtschaftliche Selbstständigkeit beibehalten  
+: Bsp.: Kartell (Zusammenarbeit in einem Bereich), Konsortium (Zusammenarbeit für ein Projekt), Joint Venture (langfristige Zusammenarbeit)
+
+Konzentration
+: Zusammenschluss von Unternehmen, bei dem mindestens ein Unternehmen die wirtschaftliche/rechtliche Selbstständigkeit verliert  
+: Bsp.: Konzern (Verlust der wirtschaftlichen Selbstständigkeit bei beibehaltener rechtlicher Selbstständigkeit), Trust/Fusion (Verlust der rechtlichen Selbstständigkeit)
+
 Monopol
 : Existenz eines alleinigen Anbieters auf dem Markt, welcher hierdurch enorme Marktmacht besitzt
 
@@ -78,6 +92,7 @@ Oligopol
 
 Kartell
 : vertragliche und nicht-vertragliche Absprache von Unternehmen auf dem gleichen Markt um Wettbewerbsvorteile zu erlangen; Unternehmen bleiben rechtlich eigenständig
+
 
 Die Umweltpolitik versucht die negativen Auswirkungen aus wirtschaftlichem Handeln auf die Umwelt zu reduzieren und diese somit zu schützen. Dies geschieht durch Erhöhung der Kosten oder ein generelles Verbot von umweltschädlichem Handeln. Hierdurch steigen zudem die Produktionskosten für Unternehmen, da die Umwelt nicht mehr als kostenloses Gut betrachtet werden kann. Die umweltpolitischen Maßnahmen können wie in der Abbildung dargestellt, zusammengefasst werden. 
 
@@ -123,10 +138,10 @@ Im sogenannten magischen Vier- bzw. Sechseck sind die wirtschaftspolitischen Hau
 
 Das magische Viereck, welches nur die vier Hauptziele beinhaltet ist zudem um den Umweltschutz und die gerechte Einkommensverteilung eingekürzt und beinhaltet somit lediglich: 
 
-1. Preisniveaustabilität
-2. hoher Beschäftigungsstand
-3. außenwirtschaftliches Gleichgewicht
-4. stetiges und angemessenes Wirtschaftswachstum
+1. Preisniveaustabilität (knapp unter, nahe 2 Prozent Zunahme des Verbraucherpreisindexes)
+2. hoher Beschäftigungsstand (man spricht von Vollbeschäftigung ab einer Arbeitslosenquote von $< 3 \%$)
+3. außenwirtschaftliches Gleichgewicht (leicht positiver Außenbeitrag der Zahlungsbilanz)
+4. stetiges und angemessenes Wirtschaftswachstum (Anstieg des BIP von 2 bis 3 Prozent)
 
 Diese Ziele sind auch in §1 StabG, dem *Gesetz zur Förderung der Stabilität und des Wachstums der Wirtschaft* festgehalten. Es gibt allerdings auch Kritikpunkte an diesen Zielen, da andere negative Folgen durch ausschließliche Fokusierung auf die Ziele außer Acht gelassen werden. Dieses Gesetz bietet zudem die Grundlage für die antizyklische Wirtschaftspolitik nach dem keynesschen Modell, des britischen Ökonomen John Maynard Keynes, in Deutschland. Diese Art der Wirtschaftspolitik wird auch als nachfrageorientierte Wirtschaftspolitik bezeichnet.
 
@@ -212,7 +227,7 @@ Die Einnahmequellen des Staates sind in der zugehörigen Abbildung übersichtlic
 
 
 ### Staatsverschuldung
-Laut dem Grundgesetz (Art. 109) ist der deutsche Staat dazu angehalten die Neuverschuldung sehr gering zu halten. So darf die strukturelle (über Konjunkturzyklus hinweg quasi) Neuverschuldung nicht mehr als 0,35% des BIP pro Jahr betragen. Hiervon darf nur durch  wieder ausgeglichene Neuverschuldung bei konjunkturellen Schwankungen und bei Schuldenaufnahme durch Notsituationen wie Naturkatastrophen abgewichen werden. Für die Länder besteht zudem das komplette Verbot sich neu zu verschulden.  
+Laut dem Grundgesetz (Art. 109 und Art. 115) ist der deutsche Staat dazu angehalten die Neuverschuldung sehr gering zu halten. So darf die strukturelle (über Konjunkturzyklus hinweg quasi) Neuverschuldung nicht mehr als 0,35% des BIP pro Jahr betragen. Hiervon darf nur durch  wieder ausgeglichene Neuverschuldung bei konjunkturellen Schwankungen und bei Schuldenaufnahme durch Notsituationen wie Naturkatastrophen abgewichen werden. Zudem benötigt jeder Bundeshaushalt (jährlich und eventueller Nachtragshaushalt) die Zustimmung von Bundestag sowie Bundesrat. Hiermit ist der Bundeshaushalt auch demokratisch legitimiert. Für die Länder besteht zudem das komplette Verbot sich neu zu verschulden.  
 Dieses Vorgehen bei der Neuverschuldung wird auch als schwarze Null bezeichnet.
 
 #### Probleme durch Staatsverschuldung
@@ -220,7 +235,8 @@ Dieses Vorgehen bei der Neuverschuldung wird auch als schwarze Null bezeichnet.
 Crowding-Out-Effekt
 : Verdrängung der privaten Nachfrage durch staatliche;  
 : geschieht durch steigende Zinsen, aufgrund der gestiegenen Kapitalnachfrage;  
-: kann zudem zu Inflation führen durch gestiegene Kosten durch teurere Investitionen
+: kann zudem zu Inflation führen durch gestiegene Kosten durch teurere Investitionen;  
+: zudem sind staatliche Investitionen weniger rentabel, da sie nicht zwangsläufig zu einem gesteigerten Gewinn wie bei Unternehmen führen
 
 Schuldenfalle
 : bei zu großer Schuldenaufnahme besteht die Gefahr, dass die Rückzahlung so groß wird, dass neue Kreditaufnahme nötig ist; gipfelt in Spirale
@@ -239,7 +255,7 @@ Sparpolitik wird auch allgemein als Austeritätspolitik bezeichnet.
 
 ## Arten der Wirtschaftspolitik
 ### Angebotsorientierte Wirtschaftspolitik
-Dieser wirtschaftspolitische Ansatzpunkt geht davon aus, dass die Wirtschaft sich recht selbstständig erholen kann, wenn lediglich das Angebot gefördert wird, da der Markt immer ein Gleichgewicht anstrebt (Stichwort Saysches Theorem). Der Staat kann dies nicht so gut, da er nie alle Wirtschaftsakteure gleichzeitig überblicken kann. Deshalb sollte allgemein versucht werden die freie Wirtschaft zu fördern, durch Deregulierung und Senkung der Kosten für Unternehmen. Der Staat soll lediglich durch die Geldmenge die Gesamtwirtschaft steuern und die Währung stabil halten. Diese Art der Wirtschaftspolitik wird auch im Zuge des Neoliberalismus genannt.
+Dieser wirtschaftspolitische Ansatzpunkt --- begründet von F.A. Hayek und Milton Friedman --- geht davon aus, dass die Wirtschaft sich recht selbstständig erholen kann, wenn lediglich das Angebot gefördert wird, da der Markt immer ein Gleichgewicht anstrebt (Stichwort Saysches Theorem). Der Staat kann dies nicht so gut, da er nie alle Wirtschaftsakteure gleichzeitig überblicken kann. Deshalb sollte allgemein versucht werden die freie Wirtschaft zu fördern, durch Deregulierung und Senkung der Kosten für Unternehmen. Der Staat soll lediglich durch die Geldmenge die Gesamtwirtschaft steuern und die Währung stabil halten. Diese Art der Wirtschaftspolitik wird auch im Zuge des Neoliberalismus genannt.
 
 Als Initialzündung für ein wirtschaftliches Wachstum kann beispielsweise eine Steuersenkung wirken. Danach folgt eine Wirk-Kette:
 
@@ -263,7 +279,7 @@ Saysches Theorem
 | *Deregulierung*: \newline - geringere Kosten für Einhaltung der Regelungen und Gesetze | - Missbrauch der ökonomischen Macht -> Monopolbildung \newline - Abnehmen der sozialen Standards/Umweltstandards |
 
 ### Nachfrageorientierte Wirschaftspolitik
-Diese Art der Wirtschaftspolitik, nutzt als Ansatzpunkt, dass die staatliche Nachfrage und die vom Staat geförderte Nachfrage der gesamten Wirtschaft mittels Akzelerator- und Multiplikatoreffekt hilft. Der Staat setzt so gesagt die Initialzündung für den wirtschaftlichen Aufschwung durch antizyklisches Handeln. Da diese Art durch John Maynard Kaynes begründet wurde, wird sie auch Keynesianismus genannt.
+Diese Art der Wirtschaftspolitik, nutzt als Ansatzpunkt, dass die staatliche Nachfrage und die vom Staat geförderte Nachfrage der gesamten Wirtschaft mittels Akzelerator- und Multiplikatoreffekt hilft. Der Staat setzt so gesagt die Initialzündung für den wirtschaftlichen Aufschwung durch antizyklisches Handeln. Da diese Art durch John Maynard Keynes begründet wurde, wird sie auch Keynesianismus genannt.
 
 Multiplikatoreffekt
 : Nachfrage führt zu weiterer Nachfrage nach Konsumgütern;  
@@ -795,6 +811,9 @@ Sorten
 \newpage
 \includepdf[pages=-1]{assets/operatoren.pdf}
 
+## Nachhaltigkeitsdreieck
+
+![Nachhaltigkeitsdreieck](assets/nachhaltigkeitsdreieck.jpg)
 
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
