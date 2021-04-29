@@ -108,7 +108,7 @@ Dies beides geschieht vor allem durch die sogenannte Internalisierung von extern
 
 Aufgrund dessen kann der Staat Auflagen erstellen, welche die Verursacher dazu zwingen ihre externen Effekte zu reduzieren. Dies sieht man beispielsweise bei der Vorschrift, dass Autos mit Verbrennungsmotor einen Katalysator besitzen müssen, da hierdurch die externen Effekte durch Umweltverschmutzung reduziert werden. Ökonomen kritisieren an diesem Vorgehen allerdings, dass dies zwar effektiv ist, jedoch der freie Markt eine effizientere Lösung finden kann. So mag es für den einen Verursacher leichter sein die externen Effekte zu reduzieren, als für einen anderen, wodurch eine Ineffizienz entsteht.  
 
-Deshalb gibt es einen weiteren Ansatz zur Internalisierung von externen Effekten, die Pigou-Steuern. Dies sind vom Gesetzgeber festgelegte Steuern, welche bei Aktionen mit negativen externen Effekten gezahlt werden müssen. Somit wird der Verursacher gezwungen die Kosten für seine externen Effekte in seine Überlegungen einzubeziehen. Das Problem bei diesen Abgaben ist allerdings, dass die Höhe dieser vom Gesetzgeber nicht genau zu wissen ist, aber eine zu geringe Abgabe die externen Effekte nicht ausreichend reduziert und eine zu hohe den Nutzen aus der auslösenden Handlung verhindert. Dieses optimale Niveau wird auch $Q_{opt}$ genannt und liegt an dem Punkt, wo die gesellschaftlichen Grenzkosten (Kosten die der Gesellschaft aufgrund der externen Effekte entstehen) gleich dem Grenznutzen (dem Nutzen aus der auslösenden Handlung) entspricht. Ein Beispiel für eine Pigou-Steuer ist die $CO_2$-Steuer.  g
+Deshalb gibt es einen weiteren Ansatz zur Internalisierung von externen Effekten, die Pigou-Steuern. Dies sind vom Gesetzgeber festgelegte Steuern, welche bei Aktionen mit negativen externen Effekten gezahlt werden müssen. Somit wird der Verursacher gezwungen die Kosten für seine externen Effekte in seine Überlegungen einzubeziehen. Das Problem bei diesen Abgaben ist allerdings, dass die Höhe dieser vom Gesetzgeber nicht genau zu wissen ist, aber eine zu geringe Abgabe die externen Effekte nicht ausreichend reduziert und eine zu hohe den Nutzen aus der auslösenden Handlung verhindert. Dieses optimale Niveau wird auch $Q_{opt}$ genannt und liegt an dem Punkt, wo die gesellschaftlichen Grenzkosten (Kosten die der Gesellschaft aufgrund der externen Effekte entstehen) gleich dem Grenznutzen (dem Nutzen aus der auslösenden Handlung) entspricht. Ein Beispiel für eine Pigou-Steuer ist die $CO_2$-Steuer.  
 
 Zudem gibt es noch die handelbaren Emissionsrechte. Dies sind Zertifikate, welche vom Staat ausgegeben werden und den Ausstoß einer bestimmten Menge an Schadstoffen zulassen (diese Emission resultiert in einem negativen externen Effekt). Dabei handeln die Unternehmen untereinander mit den Emissionsrechten, was dazu führt, dass Angebot und Nachfrage den Preis für Emission definieren und manche Anbieter beispielsweise lieber ihre Produktion umgestalten, um die Emissionen zu verringern, als die Preise für eine Emission zu zahlen. Ähnlich wie bei den Pigou-Steuern gibt es hier allerdings ebenfalls das Problem, dass der Staat festlegen muss wie viele Emissionsrechte er auf den Markt gibt, sodass diese erneut dem optimalen Niveau entsprechen.
 
@@ -117,17 +117,47 @@ Unter der Distributionsfunktion des Staates versteht man primär, dass dieser f�
 
 Zur Distributionsfunktion gehört auch die Einkommenspolitik. Dieser Bereich der Wirtschaftspolitik beinhaltet alles, was direkt mit der Einkommensverteilung und Vermögensbildung zusammenhängt. Sie kann sich direkt oder indirekt äußern, beispielsweise durch eine Lohngrenze oder die Verbesserung der Marktlage in einem bestimmten Sektor, zur Förderung des Lohns in diesem.
 
-Auch gehört die Sozialpolitik zur Distributionsfunktion. Sie beinhaltet all dies, was die soziale Sicherheit für die Bürger, in wirtschaftlicher Sicht, sicherstellt. Wie dies zum Beispiel die Sozialversicherungen tun. Deshalb machen die Sozialversicherungen auch einen Großteil der deutschen Sozialpolitik aus. Die deutschen Sozialversicherungen sind die folgenden fünf: 
+Auch gehört die Sozialpolitik zur Distributionsfunktion. Sie beinhaltet all dies, was die soziale Sicherheit für die Bürger, in wirtschaftlicher Sicht, sicherstellt. Die Ziele der Sozialpolitik sind die Sicherung eines Existenzminimus, die Absicherung der erreichten Lebensstandards und die Sicherung eines Mindestmaßes an Chancengerechtigkeit (vgl. Grundlagen). Ein prominentes Beispiel für die Sozialpolitik in Deutschland sind die Sozialversicherungen, denn diese helfen grundlegend bei der Zielerreichung. Die deutschen Sozialversicherungen sind die folgenden fünf: 
 
 1. *Arbeitlosenversicherung*: soll Erwerbslose finanziell absichern und ihnen somit den Wiedereinstieg ermöglichen und die Vermittlung von Erwerbslosen verbessern; Träger die Bundesagentur für Arbeit; unterteilt in Arbeitsvermittlung (Berufsorientierung, Berufsausbildungsbeihilfe, Beratungsgespräche) und finanzielle Unterstützung (Arbeitslosengeld I (60% des Nettolohns des Vorjahres für 12 Monate (24 Monate für über 50-jährige)) und II (Mindestversorgung durch ca. 440€ pro Monat, im Volksmund "Hartz IV")); Einführung des aktuellen Systems im Rahmen der Agenda 2010: Prinzip: "Fördern und Fordern", Hartz I - IV Gesetze, Minijobs wurden geschaffen, Zusammenlegung von Arbeitslosen- & Sozialhilfe, System von ALG I & II
-2. *Gesetzliche Unfallversicherung*: Ziel: weniger Arbeitsunfälle, durch Unfallvermeidungsmaßnahmen, aber auch finanzieller Unterstützung im Falle eines Unfall;, Berufsgenossenschaften sind Träger der Versicherung (Körperschaft des öffentlichen Rechts, bei der alle Unternehmen sich zwangsversichern müssen); Finanzierung ausschließlich durch Arbeitgeber; Zahlung von Kosten eines Unfalls, Sterbegeld, Hinterbliebenrente
+2. *Gesetzliche Unfallversicherung*: Ziel: weniger Arbeitsunfälle, durch Unfallvermeidungsmaßnahmen, aber auch finanzieller Unterstützung im Falle eines Unfall; Berufsgenossenschaften sind Träger der Versicherung (Körperschaft des öffentlichen Rechts, bei der alle Unternehmen sich zwangsversichern müssen); Finanzierung ausschließlich durch Arbeitgeber; Zahlung von Kosten eines Unfalls, Sterbegeld, Hinterbliebenenrente
 3. *Gesetzliche Krankenversicherung*: erschafft soziale Absicherung im Krankheitsfall durch: Prävention von Krankheiten, Zahlung von ärztlichen Behandlungen, Versorgung mit Arzneimittel, häusliche Krankenpflege, Rehabilitation nach beispielsweise Unfällen im privaten Bereich, Verhütung, Krankengeld bei längerem Verdienstausfall (nach Lohnfortzahlung); zu jeweils Hälfte von Arbeitgeber und -nehmer gezahlt; Betrag abhängig vom Einkommen
 4. *Deutsche Rentenversicherung*: finanzielle Unterstützung von Personen, die aus dem Berufsleben ausgeschieden sind; Höhe abhängig von geleisteten Beiträgen; neben klassischer Altersrente auch Erwerbsminderungsrente (Eintritt aufgrund von Berufsunfähigkeit vor dem 65. Lebensjahr) & Hinterbliebenenrente (für "Witwen und Waisen"); Finanzierung durch aktuelle Arbeitenden (je 9,3% von Arbeitgeber und -nehmer, steuerliche Zuschüsse vom Staat)
 5. *Pflegeversicherung*: Ziel: Pflegebedürftigkeit verringern und Kosten für Pflege tragen; Träger sind Krankenkassen; Beitrag: 3,05% von je Arbeitgeber und -nehmer; Zuschuss von Pflegekosten je nach Pflegegrad (1 - 5) für häusliche, ambulante und stationäre Pflege
 
+Die durchschnittlichen Beiträge für die Versicherungen sind wie folgt:
+
+| Sozialversicherung | Arbeitnehmeranteil |
+|-|-|
+| Rentenversicherung | 9,3% |
+| gesetzliche Krankenversicherung | 7,3% |
+| Pflegeversicherung | 1,525% |
+| Arbeitslosenversicherung | 1,25% |
+
 All dies soll Armut in Deutschland verhindern. Als von Armut gefährdet gelten Personen, welche weniger als 60% des mittleren Einkommens zur Verfügung haben, was in Deutschland ca. 16,7% (2014) sind.
 
 Im Rahmen der Distributionsfunktion kommen auch Steuern und allgemein Abgaben auf, da diese häufiges Mittel zur Umverteilung sind. Da sie auch eine wichtige Einnahmequelle des Staates sind, wird ihnen ein eigener Abschnitt zugesprochen, weshalb an dieser Stelle nicht genauer darauf eingegangen wird.
+
+Die soziale Sicherheit in Deutschland wird zudem durch die folgenden Prinzipien realisiert:
+
+Versicherungsprinzip
+: alle Beitragzahlenden erhalten im Krisenfall Leistungen und sichern sich somit gegenseitig ab
+
+Versorgungsprinzip
+: Personen, welche außergewöhnliches Leisten erhalten Leistungen ohne Beitragszahlung; Bsp.: Krankenversicherung von Beamten
+
+Fürsorgeprinzip
+: im überprüften Notfall werden Leistungen vergeben an Personen, welche auch keinen Beitrag gezahlt haben; Bsp.: Wohngeld
+
+Äquivalenzprinzip
+: höheres Risiko einer Person führt zu höheren Beiträgen; Bsp.: private Krankenversicherung mit Staffelung nach Alter
+
+Solidaritätsprinzip
+: die Personen mit besseren Lebensumständen finanzieren größeren Teil / Umverteilung der Beiträge und Leistungen;  
+: drei Varianten: von nicht krank zu krank, von reich zu arm, von Beitragszahlern zu mitversicherten Familienangehörigen
+
+Subsidiaritätsprinzip
+: Leistungen müssen sofern möglich zunächst von jedem selbst übernommen werden, Sozialsystem erst ab bestimmter Schwelle; Bsp.: geringpreisige Arzneimittel
 
 #### Stabilisierungsfunktion
 Auch hat der Staat die Aufgabe die Schwankungen in der Wirtschaft abzuschwächen und somit eine gesamtwirtschaftliche Stabilität zu erzeugen. Dabei versucht er sich einerseits an der Stetigkeit der Wirtschaftspolitik als eine Art Anker und versucht zudem konjunkturelle Schwankungen abzumildern.
@@ -143,9 +173,9 @@ Das magische Viereck, welches nur die vier Hauptziele beinhaltet ist zudem um de
 3. außenwirtschaftliches Gleichgewicht (leicht positiver Außenbeitrag der Zahlungsbilanz)
 4. stetiges und angemessenes Wirtschaftswachstum (Anstieg des BIP von 2 bis 3 Prozent)
 
-Diese Ziele sind auch in §1 StabG, dem *Gesetz zur Förderung der Stabilität und des Wachstums der Wirtschaft* festgehalten. Es gibt allerdings auch Kritikpunkte an diesen Zielen, da andere negative Folgen durch ausschließliche Fokusierung auf die Ziele außer Acht gelassen werden. Dieses Gesetz bietet zudem die Grundlage für die antizyklische Wirtschaftspolitik nach dem keynesschen Modell, des britischen Ökonomen John Maynard Keynes, in Deutschland. Diese Art der Wirtschaftspolitik wird auch als nachfrageorientierte Wirtschaftspolitik bezeichnet.
+Diese Ziele sind auch in §1 StabG, dem *Gesetz zur Förderung der Stabilität und des Wachstums der Wirtschaft* festgehalten. Es gibt allerdings auch Kritikpunkte an diesen Zielen, da andere negative Folgen durch ausschließliche Fokussierung auf die Ziele außer Acht gelassen werden. Dieses Gesetz bietet zudem die Grundlage für die antizyklische Wirtschaftspolitik nach dem keynesschen Modell, des britischen Ökonomen John Maynard Keynes, in Deutschland. Diese Art der Wirtschaftspolitik wird auch als nachfrageorientierte Wirtschaftspolitik bezeichnet.
 
-Damit die wirtschaftspolitischen Ziele wie sie im magischen Vier- bzw. Sechseck sind dauerhaft und nicht nur phasenweise erreicht werden, versucht der Staat die konjunkturellen Schwankungen in ihrer Gesamtheit abzuschwächen und eine Stetigkeit in die Wirtschaftsentwicklung zu bringen. Denn auf einen extremen Boom folgt zumeist auch eine extreme Depression, inwelcher die Vollbeschäftigung, das Wirtschaftswachstum und die Preisniveaustabilität gefährdet sind. Aber um die Möglichkeiten des Staates hierbei zu betrachten, muss zunächst die Konjunktur als ein ganzes betrachtet werden. Die Konjunktur lässt sich entsprechend der Abbildung in die vier Phasen Expansion (Aufschwung), Boom (Hochkonjunktur), Rezession (Abschwung) und Depression (Krise) einteilen.
+Damit die wirtschaftspolitischen Ziele wie sie im magischen Vier- bzw. Sechseck sind dauerhaft und nicht nur phasenweise erreicht werden, versucht der Staat die konjunkturellen Schwankungen in ihrer Gesamtheit abzuschwächen und eine Stetigkeit in die Wirtschaftsentwicklung zu bringen. Denn auf einen extremen Boom folgt zumeist auch eine extreme Depression, in welcher die Vollbeschäftigung, das Wirtschaftswachstum und die Preisniveaustabilität gefährdet sind. Aber um die Möglichkeiten des Staates hierbei zu betrachten, muss zunächst die Konjunktur als ein ganzes betrachtet werden. Die Konjunktur lässt sich entsprechend der Abbildung in die vier Phasen Expansion (Aufschwung), Boom (Hochkonjunktur), Rezession (Abschwung) und Depression (Krise) einteilen.
 
 ![Konjunkturzyklus](assets/Konjunktur1.png)
 
@@ -225,6 +255,8 @@ Die Einnahmequellen des Staates sind in der zugehörigen Abbildung übersichtlic
 
 ![Einnahmequellen des Staates](assets/Einnahmequellen-des-Staates.png)
 
+Die Höhe des aktuellen Bundeshaushalts liegt im Bereich von 320 - 340 Mrd. €.
+
 
 ### Staatsverschuldung
 Laut dem Grundgesetz (Art. 109 und Art. 115) ist der deutsche Staat dazu angehalten die Neuverschuldung sehr gering zu halten. So darf die strukturelle (über Konjunkturzyklus hinweg quasi) Neuverschuldung nicht mehr als 0,35% des BIP pro Jahr betragen. Hiervon darf nur durch  wieder ausgeglichene Neuverschuldung bei konjunkturellen Schwankungen und bei Schuldenaufnahme durch Notsituationen wie Naturkatastrophen abgewichen werden. Zudem benötigt jeder Bundeshaushalt (jährlich und eventueller Nachtragshaushalt) die Zustimmung von Bundestag sowie Bundesrat. Hiermit ist der Bundeshaushalt auch demokratisch legitimiert. Für die Länder besteht zudem das komplette Verbot sich neu zu verschulden.  
@@ -264,7 +296,7 @@ Als Initialzündung für ein wirtschaftliches Wachstum kann beispielsweise eine 
 3. mehr Beschäftigung in der Investitionsgüterindustrie
 4. Modernisierung des Produktionsapparates
 
-[//]: # (evtl. Schaubild einfügen "Scan 27.03.2021, 11.54.pdf")
+![Angebotsorientierte Wirtschaftspolitik](assets/angebotsorientierte-wp.png){ width=70% }
 
 Saysches Theorem
 : "Jedes Angebot schafft sich seine Nachfrage."  
@@ -272,7 +304,7 @@ Saysches Theorem
 
 | Maßnahmen | Kritik |
 |-|-|
-| *Minderung der öffentlichen Staatsausgaben*:  \newline -> weniger Staatsschulden -> geringere Nachfrage auf Kreditmarkt -> niedrige Zinsen | - muss in Übereinstimung mit EZB sein \newline - fördert Fehlinvestitionen \newline - kann Depression provozieren \newline - Geld für Investitionen fehlt (F&E; E-Auto-Förderung) |
+| *Minderung der öffentlichen Staatsausgaben*:  \newline -> weniger Staatsschulden -> geringere Nachfrage auf Kreditmarkt -> niedrige Zinsen | - muss in Übereinstimmung mit EZB sein \newline - fördert Fehlinvestitionen \newline - kann Depression provozieren \newline - Geld für Investitionen fehlt (F&E; E-Auto-Förderung) |
 | *Senkung der Personalkosten*: \newline - Bsp.: kein Mindestlohn, geringere Lohnsteuer, weniger Sozialversicherungen | - geringere gesamtwirtschaftliche Nachfrage \newline - fehlen der Sozialversicherungserträge, etc -> geringere Staatseinnahmen |
 | *Steuersenkungen/Einführung eines leistungssteigernden Steuersystems*: \newline - weniger Steuern -> mehr Liquidität für Konsum und Investition -> Nachfrage | - sinkende Staatseinnahmen \newline - nicht zwangsläufig höhere Nachfrage (zielgerichtet?) \newline - kann zu Steuersenkungswettläufen kommen (z.B. D vs. F) ("Race to the bottom") |
 | *Rückführung der Sozialtransfers und der öffentlichen Beschäftigung*. \newline - geringere Sozialleistungen -> mehr Liquidität für Konsum und Investition | - Abnehmen der Nachfrage der unteren sozialen Schichten \newline - schlechtere Sozialstandards |
@@ -364,6 +396,12 @@ Häufig wird das BIP als Wohlstandsindikator verwendet. Dies wird allerdings imm
 
 Zudem muss unterschieden werden in BIP und BNE. Während das Bruttoinlandsprodukt den Wert aller Güter und Dienstleistungen in einem Land von In- und Ausländern betrachtet, beschränkt sich das Bruttonationaleinkommen auf die Güter und Dienstleistungen von Inländern im In- und Ausland.
 
+#### Berechnung des Bruttoinlandsprodukts
+
+Das BIP kann auf verschiedene Arten und Weisen berechnet werden. Man unterscheidet die Entstehungs-, Verwendungs- und Verteilungsrechnung. Während sich die Entstehungs- und Verwendungsrechnung darauf fokussiert, wie sich die Güter und Dienstleistungen niederschlagen, betrachtet die Verteilungsrechnung wie sich der durch das BIP entstehende Wohlstand in Form des Volkseinkommens verhält. Die Verteilungsrechnung addiert hierfür das Einkommen der privaten Haushalte, und den Gewinn der Unternehmen, die abgegebenen Steuern und Abschreibungen und subtrahiert die Subventionen, als auch die Zahlungsströme ins Ausland (genau genommen Primäreinkommen), erhält man so das BIP.  
+
+Hierzu im Gegensatz konzentriert sich die Entstehungsrechnung auf die entstandenen Güter und Dienstleistungen und subtrahiert von deren Wert den Wert der Vorleistungen (verbrauchte Güter im Rahmen der Produktion) und rechnet erneut Steuern und Subventionen heraus. Auch auf diese Weise erhält man das Bruttoinlandsprodukt eines Landes.  
+Die letzte Berechnungsmethode ist die Verwendungsrechnung. Hierbei wird der Konsum von privaten Haushalten und dem Staat addiert. Hierzu werden zudem die Anlageinvestitionen der Unternehmen addiert, also die Summe aus Investitionen wie neuen Anlagen oder Erhöhung des Lagerbestands. Nun wird noch der Außenbeitrag addiert und man erhält ebenfalls das BIP.
 
 # Ausland
 internationale Arbeitsteilung
@@ -439,7 +477,7 @@ Deutschland strebt mit einem seiner Ziele der Wirtschaftspolitik ein Außenhande
 In der globalen Finanzwelt kommt immer wieder die Debatte über den Freihandel auf. Dieser ermöglicht bessere Zusammenarbeit über Landesgrenzen hinweg, wenn auch die eigene Wirtschaft nicht so gut geschützt werden kann. 
 
 Zum Schutz der eigenen Wirtschaft werden dabei immer wieder Handelhemmnisse genutzt. Diese lassen sich unterteilen in tarifär und nichttarifär. Tarifäre Handelshemmnisse sind Zölle, also Mengen- und Wertzölle.  
-Nichttarifäre Hemmnisse sind Aktionen wie Preisbeeinflussung durch Subventionen und Dumping, Mengenbeschränkungen beim internationalen Handel durch Kontingente, Quoten, Ein- & Ausfuhrverbote, Boykotte und Embargos und administrative Bechränkungen durch Grenzformalias, technische Standards und Vorschriften zu Gesundheit, Umweltschutz und Sicherheit.
+Nichttarifäre Hemmnisse sind Aktionen wie Preisbeeinflussung durch Subventionen und Dumping, Mengenbeschränkungen beim internationalen Handel durch Kontingente, Quoten, Ein- & Ausfuhrverbote, Boykotte und Embargos und administrative Beschränkungen durch Grenzformalias, technische Standards und Vorschriften zu Gesundheit, Umweltschutz und Sicherheit.
 
 Dumping
 : Subvention der Produktion von Gütern, sodass diese unter Herstellkosten verkauft werden können
@@ -485,7 +523,7 @@ Binnenmarkt
 Vor dem Hintergrund der globalen Finanzwelt wird auch immer wieder auf die Probleme durch globale Abhängigkeiten bei Finanzkrisen hingewiesen.  
 Eine der großen Finanzkrisen der letzten Jahre war die Weltwirtschaftskrise ab 2007, bei welcher nach dem Platzen der Immobilienblase in den USA die globale Bankenwelt fast zum erliegen kam und durch welche auch maßgeblich die anschließende Eurokrise verursacht wurde.
 
-Die Krise begann damit, dass in den Vereinigten Staaten Kredite an Haushalte für den Hausbau ausgegeben wurden. Dies wurde durch günstige Zinsen und die Subvention des Hausbaus weiter verstärkt. Die starke Nachfrage nach Immobilien ließ dabei auch die Nachfrage nach diesen und somit den Marktpreis steigen. Dies führte dazu, dass auch sogenannte Subprime-Kredite vergeben wurden --- Kredite an Schuldner mit geringer Bonität mit Immobilie als einzige Sicherheit ---, da im Falle eines Zahlungsausfalls die Immobilie mit Gewinn verkauft werden konnte. Dies gipfelte sogar in sogenannten ninja-Krediten (*no income, no job, no assets*). Im Aufschwung dieser Kredite war das Wachstum sogar so groß und vielversprechend, dass auch ausländische Investoren am Boom teilhaben wollten, weshalb die Kredite in sogenannten CDOs (*Collateralised Debt Obligations*) als Derivate gehandelt wurden. Das Risiko wurde von den kreditvergebenden Banken an die Investoren ausgelagert, wodurch die Banken noch mehr risikobehaftete kredite vergaben. Um die CDOs weiterhin attraktiv zu gestalten wurden sie auch mit "guten Wertpapieren" aufgewertet und die Kredite in Tranchen eingetielt nach ihrem Risiko (investment grade > mezzanine > untere Tranche (toxic)). Die Rating-Agenturen vergaben *AAA*-Ratings.  
+Die Krise begann damit, dass in den Vereinigten Staaten Kredite an Haushalte für den Hausbau ausgegeben wurden. Dies wurde durch günstige Zinsen und die Subvention des Hausbaus weiter verstärkt. Die starke Nachfrage nach Immobilien ließ dabei auch die Nachfrage nach diesen und somit den Marktpreis steigen. Dies führte dazu, dass auch sogenannte Subprime-Kredite vergeben wurden --- Kredite an Schuldner mit geringer Bonität mit Immobilie als einzige Sicherheit ---, da im Falle eines Zahlungsausfalls die Immobilie mit Gewinn verkauft werden konnte. Dies gipfelte sogar in sogenannten ninja-Krediten (*no income, no job, no assets*). Im Aufschwung dieser Kredite war das Wachstum sogar so groß und vielversprechend, dass auch ausländische Investoren am Boom teilhaben wollten, weshalb die Kredite in sogenannten CDOs (*Collateralised Debt Obligations*) als Derivate gehandelt wurden. Das Risiko wurde von den kreditvergebenden Banken an die Investoren ausgelagert, wodurch die Banken noch mehr risikobehaftete kredite vergaben. Um die CDOs weiterhin attraktiv zu gestalten wurden sie auch mit "guten Wertpapieren" aufgewertet und die Kredite in Tranchen eingeteilt nach ihrem Risiko (investment grade > mezzanine > untere Tranche (toxic)). Die Rating-Agenturen vergaben *AAA*-Ratings.  
 Nach Erhöhung der Leitzinsen durch die Fed (Federal Reserve, US-Notenbank) und der ausstehenden Rückzahlungen von Schuldnern platzte diese Spekulationsblase allerdings und durch das extrem hohe Angebot an Immobilien fielen die Preise, wodurch auch die Kredite der bestehenden Schuldner nicht mehr ausreichend gedeckt waren und alle Investoren die Derivate möglichst schnell ablegen wollten. Auch das Angebot an CDOs war übersättigt, wodurch deren Wert gedrückt wurde (unterstützt durch die neuen Ratings, welche deutlich schlechter waren).  
 Die Krise war mit der Insolvenz der Lehman Brothers Investmentbank an ihrem Hochpunkt. Zudem vertrauten sich die Banken untereinander nicht mehr, da sie vermuteten die andere Bank würde ebenfalls insolvent gehen, aufgrund des Besitztes von amerikanischen Immobilienderivaten. Letzten Endes mussten sogar die Staaten eintreten um die Banken zu retten, welche nach dem Prinzip *to big to fail* nicht insolvent gehen durften (Bsp.: Deutsche Bank).
 
@@ -524,7 +562,7 @@ Wechselkurse können sowohl in der sogenannten Mengen-, als auch in der Preisnot
 
 ![Wechselkurse im Preis-Mengen-Diagramm](assets/pmd/Screenshot_20210402_162603.png)
 
-Allgemein wird unterschieden zwischen festen und freien Wechselkursen. Zunächst einmal entsteht jeder Wechselkurs aufgrund von Angebot und Nachfrage. Bei einer geringen Menge der Währung auf dem Kapitalmarkt bei einer gleichzeitig hohen Nachfrage nach dieser, führt zu hohen Wechselkursen. Da die Zentralbanken allerdings eine große Kontrolle über das Angebot einer Währung auf dem Markt haben, können diese den Wechselkurs zu einer anderen Währung fixieren. Dies kann entweder durch gezielte Steuerung der Geldmenge geschehen, oder aber einfacher durch das einfache Festschreiben eines Kurses, gegen welche sie die Währungen tauschen, letztlich aber immer durch den gezielten An- und Verkauf von Devisen (*Devisenmarktintervention*).  
+Allgemein wird unterschieden zwischen festen und freien Wechselkursen. Zunächst einmal entsteht jeder Wechselkurs aufgrund von Angebot und Nachfrage. Bei einer geringen Menge der Währung auf dem Kapitalmarkt bei einer gleichzeitig hohen Nachfrage nach dieser, führt zu hohen Wechselkursen. Da die Zentralbanken allerdings eine große Kontrolle über das Angebot einer Währung auf dem Markt haben, können diese den Wechselkurs zu einer anderen Währung fixieren. Dies kann entweder durch gezielte Steuerung der Geldmenge geschehen, oder aber einfacher durch das einfache Festschreiben eines Kurses, gegen welche sie die Währungen tauschen (*Currency Board*), letztlich aber immer durch den gezielten An- und Verkauf von Devisen (*Devisenmarktintervention*).  
 Feste Wechselkurse werden unter anderem von südamerikanischen Staaten in Bezug auf den US-Dollar benutzt, um die eigene Wirtschaft zu stabilisieren und den Handel mit den USA zu begünstigen (Argentinischer Peso zu US-Dollar). Ein weiteres bekanntes Beispiel von festen Wechselkursen ist das System von Bretton Woods. Hierbei handelt es sich um ein Übereinkommen von 44 Staaten zu "flexiblen, festgesetzten Wechselkursen" (geringfügige Abweichungen erlaubt, max. $\pm 1 \%$) zum US-Dollar. Gesichert wurde das System dadurch, dass die Vereinigten Staaten den US-Dollar in eine festgelegte Goldmenge umgetauscht haben. 1973 wurde das von den Briten und den den USA ins Leben gerufene System endgültig außer Kraft gesetzt.
 
 Dass beide Systeme Vorteile für sich haben, lässt sich in der folgenden Tabelle erkennen:
@@ -549,10 +587,10 @@ Des Weiteren sorgen schwache Wechselkurse für die Verhinderung einer Deflation,
 | Schwächen |  | Stärken |
 |-|-|-|
 | - Rohstoffarmut \newline - hohe Umweltauflagen \newline | natürliche Ressourcen | - ständige Verfügbarkeit durch offene Grenzen \newline - hoch entwickelte Umwelttechnologie \newline |
-| - inflexibler Arbeitsmartkt \newline - hohe Lohnkosten \newline - lange Ausbildungszeit, praxisferne Ausbildung \newline | Arbeitskräfte | - sozialer Friede \newline - ausgebildete Fachkräfte \newline - duale Ausbildung \newline |
+| - inflexibler Arbeitsmarkt \newline - hohe Lohnkosten \newline - lange Ausbildungszeit, praxisferne Ausbildung \newline | Arbeitskräfte | - sozialer Friede \newline - ausgebildete Fachkräfte \newline - duale Ausbildung \newline |
 | - Risikokapitalmarkt klein \newline - schwierige Startkapitalbeschaffung \newline | Kapital | - hohe Ersparnisse \newline - freier Kapitalmarkt \newline |
 | - schlechter Breitbandausbau im ländlichen Raum \newline | Infrastruktur | - gute Infrastruktur \newline |
-| - hohe Staatsverschuldung \newline - hohe Steuern \newline - Abgrenzung gegen Außer-EU \newline - hohe Bürokratie \newline | Politk und Verwaltung | - gut organisierte Verwaltung \newline - Rechtssicherheit \newline - politische Sicherheit \newline - großer Binnenmarkt durch EU \newline - keine Korruption \newline |
+| - hohe Staatsverschuldung \newline - hohe Steuern \newline - Abgrenzung gegen Außer-EU \newline - hohe Bürokratie \newline | Politik und Verwaltung | - gut organisierte Verwaltung \newline - Rechtssicherheit \newline - politische Sicherheit \newline - großer Binnenmarkt durch EU \newline - keine Korruption \newline |
 | - "überzogener Sozialstaat" \newline - schlechtes Rentensystem \newline | Sozialbereich | - sozialer Friede \newline - breite Einkommensstreuung \newline - gute Gesundheitsversorgung \newline |
 | - Überalterung \newline | Gesellschaft | - breite Mittelschicht \newline |
 | - nicht bedarfsorientiert \newline - unzureichende Kooperation mit Industrie \newline - wenig Umsetzung der Neuerungen \newline | Forschung und Entwicklung | - hoch entwickelte Grundlagenforschung \newline - innovative Klein- und Mittelbetriebe \newline - gute Schulbildung \newline |
@@ -563,7 +601,7 @@ Des Weiteren sorgen schwache Wechselkurse für die Verhinderung einer Deflation,
 #### EZB
 Als Zentralbank aller Staaten des Euro-Raums ist die Europäische Zentralbank von hoher Bedeutung ---  für die Wirtschaft Deutschlands, der EU, aber auch weltweit. Als Zentralbank ist EZB unabhängig. Das oberste Ziel der EZB ist als Zentralbank die Erhaltung der Stabilität des Euros, also genau genommen die Preisniveaustabilität (Art. 127 AEUV (Vertrag über die Arbeitsweise der Europäischen Union)). Dabei ist das Ziel der EZB die Inflation im Euro-Raum "unter, aber nahe 2 Prozent" zu halten. Hierfür besitzt die EZB mehrere geldpolitische Instrumente, welche die EZB verwenden kann. Hierzu zählen die Fazilitäten, die Offenmarktgeschäfte und die Mindestreservepflicht.
 
-Der größte Teil der geldpolitischen Handlungen stellen Offenmarktgeschäfte dar. Hierbei schreibt die EZB als Zentralbank den Geschäftsbanken liquides Kapital zur Verfügung (durch Gutschreibung auf ein EZB-Konto der Geschäftsbank) im Gegenzug für Sicherheiten der Geschäftsbank. Zudem können sie beispielsweise Wertpapiere ankaufen. Es wird unterschieden in endgültige Transaktionen (Outright-Geschäfte) und Geschäfte mit einer sogenannten Rückkaufvereinbarung (Repo-Geschäfte; von "repurchase agreement"). Den größten Teil dieser Offenmarktgeschäfte stellen die Hauptrefinanzierungsgeschäfte dar. Dies sind auf 7 Tage befristete Offenmarktgeschäfte. Der Zinssatz dieser ist der wichtigste Leitzins der EZB, da sie einen so großen Teil der Handlungen der EZB ausmachen. Durch die Regelung der Offenmarktgeschäfte kann die Geldmenge und somit auch das Preisniveau im Euro-Raum, gezielt gesteuert werden.
+Der größte Teil der geldpolitischen Handlungen stellen Offenmarktgeschäfte dar. Hierbei schreibt die EZB als Zentralbank den Geschäftsbanken liquides Kapital zur Verfügung (durch Gutschreibung auf ein EZB-Konto der Geschäftsbank) im Gegenzug für Sicherheiten der Geschäftsbank. Zudem können sie beispielsweise Wertpapiere ankaufen. Es wird unterschieden in endgültige Transaktionen (Outright-Geschäfte) und Geschäfte mit einer sogenannten Rückkaufvereinbarung (Repo-Geschäfte; von "repurchase agreement"). Den größten Teil dieser Offenmarktgeschäfte stellen die Hauptrefinanzierungsgeschäfte dar. Dies sind auf 7 Tage befristete Offenmarktgeschäfte. Der Zinssatz dieser ist der wichtigste Leitzins der EZB, da sie einen so großen Teil der Handlungen der EZB ausmachen. Durch die Regelung der Offenmarktgeschäfte kann die Geldmenge und somit auch das Preisniveau im Euro-Raum, gezielt gesteuert werden. Aktuell wird Geld im Rahmen der Hauptrefinanzierungsgeschäfte über das Mengentenderverfahren vergeben. Das heißt die EZB legt einen Zinssatz fest, für welchen die Geschäftsbanken eine beliebige Menge Zentralbankgeld erhalten.
 
 Zudem stellt die EZB Liquidität im Rahmen der Fazilitäten den Geschäftsbanken zur Verfügung. Dies geschieht durch die Spitzenrefinanzierungsfazilitäten. Dabei stellt die EZB der Bank Zentralbankgeld auf Nachfrage der Bank zum Spitzenrefinanzierungssatz für eine Nacht zur Verfügung. Da anders wie bei den Tenderverfahren bei den Offenmarktgeschäften die Vergabe dieser Kredite auf Nachfrage der Banken geschieht, ist dieser Zinssatz auch in der Regel höher. Zudem stellt dieser letztlich eine Höchstgrenze für Tageszinssätze dar, da keine Bank Kapital für höhere Zinssätze aufnehmen wird, wenn sie dieses von der EZB erhalten können.  
 Die andere Fazilität, welche die EZB zur Verfügung stellt, ist die Einlagefazilität. Diese ermöglicht es den Banken ihr Kapital bei der Zentralbank kurzfristig einzulagern. Der Zinssatz der Einlagefazilitäten stellt die untere Grenze für den Tagesgeldzinssatz dar aus ähnlichen Gründen.  
@@ -620,7 +658,7 @@ Grundsatz der Liberalisierung
 | OPEC | Interessensvertretung der Öl-Exporteure | gleiche Ziele wie bei Gründung, durch Streitigkeiten häufig nicht handlungsfähig | - nicht das Wohl der Verbraucher im Blick \newline - Öl als politische Waffe verwendet \newline - keine Zukunftsperspektiven nach Öl |
 | OECD | Wiederaufbau von Europa nach WW2 | Förderung von Demokratie, Lebensqualität und Marktwirtschaft, Empfehlungen für Regierungshandeln | - geschlossener gehobener Kreis \newline - zu starke Orientierung an freie Marktwirtschaft \newline - Empfehlungen häufig nicht umsetzbar |
 | IWF | Förderung der Zusammenarbeit in Währungspolitik, Hilfe bei Finanzkrisen | Kreditvergabe bei Krisen und gefährdetem Haushalt eines Staats | - zu strenge Auflagen bei Kreditvergabe \newline - zu starke Orientierung an freie Marktwirtschaft \newline - Stimmrecht über Kapitalanteil -> hohe Kontrolle der Industriestaaten |
-| Weltbank | Förderung des Wideraufbaus nach WW2, Schaffung stabiler Währung | Armutsbekäpfung und Hilfe für Entwicklungsländer | - Förderungen von Projekten ohne Rücksicht auf Bevölkerung \newline - keine Prüfung von Menschenrechtsverletzungen |
+| Weltbank | Förderung des Wideraufbaus nach WW2, Schaffung stabiler Währung | Armutsbekämpfung und Hilfe für Entwicklungsländer | - Förderungen von Projekten ohne Rücksicht auf Bevölkerung \newline - keine Prüfung von Menschenrechtsverletzungen |
 
 
 #### Washingtoner Konsens
@@ -741,7 +779,7 @@ vgl. 5 Säulen der Global Governance
 #### Global Compact
 Global Compact ist eine Aktion der UN, welche soziale und nachhaltige Entwicklung zusammen mit Unternehmen gestalten soll. Dabei verpflichten sich Unternehemen in Eigenverantwortung dafür bestimmte Mindeststandards in diesen Feldern einzuhalten. Die Prinzipien lassen sich in die Bereiche Menschenrechte, Arbeitsnormen, Umwelt/Klima und Korruptionsprävention einsortieren.
 
-Global Compact steht in der Kritik, da keine Sanktionsmöglichkeiten oder konkrete Verpflichtungen durch mangelnde Kontrollen bestehen und die Unternehmen lediglich sogeanntes Blue-Washing betreiben, also ihr eigenes Unternehemen lediglich durch ein UN-Logo aufwerten, aber nichts positiv verwirklichen. Zudem kann kritisiert werden, dass durch Global Compact nur effektive Maßnahmen, wie Gesetze und Regelungen, durch die Alibi-Wirkung verhindert werden.
+Global Compact steht in der Kritik, da keine Sanktionsmöglichkeiten oder konkrete Verpflichtungen durch mangelnde Kontrollen bestehen und die Unternehmen lediglich sogenanntes Blue-Washing betreiben, also ihr eigenes Unternehemen lediglich durch ein UN-Logo aufwerten, aber nichts positiv verwirklichen. Zudem kann kritisiert werden, dass durch Global Compact nur effektive Maßnahmen, wie Gesetze und Regelungen, durch die Alibi-Wirkung verhindert werden.
 
 #### International Labour Organization
 Die internationale Arbeitsorganisation ist eine Unterorganisation der Vereinten Nationen und setzt sich für soziale Gerechtigkeit, vor allem im Umfeld der globalen Arbeit ein. Des Weiteren hat die ILO Sozialstandards festgeschrieben, gegen welche nicht verstoßen werden darf, um zu verhindern, dass Länder sich durch Ausbeitung einen Vorteil auf dem Weltmarkt verschaffen. Diese Standards umfassen: 
@@ -759,6 +797,8 @@ Für das Abitur müssen die Operatoren auswendig gekonnt werden. Siehe hierfür 
 
 ## Grundwissen
 ### Wirtschaftskreislauf
+*vgl. Abbildung Wirtschaftskreislauf*
+
 ![Wirtschaftskreislauf](assets/wirtschaftskreislauf.png)
 
 ### Produktionsfaktoren
@@ -787,7 +827,19 @@ mittelfristig
 langfristig
 : \> 5 Jahre
 
+### Zielbeziehungen
+
+komplementäre Ziele
+: Ziele die sich gegenseitig unterstützen; wenn eines erreicht wird, hilft dies dem anderen
+
+konkurrierende Ziele
+: Ziele, welche in Konkurrenz zu einander stehen; die Erreichung des einen verschlechtert das andere
+
+indifferente Ziele
+: die beiden Ziele beeinflussen sich nicht gegenseitig
+
 ### Arten von Gütern
+*vgl. Abbildung Arten von Gütern*
 
 ![Arten von Gütern](assets/güter.jpg){ width=70% }
 
@@ -802,18 +854,77 @@ Sorten
 : ausländisches Zahlungsmittel in Form von Bargeld einer anderen Währung
 
 ### Produktlebenszyklus nach Vernon
+*vgl. Abbildung Produktlebenszyklus nach Raymond Vernon*
 
 ![Produktlebenszyklus nach Raymond Vernon](assets/Produktlebenszyklus.png)
+
+
+### Nachhaltigkeitsdreieck
+*vgl. Abbildung Nachhaltigkeitsdreieck*
+
+![Nachhaltigkeitsdreieck](assets/nachhaltigkeitsdreieck.jpg)
+
+### SWOT-Analyse
+Die SWOT-Analyse ist eine vergleichende Analyse von Stärken (***S****trengths*), Schwächen (***W****eaknesses*), Chancen (***C****hances*) und Risiken (***T****hreats*). Dabei kommen die Stärken und Schwächen stets von innen, während die Chancen und Risiken externer Natur sind. Aus dieser Analyse kann dann eine Strategie abgeleitet werden. 
+
+
+### Gerechtigkeitsprinzipien
+
+Leistungsgerechtigkeit
+: wer mehr leistet, erhält mehr
+
+Bedarfsgerechtigkeit
+: Verteilung nach den Bedürfnissen; u.a. Hilfe für Benachteiligte
+
+Chancengerechtigkeit
+: jeder muss die selben Chancen erhalten, um gleiche Ausgangssituation für eigenen Erfolg zu haben
+
+Gleichheits-/Egalitätsprinzip
+: jeder erhält das Gleiche unabhängig von Situation
+
+### Wichtige Artikel des Grundgesetzes
+
+Artikel 1
+: Menschenrechte und -würde
+
+Artikel 2
+: persönliche Freiheit
+
+Artikel 3
+: Gleichheit aller Menschen
+
+Artikel 9
+: Koalitionsfreiheit:  
+: - Grundlage der Tarifpolitik
+: - "Tarifautonomie"
+
+Artikel 11
+: Freizügigkeit im Bundesgebiet
+
+Artikel 12
+: Berufsfreiheit
+
+Artikel 14
+: Privateigentum
+
+Artikel 20
+: Rechtsstaatlichkeit; Sozialstaat
+
+Artikel 20a
+: Schutz der Umwelt (vgl. magisches Sechseck)
+
+Artikel 109
+: Bundeshaushalt
+
+Artikel 115
+: schwarze Null
+
 
 [//]: # (\listoffigures)
 \listoffigures
 
 \newpage
 \includepdf[pages=-1]{assets/operatoren.pdf}
-
-## Nachhaltigkeitsdreieck
-
-![Nachhaltigkeitsdreieck](assets/nachhaltigkeitsdreieck.jpg)
 
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
