@@ -817,6 +817,16 @@ Unter Produktionsfaktoren versteht man alles, was zur Herstellung von Gütern be
 
 ### Preis-Mengen-Diagramme
 
+![Grundlegendes Preis-Mengen-Diagramm](assets/pmd/Screenshot_20210402_162425.png)
+
+![Entstehung der Angebots- und Nachfragekurven als Kumulation](assets/pmd/Screenshot_20210402_162453-export.png)
+
+![Angebots- und Nachfrageüberhang](assets/pmd/Screenshot_20210402_162533-export.png)
+
+![Renten im Preis-Mengen-Diagramm](assets/pmd/Screenshot_20210402_162520.png)
+
+![Verschiebung der Angebots- und Nachfragekurven](assets/pmd/Screenshot_20210402_162506-export.png)
+
 ### kurz-, lang- und mittelfristig
 kurzfristig
 : \< 1 Jahr
