@@ -255,6 +255,8 @@ Die Einnahmequellen des Staates sind in der zugehörigen Abbildung übersichtlic
 
 ![Einnahmequellen des Staates](assets/Einnahmequellen-des-Staates.png)
 
+Zudem können Steuern in direkte und indirekte Steuern unterschieden werden. Direkte Steuern müssen vom Verbraucher direkt an das Finanzamt abgegeben werden, während indirekte Steuern wie beispielsweise die Umsatzsteuer nicht direkt vom Verbraucher an das Finanzamt abgegeben werden. Zu den indirekten Steuern zählen allgemein alle Verbrauchssteuern.
+
 Die Höhe des aktuellen Bundeshaushalts liegt im Bereich von 320 - 340 Mrd. €.
 
 
@@ -523,7 +525,7 @@ Binnenmarkt
 Vor dem Hintergrund der globalen Finanzwelt wird auch immer wieder auf die Probleme durch globale Abhängigkeiten bei Finanzkrisen hingewiesen.  
 Eine der großen Finanzkrisen der letzten Jahre war die Weltwirtschaftskrise ab 2007, bei welcher nach dem Platzen der Immobilienblase in den USA die globale Bankenwelt fast zum erliegen kam und durch welche auch maßgeblich die anschließende Eurokrise verursacht wurde.
 
-Die Krise begann damit, dass in den Vereinigten Staaten Kredite an Haushalte für den Hausbau ausgegeben wurden. Dies wurde durch günstige Zinsen und die Subvention des Hausbaus weiter verstärkt. Die starke Nachfrage nach Immobilien ließ dabei auch die Nachfrage nach diesen und somit den Marktpreis steigen. Dies führte dazu, dass auch sogenannte Subprime-Kredite vergeben wurden --- Kredite an Schuldner mit geringer Bonität mit Immobilie als einzige Sicherheit ---, da im Falle eines Zahlungsausfalls die Immobilie mit Gewinn verkauft werden konnte. Dies gipfelte sogar in sogenannten ninja-Krediten (*no income, no job, no assets*). Im Aufschwung dieser Kredite war das Wachstum sogar so groß und vielversprechend, dass auch ausländische Investoren am Boom teilhaben wollten, weshalb die Kredite in sogenannten CDOs (*Collateralised Debt Obligations*) als Derivate gehandelt wurden. Das Risiko wurde von den kreditvergebenden Banken an die Investoren ausgelagert, wodurch die Banken noch mehr risikobehaftete kredite vergaben. Um die CDOs weiterhin attraktiv zu gestalten wurden sie auch mit "guten Wertpapieren" aufgewertet und die Kredite in Tranchen eingeteilt nach ihrem Risiko (investment grade > mezzanine > untere Tranche (toxic)). Die Rating-Agenturen vergaben *AAA*-Ratings.  
+Die Krise begann damit, dass in den Vereinigten Staaten Kredite an Haushalte für den Hausbau ausgegeben wurden. Dies wurde durch günstige Zinsen und die Subvention des Hausbaus weiter verstärkt. Die starke Nachfrage nach Immobilien ließ dabei auch die Nachfrage nach diesen und somit den Marktpreis steigen. Dies führte dazu, dass auch sogenannte Subprime-Kredite vergeben wurden --- Kredite an Schuldner mit geringer Bonität mit Immobilie als einzige Sicherheit ---, da im Falle eines Zahlungsausfalls die Immobilie mit Gewinn verkauft werden konnte. Dies gipfelte sogar in sogenannten ninja-Krediten (*no income, no job, no assets*). Im Aufschwung dieser Kredite war das Wachstum sogar so groß und vielversprechend, dass auch ausländische Investoren am Boom teilhaben wollten, weshalb die Kredite in sogenannten CDOs (*Collateralised Debt Obligations*) als Derivate gehandelt wurden. Das Risiko wurde von den kreditvergebenden Banken an die Investoren ausgelagert, wodurch die Banken noch mehr risikobehaftete Kredite vergaben. Um die CDOs weiterhin attraktiv zu gestalten wurden sie auch mit "guten Wertpapieren" aufgewertet und die Kredite in Tranchen eingeteilt nach ihrem Risiko (investment grade > mezzanine > untere Tranche (toxic)). Die Rating-Agenturen vergaben *AAA*-Ratings.  
 Nach Erhöhung der Leitzinsen durch die Fed (Federal Reserve, US-Notenbank) und der ausstehenden Rückzahlungen von Schuldnern platzte diese Spekulationsblase allerdings und durch das extrem hohe Angebot an Immobilien fielen die Preise, wodurch auch die Kredite der bestehenden Schuldner nicht mehr ausreichend gedeckt waren und alle Investoren die Derivate möglichst schnell ablegen wollten. Auch das Angebot an CDOs war übersättigt, wodurch deren Wert gedrückt wurde (unterstützt durch die neuen Ratings, welche deutlich schlechter waren).  
 Die Krise war mit der Insolvenz der Lehman Brothers Investmentbank an ihrem Hochpunkt. Zudem vertrauten sich die Banken untereinander nicht mehr, da sie vermuteten die andere Bank würde ebenfalls insolvent gehen, aufgrund des Besitztes von amerikanischen Immobilienderivaten. Letzten Endes mussten sogar die Staaten eintreten um die Banken zu retten, welche nach dem Prinzip *to big to fail* nicht insolvent gehen durften (Bsp.: Deutsche Bank).
 
@@ -629,7 +631,7 @@ Die Welthandelsorganisation ist eine internationale Organisation, welche den Abb
 
 DSU
 : gilt für alle WTO-Abkommen;  
-. zunächst Vermittlung, danach Empfehlung durch Gremium (Panel), darauf Berufung vor Appelate Body (Berufungsgericht; aktuell handlungsunfähig aufgrund fehlender Richter, Blockade der USA) möglich, Sanktionen möglich
+: zunächst Vermittlung, danach Empfehlung durch Gremium (Panel), darauf Berufung vor Appelate Body (Berufungsgericht; aktuell handlungsunfähig aufgrund fehlender Richter, Blockade der USA) möglich, Sanktionen möglich
 
 In der WTO gelten zudem bestimmte Grundprinzipien, wozu alle Teilnehmerländer verpflichtet sind. Dazu gehört das Inländerprinzip, das Prinzip der Meistbegünstigung, das Prinzip der Nichtdiskriminierung und sowohl der Grundsatz der Transparenz, als auch der Gegenseitigkeit und Liberalisierung.
 
@@ -782,12 +784,23 @@ Global Compact ist eine Aktion der UN, welche soziale und nachhaltige Entwicklun
 Global Compact steht in der Kritik, da keine Sanktionsmöglichkeiten oder konkrete Verpflichtungen durch mangelnde Kontrollen bestehen und die Unternehmen lediglich sogenanntes Blue-Washing betreiben, also ihr eigenes Unternehemen lediglich durch ein UN-Logo aufwerten, aber nichts positiv verwirklichen. Zudem kann kritisiert werden, dass durch Global Compact nur effektive Maßnahmen, wie Gesetze und Regelungen, durch die Alibi-Wirkung verhindert werden.
 
 #### International Labour Organization
-Die internationale Arbeitsorganisation ist eine Unterorganisation der Vereinten Nationen und setzt sich für soziale Gerechtigkeit, vor allem im Umfeld der globalen Arbeit ein. Des Weiteren hat die ILO Sozialstandards festgeschrieben, gegen welche nicht verstoßen werden darf, um zu verhindern, dass Länder sich durch Ausbeitung einen Vorteil auf dem Weltmarkt verschaffen. Diese Standards umfassen: 
+Die internationale Arbeitsorganisation ist eine Unterorganisation der Vereinten Nationen und setzt sich für soziale Gerechtigkeit, vor allem im Umfeld der globalen Arbeit ein. Des Weiteren hat die ILO Sozialstandards festgeschrieben, gegen welche nicht verstoßen werden darf, um zu verhindern, dass Länder sich durch Ausbeutung einen Vorteil auf dem Weltmarkt verschaffen. Diese Standards umfassen: 
 
 1. Vereinigungsfreiheit (Konventionen 87, 98)
 2. Beseitigung von Zwangsarbeit (Konventionen 29, 105)
 3. Abschaffung von Kinderarbeit (Konventionen 138, 182)
 4. Verbot von Diskriminierung (Konventionen 100, 111)
+
+#### Klimaabkommen
+Über die letzten Jahre und Jahrzente wurden global mehrere Klimaabkommen geschlossen. Diese besitzen alle als Ziel den Schutz der Umwelt, weil sie unter anderem auch die Grundlage für die gesamte Wirtschaft bietet.  
+Nennenswerte Fortschritte im globalen Umweltschutz sind einerseits das Kyoto-Protokoll, welches 1997 geschlossen wurde und ab 2005 gilt. In diesem verpflichten sich die Länder zu einer Reduktion der Treibhausgasemissionen, um durchschnittlich 5,2% unter das Niveau von 1990. In seiner Endfassung sieht das Kyoto-Protokoll zur Erreichung dieser Ziele mehrere *flexible Mechanismen* vor. Diese sind wie folgt:  
+
+1. Emissionsrechtehandel (Handel zwischen Staaten (nicht Unternehmen wie in EU); Ziel: Markt findet kostengünstigste Reduktion der Emissionen)
+2. Joint Implementation (Umsetzung von Reduktion in einem anderen Land (auch Reduktionspflichtig (keine Entwicklungsländer)), wobei die Reduktion dem Investorland gutgeschrieben wird; Ziel: kostengünstige Reduktion der Emissionen)
+3. Clean Developement Mechanism (ähnlich wie Joint Implementation; auch in nicht reduktionspflichtigen Staaten möglich)
+4. Burden Sharing (Möglichkeit eines Staatenbundes (EU) die Reduktion aufzuteilen; hohe Einsparungen in wirtschaftlich starken Ländern, mehr Emissionen in schwachen Ländern möglich)
+
+Nachdem das Kyoto Protokoll so weit geglückt war, vereinbarte man mit dem Pariser Klimaschutzabkommen einen Nachfolger für dieses. Ziel dieses Abkommens ist genau die Erderwärmung auf 2 Grad Celsius zu begrenzen und wurde 2015 geschlossen. Hierfür ist über eine $CO_2$-Neutralität hinaus auch eine Reduktion der Menge an Kohlenstoffdioxid in der Atmosphäre notwendig --- eine sogenannte Decarbonisierung.
 
 
 # Anhang
