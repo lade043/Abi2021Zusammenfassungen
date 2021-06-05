@@ -226,5 +226,18 @@ In der Informatik wird sich auch grundlegend mit der informationstechnischen Log
 | XNOR-Gatter, `XNOR` | $\overline{A \oplus B}$ | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/IEC_XNOR_label.svg/125px-IEC_XNOR_label.svg.png) |
 
 
+Aus diesen Logikverknüpfungen können Schaltungen bzw. boolesche Funktionen aufgebaut werden, welche anhand von booleschen Eingabewerten einen booleschen Ausgabewert erzeugen. Diese Schaltungen können beispielsweise mit den oben gezeigten Schaltsymbolen dargestellt werden. Zudem können alle möglichen Kombinationen in tabellarischer Form festgehalten werden. Dies nennt man eine Wahrheitstafel. Eine solche Wahrheitstafel kann zudem verwendet werden um die disjunktive Normalform herzuleiten.
+
+disjunktive Normalform
+: Funktionsdarstellung einer booleschen Funktion, welche alle möglichen Kombinationen, welche zu einem wahren Ausgabewert führen disjunktiv verknüpft hat. Ein Beispiel wäre: $$({A}\wedge {B}\wedge \neg {C})\vee ({A}\wedge {B}\wedge {C})\vee (\neg{A}\wedge {B}\wedge {C})$$
+
+Um  mithilfe von Logikgattern eine Schaltung aufzubauen, welche zwei Binärzahlen addieren kann, wird wie folgt vorgegangen. Zunächst wird ein sogenannter Halbaddierer erstellt, welcher zwei Bits addieren kann. Die Summe der Bits wird dabei durch ein `XOR` realisiert und der entstehende Übertrag (vgl. schriftliche Addition) durch ein `AND`. Aus diesen Halbaddiereren kann nun ein Volladdierer erstellt werden, welcher 3 Bits addieren kann. Dies wird in der zugehörigen Abbildung dargestellt. Aus diesen Volladdierern kann abschließend eine Schaltung erstellt werden, welche eine beliebige Anzahl an Stellen addieren kann. Dies ist erneut in einer zugehörigen Abbildung zu erkennen.
+
+![Volladdierer aus Halbaddierern](assets/Volladdierer.png)
+
+![Addierer aus Volladdierern](assets/Addierer.png)
+
+Des Weiteren kann auch vergleichsweise einfach ein Subtrahierer gebaut werden. Hierfür wird als Differenz ein `XOR` verwendet und als Borger (Übetrag bei der Differenz) ein $\neg a \wedge b$.
+
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
